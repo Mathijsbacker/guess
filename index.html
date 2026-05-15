@@ -3,503 +3,484 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Funda Raad!</title>
+<title>Fundaguesser</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --cream: #F5F0E8;
-    --ink: #1A1410;
-    --terra: #C4622D;
-    --terra-light: #E8896A;
-    --sage: #7A8C6E;
-    --sky: #4A7C9E;
-    --gold: #C8A84B;
-    --card: #FFFDF8;
-    --border: rgba(26,20,16,0.12);
-    --shadow: 0 8px 40px rgba(26,20,16,0.12);
-  }
+:root {
+  --bg:        #F4F0FF;
+  --card:      #FFFFFF;
+  --ink:       #130E2A;
+  --ink-soft:  rgba(19,14,42,0.45);
+  --purple:    #6B3FA0;
+  --purple-d:  #4E2B7A;
+  --purple-l:  #9B6DCF;
+  --purple-xl: #EDE5FF;
+  --lilac:     #C4A8F0;
+  --mint:      #3DBFA0;
+  --warn:      #E8A030;
+  --border:    rgba(107,63,160,0.15);
+  --shadow:    0 12px 48px rgba(107,63,160,0.14);
+}
 
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
-  body {
-    background: var(--cream);
-    color: var(--ink);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Syne', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
 
-  /* ── TEXTURE OVERLAY ── */
-  body::before {
-    content: '';
-    position: fixed; inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    pointer-events: none; z-index: 0;
-  }
+/* grain */
+body::after {
+  content: '';
+  position: fixed; inset: 0; pointer-events: none; z-index: 999;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.028'/%3E%3C/svg%3E");
+}
 
-  /* ── HEADER ── */
-  header {
-    position: relative; z-index: 10;
-    padding: 1.5rem 2rem;
-    display: flex; align-items: center; justify-content: space-between;
-    border-bottom: 1.5px solid var(--border);
-    background: var(--cream);
-  }
+/* ── HEADER ── */
+header {
+  position: sticky; top: 0; z-index: 50;
+  padding: 0.9rem 1.5rem;
+  display: flex; align-items: center; gap: 0.75rem;
+  background: rgba(244,240,255,0.88);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+.logo {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.3rem; font-weight: 800;
+  color: var(--purple); letter-spacing: -0.03em; flex: 1;
+}
+.logo em { font-style: italic; color: var(--ink); font-family: 'Instrument Serif', serif; }
 
-  .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6rem; font-weight: 900;
-    letter-spacing: -0.02em;
-    color: var(--ink);
-  }
-  .logo span { color: var(--terra); }
+.header-pills { display: flex; gap: 0.45rem; align-items: center; flex-wrap: wrap; }
+.pill {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.28rem 0.7rem; border-radius: 99px;
+  font-size: 0.74rem; font-weight: 600;
+  border: 1.5px solid var(--border);
+  background: var(--card); white-space: nowrap;
+}
+.pill-streak { background: var(--purple); color: #fff; border-color: var(--purple); }
+.pill-date   { opacity: 0.55; }
 
-  .header-right { display: flex; gap: 0.75rem; align-items: center; }
+/* ── BUTTONS ── */
+.btn {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.55rem 1rem; border-radius: 0.5rem; border: none;
+  font-family: 'Syne', sans-serif; font-size: 0.8rem; font-weight: 700;
+  cursor: pointer; transition: all 0.18s; letter-spacing: 0.01em;
+}
+.btn-primary { background: var(--purple); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--purple-d); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(107,63,160,0.35); }
+.btn-ghost   { background: transparent; border: 1.5px solid var(--border); color: var(--ink); }
+.btn-ghost:hover:not(:disabled) { border-color: var(--purple); color: var(--purple); }
+.btn-mint    { background: var(--mint); color: #fff; }
+.btn-mint:hover:not(:disabled) { filter: brightness(1.08); }
+.btn:disabled { opacity: 0.38; cursor: not-allowed; transform: none !important; }
+.btn-sm { padding: 0.38rem 0.75rem; font-size: 0.76rem; }
 
-  .date-badge {
-    font-size: 0.78rem; font-weight: 500;
-    color: var(--ink); opacity: 0.5;
-    border: 1px solid var(--border);
-    padding: 0.3rem 0.75rem; border-radius: 99px;
-  }
+/* ── PROGRESS ── */
+.progress-strip {
+  position: sticky; top: 57px; z-index: 40;
+  padding: 0.6rem 1.5rem;
+  background: rgba(244,240,255,0.92); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 1rem;
+}
+.dots { display: flex; gap: 5px; }
+.dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--border);
+  transition: all 0.3s cubic-bezier(0.34,1.56,0.64,1);
+}
+.dot.active { background: var(--purple); transform: scale(1.35); }
+.dot.great  { background: var(--mint); }
+.dot.ok     { background: var(--warn); }
+.dot.miss   { background: var(--lilac); }
 
-  /* ── SETTINGS PANEL ── */
-  #settings-panel {
-    display: none;
-    position: fixed; inset: 0; z-index: 100;
-    background: rgba(26,20,16,0.55); backdrop-filter: blur(4px);
-    align-items: center; justify-content: center;
-  }
-  #settings-panel.open { display: flex; }
+.score-live {
+  margin-left: auto; display: flex; align-items: baseline; gap: 0.3rem;
+  font-size: 0.76rem; color: var(--ink-soft);
+}
+.score-live strong {
+  font-family: 'DM Mono', monospace;
+  font-size: 1.15rem; font-weight: 500; color: var(--purple);
+}
 
-  .settings-card {
-    background: var(--card);
-    border-radius: 1rem; padding: 2rem;
-    width: min(420px, 90vw);
-    box-shadow: var(--shadow);
-    position: relative;
-  }
-  .settings-card h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem; margin-bottom: 0.4rem;
-  }
-  .settings-card p { font-size: 0.85rem; opacity: 0.6; margin-bottom: 1.5rem; line-height: 1.5; }
+/* ── CACHE WARNING ── */
+.cache-warning {
+  background: rgba(232,160,48,0.08);
+  border-bottom: 1px solid rgba(232,160,48,0.2);
+  padding: 0.45rem 1.5rem;
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 0.71rem; color: rgba(19,14,42,0.5); line-height: 1.4;
+}
 
-  .field { margin-bottom: 1rem; }
-  .field label { display: block; font-size: 0.78rem; font-weight: 500; opacity: 0.6; margin-bottom: 0.4rem; }
-  .field input {
-    width: 100%; padding: 0.65rem 0.9rem;
-    border: 1.5px solid var(--border); border-radius: 0.5rem;
-    background: var(--cream); color: var(--ink);
-    font-family: 'DM Sans', sans-serif; font-size: 0.9rem;
-    outline: none; transition: border-color 0.2s;
-  }
-  .field input:focus { border-color: var(--terra); }
+/* ── MAIN ── */
+main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 
-  .settings-actions { display: flex; gap: 0.75rem; margin-top: 1.5rem; }
+/* ── HOUSE CARD ── */
+.house-card {
+  background: var(--card); border-radius: 1.4rem; overflow: hidden;
+  box-shadow: var(--shadow); border: 1px solid var(--border);
+  animation: cardIn 0.45s cubic-bezier(0.34,1.26,0.64,1);
+}
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(28px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
 
-  /* ── BUTTONS ── */
-  .btn {
-    display: inline-flex; align-items: center; gap: 0.4rem;
-    padding: 0.65rem 1.2rem; border-radius: 0.5rem; border: none;
-    font-family: 'DM Sans', sans-serif; font-size: 0.88rem; font-weight: 500;
-    cursor: pointer; transition: all 0.18s;
-  }
-  .btn-primary { background: var(--terra); color: #fff; }
-  .btn-primary:hover { background: var(--terra-light); }
-  .btn-secondary { background: transparent; border: 1.5px solid var(--border); color: var(--ink); }
-  .btn-secondary:hover { border-color: var(--terra); color: var(--terra); }
-  .btn-sm { padding: 0.45rem 0.85rem; font-size: 0.8rem; }
-  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.house-photo { position: relative; width: 100%; height: 300px; overflow: hidden; background: var(--purple-xl); }
+.house-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; }
+.house-photo:hover img { transform: scale(1.04); }
+.house-counter {
+  position: absolute; bottom: 1rem; left: 1rem;
+  background: rgba(19,14,42,0.65); backdrop-filter: blur(8px);
+  color: #fff; font-size: 0.7rem; font-weight: 700;
+  padding: 0.27rem 0.65rem; border-radius: 99px; letter-spacing: 0.05em;
+}
 
-  .close-btn {
-    position: absolute; top: 1rem; right: 1rem;
-    background: none; border: none; cursor: pointer;
-    font-size: 1.3rem; color: var(--ink); opacity: 0.4;
-    line-height: 1;
-  }
-  .close-btn:hover { opacity: 0.9; }
+/* ── META ── */
+.house-meta {
+  display: grid; grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--border);
+}
+.meta-cell {
+  padding: 1rem 1.25rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.meta-cell:nth-child(2n)           { border-right: none; }
+.meta-cell:nth-child(3),
+.meta-cell:nth-child(4)            { border-bottom: none; }
 
-  /* ── PROGRESS BAR ── */
-  .progress-strip {
-    position: relative; z-index: 5;
-    padding: 0.85rem 2rem;
-    background: var(--card);
-    border-bottom: 1px solid var(--border);
-    display: flex; align-items: center; gap: 1.5rem;
-  }
+.meta-label {
+  font-size: 0.67rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-soft); margin-bottom: 0.35rem;
+}
+.meta-val { font-family: 'Instrument Serif', serif; font-size: 1.2rem; }
 
-  .dots { display: flex; gap: 6px; }
-  .dot {
-    width: 10px; height: 10px; border-radius: 50%;
-    background: var(--border); border: 1.5px solid transparent;
-    transition: all 0.3s;
-  }
-  .dot.active { background: var(--terra); border-color: var(--terra); transform: scale(1.2); }
-  .dot.done { background: var(--sage); border-color: var(--sage); }
-  .dot.close { background: var(--gold); border-color: var(--gold); }
+.energy-chip {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.9rem; height: 1.9rem; border-radius: 0.35rem;
+  font-family: 'Syne', sans-serif; font-size: 0.82rem; font-weight: 800; color: #fff;
+}
+.eA,.eAp{background:#27AE60} .eB{background:#52BE80} .eC{background:#A9DFBF;color:#1a5c34}
+.eD{background:#F9E04B;color:#7a6000} .eE{background:#F39C12} .eF{background:#E67E22}
+.eG{background:#E74C3C} .eQ{background:#BDC3C7;color:#555}
 
-  .score-display {
-    margin-left: auto; display: flex; align-items: center; gap: 0.5rem;
-    font-size: 0.85rem; font-weight: 500;
-  }
-  .score-number {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem; font-weight: 700; color: var(--terra);
-  }
+/* ── GUESS ── */
+.guess-section { padding: 1.25rem 1.25rem 0; }
+.guess-heading {
+  font-family: 'Instrument Serif', serif; font-size: 1.35rem; font-style: italic;
+  margin-bottom: 0.9rem;
+}
+.input-row {
+  display: flex; align-items: stretch;
+  border: 2px solid var(--border); border-radius: 0.65rem; overflow: hidden;
+  background: var(--bg); transition: border-color 0.2s;
+}
+.input-row:focus-within { border-color: var(--purple); }
+.euro-sign {
+  display: flex; align-items: center; padding: 0 0.9rem;
+  font-family: 'Instrument Serif', serif; font-size: 1.25rem; color: var(--purple);
+  background: var(--purple-xl); border-right: 2px solid var(--border);
+  transition: border-color 0.2s;
+}
+.input-row:focus-within .euro-sign { border-color: var(--purple); }
+#price-input {
+  flex: 1; min-width: 0; padding: 0.8rem 0.85rem; border: none; background: transparent;
+  font-family: 'DM Mono', monospace; font-size: 1rem; font-weight: 500;
+  color: var(--ink); outline: none;
+}
+#price-input::placeholder { color: var(--ink-soft); }
+#submit-btn { border-radius: 0; padding: 0 1.2rem; border-left: 2px solid var(--border); }
 
-  /* ── MAIN GAME AREA ── */
-  main {
-    position: relative; z-index: 5;
-    max-width: 700px; margin: 0 auto;
-    padding: 2rem 1.5rem 4rem;
-  }
+/* ── FEEDBACK ── */
+.feedback-wrap { padding: 0.9rem 1.25rem 0; }
+.feedback {
+  padding: 0.9rem 1rem; border-radius: 0.7rem;
+  display: none; animation: fbIn 0.28s ease;
+}
+.feedback.visible { display: flex; gap: 0.65rem; align-items: flex-start; }
+@keyframes fbIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+.fb-high { background: #FFF0F0; border: 1.5px solid #FCCECE; }
+.fb-low  { background: #F0FFF8; border: 1.5px solid #A8EDCE; }
+.fb-hit  { background: var(--purple-xl); border: 1.5px solid var(--lilac); }
+.fb-icon { font-size: 1.4rem; line-height: 1; flex-shrink: 0; margin-top: 1px; }
+.fb-title { font-weight: 700; font-size: 0.88rem; margin-bottom: 0.15rem; }
+.fb-sub   { font-size: 0.78rem; color: var(--ink-soft); }
 
-  /* ── HOUSE CARD ── */
-  .house-card {
-    background: var(--card);
-    border-radius: 1.2rem;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-    animation: slideIn 0.4s cubic-bezier(0.34, 1.36, 0.64, 1);
-  }
+/* ── REVEAL ── */
+.reveal {
+  display: none; border-top: 1px solid var(--border);
+  padding: 1.1rem 1.25rem 1.4rem;
+  animation: fbIn 0.38s ease;
+}
+.reveal.visible { display: block; }
+.true-price-row {
+  display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap; margin-bottom: 0.65rem;
+}
+.tpr-label {
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.tpr-value {
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: 2rem; color: var(--purple);
+}
+.pts-badge {
+  padding: 0.18rem 0.6rem; border-radius: 99px;
+  font-size: 0.74rem; font-weight: 700; font-family: 'DM Mono', monospace;
+}
+.pts-great { background: #D1FAE5; color: #065F46; }
+.pts-ok    { background: #FEF9C3; color: #713F12; }
+.pts-miss  { background: #FFE4E6; color: #9F1239; }
 
-  @keyframes slideIn {
-    from { opacity: 0; transform: translateY(24px) scale(0.97); }
-    to   { opacity: 1; transform: translateY(0) scale(1); }
-  }
+.reveal-actions {
+  display: flex; gap: 0.55rem; align-items: center; flex-wrap: wrap; margin-top: 0.85rem;
+}
+.funda-link {
+  font-size: 0.77rem; font-weight: 700; color: var(--purple);
+  text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;
+  border: 1.5px solid var(--border); padding: 0.38rem 0.75rem; border-radius: 0.45rem;
+  transition: all 0.18s;
+}
+.funda-link:hover { background: var(--purple-xl); border-color: var(--purple); }
 
-  .house-photo {
-    position: relative;
-    width: 100%; height: 320px; overflow: hidden;
-  }
-  .house-photo img {
-    width: 100%; height: 100%; object-fit: cover;
-    transition: transform 0.6s ease;
-  }
-  .house-photo:hover img { transform: scale(1.03); }
-  .house-number {
-    position: absolute; top: 1rem; left: 1rem;
-    background: rgba(26,20,16,0.7); backdrop-filter: blur(6px);
-    color: #fff; font-size: 0.78rem; font-weight: 500;
-    padding: 0.3rem 0.7rem; border-radius: 99px;
-  }
+/* ── STATE SCREENS ── */
+.state-screen {
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 5rem 2rem; gap: 1rem; text-align: center;
+}
+.state-screen h2 { font-family: 'Instrument Serif', serif; font-size: 1.9rem; font-style: italic; }
+.state-screen p  { font-size: 0.88rem; color: var(--ink-soft); max-width: 34ch; line-height: 1.6; }
 
-  .house-meta {
-    padding: 1.5rem;
-    display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
-    border-bottom: 1px solid var(--border);
-  }
+.spinner {
+  width: 34px; height: 34px;
+  border: 3px solid var(--border); border-top-color: var(--purple);
+  border-radius: 50%; animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 
-  .meta-item { display: flex; flex-direction: column; gap: 0.2rem; }
-  .meta-label { font-size: 0.72rem; font-weight: 500; opacity: 0.45; text-transform: uppercase; letter-spacing: 0.06em; }
-  .meta-value {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.15rem; font-weight: 700; color: var(--ink);
-  }
+/* ── SETTINGS MODAL ── */
+.modal-bg {
+  display: none; position: fixed; inset: 0; z-index: 200;
+  background: rgba(19,14,42,0.55); backdrop-filter: blur(5px);
+  align-items: center; justify-content: center;
+}
+.modal-bg.open { display: flex; }
+.modal-card {
+  background: var(--card); border-radius: 1.2rem; padding: 2rem;
+  width: min(440px,92vw); box-shadow: var(--shadow);
+  position: relative; border: 1px solid var(--border);
+}
+.modal-card h2 { font-family: 'Instrument Serif', serif; font-size: 1.45rem; font-style: italic; margin-bottom: 0.3rem; }
+.modal-card p  { font-size: 0.81rem; color: var(--ink-soft); margin-bottom: 1.4rem; line-height: 1.5; }
+.close-x { position: absolute; top: 1rem; right: 1rem; background: none; border: none; cursor: pointer; font-size: 1.15rem; color: var(--ink-soft); }
+.close-x:hover { color: var(--ink); }
+.field { margin-bottom: 0.85rem; }
+.field label { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 0.38rem; }
+.field input {
+  width: 100%; padding: 0.62rem 0.85rem;
+  border: 1.5px solid var(--border); border-radius: 0.5rem;
+  background: var(--bg); color: var(--ink);
+  font-family: 'Syne', sans-serif; font-size: 0.87rem; outline: none;
+  transition: border-color 0.2s;
+}
+.field input:focus { border-color: var(--purple); }
+.modal-actions { display: flex; gap: 0.6rem; margin-top: 1.3rem; }
 
-  .energy-badge {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 2rem; height: 2rem; border-radius: 0.3rem;
-    font-size: 0.9rem; font-weight: 700; color: #fff;
-  }
-  .energy-A, .energy-A\\+ { background: #2E8B57; }
-  .energy-B { background: #5BAD6E; }
-  .energy-C { background: #A3C639; color: #333; }
-  .energy-D { background: #F9D423; color: #333; }
-  .energy-E { background: #F5A623; }
-  .energy-F { background: #E07020; }
-  .energy-G { background: #C0392B; }
-  .energy-\\? { background: #999; }
+/* ── FINAL SCREEN ── */
+#final-screen { display: none; }
 
-  /* ── GUESS AREA ── */
-  .guess-area { padding: 1.5rem; }
+.final-wrap {
+  background: var(--card); border-radius: 1.4rem; overflow: hidden;
+  box-shadow: var(--shadow); border: 1px solid var(--border);
+  animation: cardIn 0.45s cubic-bezier(0.34,1.26,0.64,1);
+}
+.final-hero {
+  background: linear-gradient(135deg, var(--purple-d) 0%, var(--purple) 55%, var(--purple-l) 100%);
+  padding: 2.5rem 2rem; text-align: center; position: relative; overflow: hidden;
+}
+.final-hero::before {
+  content: '🏠'; position: absolute; font-size: 9rem; opacity: 0.07;
+  top: -1rem; right: -1.5rem; transform: rotate(14deg);
+}
+.final-title   { font-family: 'Instrument Serif', serif; font-size: 1rem; font-style: italic; color: rgba(255,255,255,0.65); margin-bottom: 0.4rem; }
+.final-pts     { font-family: 'DM Mono', monospace; font-size: 4rem; font-weight: 500; color: #fff; line-height: 1; }
+.final-max     { font-size: 0.78rem; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
+.final-verdict { font-family: 'Instrument Serif', serif; font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.9rem; }
 
-  .guess-label {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem; font-weight: 700;
-    margin-bottom: 1rem;
-  }
+.streak-row {
+  display: flex; align-items: center; justify-content: center; gap: 0.65rem;
+  padding: 0.9rem 2rem; border-bottom: 1px solid var(--border);
+  background: var(--purple-xl);
+}
+.streak-label { font-size: 0.76rem; font-weight: 700; color: var(--purple); letter-spacing: 0.05em; text-transform: uppercase; }
+.streak-val   { font-family: 'DM Mono', monospace; font-size: 1.3rem; font-weight: 500; color: var(--purple-d); }
 
-  .price-input-wrap {
-    display: flex; align-items: stretch; gap: 0;
-    border: 2px solid var(--border); border-radius: 0.6rem; overflow: hidden;
-    transition: border-color 0.2s;
-    background: var(--cream);
-  }
-  .price-input-wrap:focus-within { border-color: var(--terra); }
+.breakdown {
+  display: grid; grid-template-columns: repeat(5,1fr);
+  padding: 1.1rem; gap: 0.55rem; border-bottom: 1px solid var(--border);
+}
+.bk-house {
+  background: var(--bg); border-radius: 0.55rem; padding: 0.6rem 0.35rem;
+  text-align: center; border: 1.5px solid var(--border);
+}
+.bk-n  { font-size: 0.63rem; color: var(--ink-soft); margin-bottom: 0.18rem; }
+.bk-pt { font-family: 'DM Mono', monospace; font-size: 1rem; font-weight: 500; }
 
-  .euro-prefix {
-    display: flex; align-items: center;
-    padding: 0 1rem;
-    background: var(--cream); border-right: 2px solid var(--border);
-    font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700;
-    color: var(--terra);
-  }
-  .price-input-wrap:focus-within .euro-prefix { border-color: var(--terra); }
+.final-actions {
+  padding: 1.1rem; display: flex; gap: 0.55rem; flex-wrap: wrap; justify-content: center;
+}
 
-  #price-input {
-    flex: 1; padding: 0.85rem 1rem;
-    border: none; background: transparent;
-    font-family: 'DM Sans', sans-serif; font-size: 1.1rem; font-weight: 500;
-    color: var(--ink); outline: none; min-width: 0;
-  }
+/* ── SHARE CANVAS (hidden) ── */
+#share-canvas { display: none; }
 
-  #submit-btn { border-radius: 0; border-left: 2px solid var(--border); }
+/* ── TOAST ── */
+#toast {
+  position: fixed; bottom: 1.75rem; left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: var(--ink); color: #fff;
+  padding: 0.65rem 1.35rem; border-radius: 0.55rem;
+  font-size: 0.81rem; font-weight: 600;
+  z-index: 300; opacity: 0; pointer-events: none;
+  transition: opacity 0.22s, transform 0.22s;
+  max-width: 88vw; text-align: center; white-space: pre-line;
+}
+#toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
-  /* ── FEEDBACK ── */
-  .feedback {
-    margin-top: 1.25rem; padding: 1.25rem;
-    border-radius: 0.8rem;
-    animation: fadeUp 0.35s ease;
-    display: none;
-  }
-  .feedback.visible { display: block; }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(8px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .feedback-too-high { background: #FEF3F2; border: 1.5px solid #FECDCA; }
-  .feedback-too-low  { background: #F0FDF4; border: 1.5px solid #A7F3D0; }
-  .feedback-exact    { background: #FFF9ED; border: 1.5px solid var(--gold); }
-
-  .feedback-header {
-    display: flex; align-items: center; gap: 0.6rem;
-    margin-bottom: 0.5rem;
-  }
-  .feedback-icon { font-size: 1.4rem; }
-  .feedback-headline {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.05rem; font-weight: 700;
-  }
-  .feedback-detail { font-size: 0.88rem; opacity: 0.7; line-height: 1.5; }
-
-  /* ── REVEAL SECTION ── */
-  .reveal-section {
-    display: none; padding: 1.25rem 1.5rem;
-    border-top: 1px solid var(--border);
-    animation: fadeUp 0.4s ease;
-  }
-  .reveal-section.visible { display: block; }
-
-  .true-price {
-    display: flex; align-items: baseline; gap: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .true-price-label { font-size: 0.8rem; opacity: 0.5; font-weight: 500; }
-  .true-price-value {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem; font-weight: 900; color: var(--terra);
-  }
-  .accuracy-pill {
-    display: inline-block;
-    padding: 0.25rem 0.75rem; border-radius: 99px;
-    font-size: 0.8rem; font-weight: 600;
-  }
-  .accuracy-great { background: #D1FAE5; color: #065F46; }
-  .accuracy-good  { background: #FEF9C3; color: #713F12; }
-  .accuracy-ok    { background: #FFE4E6; color: #9F1239; }
-
-  .funda-link {
-    display: inline-flex; align-items: center; gap: 0.4rem;
-    font-size: 0.82rem; color: var(--terra); font-weight: 500;
-    text-decoration: none; margin-top: 0.75rem;
-  }
-  .funda-link:hover { text-decoration: underline; }
-
-  .next-wrap { margin-top: 1.25rem; display: flex; justify-content: flex-end; }
-
-  /* ── LOADING / EMPTY / DONE STATES ── */
-  .state-screen {
-    text-align: center; padding: 5rem 2rem;
-    display: flex; flex-direction: column; align-items: center; gap: 1rem;
-  }
-  .state-screen h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem; font-weight: 900;
-  }
-  .state-screen p { font-size: 0.95rem; opacity: 0.6; max-width: 36ch; line-height: 1.6; }
-
-  .spinner {
-    width: 36px; height: 36px;
-    border: 3px solid var(--border);
-    border-top-color: var(--terra);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
-
-  /* ── FINAL SCORE SCREEN ── */
-  #final-screen { display: none; }
-
-  .score-breakdown {
-    display: grid; grid-template-columns: repeat(5, 1fr);
-    gap: 0.5rem; margin: 1.5rem 0;
-  }
-  .score-house {
-    background: var(--card); border-radius: 0.6rem; padding: 0.75rem 0.5rem;
-    text-align: center; border: 1.5px solid var(--border);
-  }
-  .score-house .sh-num { font-size: 0.7rem; opacity: 0.45; margin-bottom: 0.25rem; }
-  .score-house .sh-pts {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.15rem; font-weight: 700;
-  }
-
-  .total-score-display {
-    font-family: 'Playfair Display', serif;
-    font-size: 4rem; font-weight: 900; color: var(--terra);
-    line-height: 1;
-  }
-  .total-score-label { font-size: 0.9rem; opacity: 0.5; margin-top: 0.25rem; }
-
-  /* ── SCRAPE TOAST ── */
-  #toast {
-    position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
-    background: var(--ink); color: #fff;
-    padding: 0.75rem 1.5rem; border-radius: 0.6rem;
-    font-size: 0.88rem; font-weight: 500;
-    z-index: 200; opacity: 0; pointer-events: none;
-    transition: opacity 0.3s;
-    max-width: 90vw; text-align: center;
-  }
-  #toast.show { opacity: 1; }
-
-  @media (max-width: 500px) {
-    .house-meta { grid-template-columns: 1fr 1fr; }
-    .score-breakdown { grid-template-columns: repeat(5, 1fr); }
-    header { padding: 1rem; }
-    main { padding: 1.25rem 0.75rem 3rem; }
-    .house-photo { height: 220px; }
-    .total-score-display { font-size: 3rem; }
-  }
+@media (max-width: 480px) {
+  .house-photo { height: 210px; }
+  .final-pts   { font-size: 3rem; }
+  .breakdown   { grid-template-columns: repeat(5,1fr); gap: 0.35rem; }
+  header       { padding: 0.8rem 1rem; }
+  main         { padding: 1.25rem 0.75rem 4rem; }
+}
 </style>
 </head>
 <body>
 
-<!-- SETTINGS PANEL -->
-<div id="settings-panel">
-  <div class="settings-card">
-    <button class="close-btn" onclick="closeSettings()">✕</button>
+<!-- SETTINGS MODAL -->
+<div class="modal-bg" id="settings-modal">
+  <div class="modal-card">
+    <button class="close-x" onclick="closeSettings()">✕</button>
     <h2>GitHub instellingen</h2>
-    <p>Vereist om de scraper te starten vanuit deze pagina. Je token wordt alleen lokaal opgeslagen.</p>
-    <div class="field">
-      <label>GitHub gebruikersnaam</label>
-      <input type="text" id="gh-owner" placeholder="jouwgebruikersnaam">
-    </div>
-    <div class="field">
-      <label>Repository naam</label>
-      <input type="text" id="gh-repo" placeholder="funda-game">
-    </div>
-    <div class="field">
-      <label>Personal Access Token (workflow scope)</label>
-      <input type="password" id="gh-token" placeholder="ghp_…">
-    </div>
-    <div class="settings-actions">
+    <p>Vereist om de scraper handmatig te starten. Je token wordt alleen lokaal opgeslagen in je browser.</p>
+    <div class="field"><label>Gebruikersnaam</label><input type="text"     id="gh-owner" placeholder="jouwgebruikersnaam"></div>
+    <div class="field"><label>Repository</label>     <input type="text"     id="gh-repo"  placeholder="funda-game"></div>
+    <div class="field"><label>Token (workflow scope)</label><input type="password" id="gh-token" placeholder="ghp_…"></div>
+    <div class="modal-actions">
       <button class="btn btn-primary" onclick="saveSettings()">Opslaan</button>
-      <button class="btn btn-secondary" onclick="closeSettings()">Annuleren</button>
+      <button class="btn btn-ghost"   onclick="closeSettings()">Annuleren</button>
     </div>
   </div>
 </div>
 
 <!-- HEADER -->
 <header>
-  <div class="logo">Funda<span>Raad!</span></div>
-  <div class="header-right">
-    <span class="date-badge" id="date-badge">—</span>
-    <button class="btn btn-secondary btn-sm" id="scrape-btn" onclick="triggerScrape()">
-      ⟳ Nieuwe huizen
-    </button>
-    <button class="btn btn-secondary btn-sm" onclick="openSettings()">⚙</button>
+  <div class="logo">Fundaguesser!</div>
+  <div class="header-pills">
+    <span class="pill pill-streak" id="streak-pill">🔥 —</span>
+    <span class="pill pill-date"   id="date-pill">—</span>
+    <button class="btn btn-ghost btn-sm" id="scrape-btn" onclick="triggerScrape()">⟳ Scrape</button>
+    <button class="btn btn-ghost btn-sm" onclick="openSettings()">⚙</button>
   </div>
 </header>
+
+<!-- CACHE WARNING -->
+<div class="cache-warning">
+  Je voortgang, streak en score worden opgeslagen in je browsercache. Wis je cache en je bent alles kwijt.
+</div>
 
 <!-- PROGRESS -->
 <div class="progress-strip">
   <div class="dots" id="dots"></div>
-  <div class="score-display">
-    Score: <span class="score-number" id="running-score">0</span>
-  </div>
+  <div class="score-live">Score: <strong id="live-score">0</strong></div>
 </div>
 
 <!-- MAIN -->
-<main>
-  <!-- Loading -->
+<main id="main-area">
+
   <div class="state-screen" id="loading-screen">
     <div class="spinner"></div>
     <p>Huizen laden…</p>
   </div>
 
-  <!-- Error -->
   <div class="state-screen" id="error-screen" style="display:none">
     <div style="font-size:3rem">🏚</div>
-    <h2>Geen huizen gevonden</h2>
-    <p>Klik op "Nieuwe huizen" om de scraper te starten, of controleer of <code>data/houses.json</code> bestaat.</p>
+    <h2>Geen data</h2>
+    <p>Klik ⟳ Scrape om de GitHub Action te starten, of wacht tot de dagelijkse run klaar is.</p>
   </div>
 
-  <!-- Game -->
   <div id="game-screen" style="display:none">
     <div class="house-card" id="house-card">
       <div class="house-photo">
-        <img id="house-img" src="" alt="Huis foto">
-        <div class="house-number" id="house-number"></div>
+        <img id="house-img" src="" alt="Huis foto" loading="lazy">
+        <div class="house-counter" id="house-counter"></div>
       </div>
 
       <div class="house-meta">
-        <div class="meta-item">
-          <span class="meta-label">📍 Stad / Dorp</span>
-          <span class="meta-value" id="meta-city">—</span>
+        <div class="meta-cell">
+          <div class="meta-label">📍 Stad / Dorp</div>
+          <div class="meta-val" id="m-city">—</div>
         </div>
-        <div class="meta-item">
-          <span class="meta-label">🛏 Slaapkamers</span>
-          <span class="meta-value" id="meta-bedrooms">—</span>
+        <div class="meta-cell">
+          <div class="meta-label">🛏 Slaapkamers</div>
+          <div class="meta-val" id="m-beds">—</div>
         </div>
-        <div class="meta-item">
-          <span class="meta-label">📐 Oppervlakte</span>
-          <span class="meta-value" id="meta-surface">—</span>
+        <div class="meta-cell">
+          <div class="meta-label">📐 Oppervlakte</div>
+          <div class="meta-val" id="m-surf">—</div>
         </div>
-        <div class="meta-item">
-          <span class="meta-label">⚡ Energielabel</span>
-          <span class="meta-value" id="meta-energy">—</span>
+        <div class="meta-cell">
+          <div class="meta-label">⚡ Energielabel</div>
+          <div class="meta-val" id="m-energy">—</div>
         </div>
       </div>
 
-      <div class="guess-area">
-        <div class="guess-label">Wat kost dit huis?</div>
-        <div class="price-input-wrap">
-          <div class="euro-prefix">€</div>
-          <input type="number" id="price-input" placeholder="bijv. 350000"
-                 min="50000" max="5000000" step="1000"
-                 onkeydown="if(event.key==='Enter') submitGuess()">
-          <button class="btn btn-primary btn-sm" id="submit-btn" onclick="submitGuess()" style="border-radius:0; padding:0 1.25rem;">
+      <div class="guess-section">
+        <div class="guess-heading">Wat kost dit huis?</div>
+        <div class="input-row">
+          <div class="euro-sign">€</div>
+          <input type="number" id="price-input" placeholder="350000"
+                 min="10000" max="9999999" step="1000"
+                 onkeydown="if(event.key==='Enter')submitGuess()">
+          <button class="btn btn-primary btn-sm" id="submit-btn"
+                  onclick="submitGuess()" style="border-radius:0;padding:0 1.2rem">
             Raad!
           </button>
         </div>
+      </div>
 
+      <div class="feedback-wrap">
         <div class="feedback" id="feedback">
-          <div class="feedback-header">
-            <span class="feedback-icon" id="fb-icon"></span>
-            <span class="feedback-headline" id="fb-headline"></span>
+          <div class="fb-icon"  id="fb-icon"></div>
+          <div>
+            <div class="fb-title" id="fb-title"></div>
+            <div class="fb-sub"   id="fb-sub"></div>
           </div>
-          <div class="feedback-detail" id="fb-detail"></div>
         </div>
       </div>
 
-      <div class="reveal-section" id="reveal-section">
-        <div class="true-price">
-          <span class="true-price-label">Vraagprijs</span>
-          <span class="true-price-value" id="true-price-display"></span>
-          <span class="accuracy-pill" id="accuracy-pill"></span>
+      <div class="reveal" id="reveal">
+        <div class="true-price-row">
+          <span class="tpr-label">Vraagprijs</span>
+          <span class="tpr-value" id="tpr-val"></span>
+          <span class="pts-badge" id="pts-badge"></span>
         </div>
-        <a class="funda-link" id="funda-link" href="#" target="_blank" rel="noopener">
-          Bekijk op Funda →
-        </a>
-        <div class="next-wrap">
-          <button class="btn btn-primary" id="next-btn" onclick="nextHouse()">
+        <div class="reveal-actions">
+          <a class="funda-link" id="funda-link" href="#" target="_blank" rel="noopener">
+            Bekijk op Funda ↗
+          </a>
+          <button class="btn btn-primary btn-sm" id="next-btn" onclick="nextHouse()">
             Volgend huis →
           </button>
         </div>
@@ -507,341 +488,424 @@
     </div>
   </div>
 
-  <!-- Final -->
   <div id="final-screen">
-    <div class="state-screen" style="padding-top:3rem">
-      <div style="font-size:3rem">🏠</div>
-      <h2>Gespeeld!</h2>
-      <div class="total-score-display" id="final-score"></div>
-      <div class="total-score-label">punten van 1000</div>
-      <div class="score-breakdown" id="score-breakdown"></div>
-      <p id="final-verdict"></p>
-      <button class="btn btn-primary" onclick="restartGame()" style="margin-top:1rem">
-        Opnieuw
-      </button>
+    <div class="final-wrap">
+      <div class="final-hero">
+        <div class="final-title">Vandaag gescoord</div>
+        <div class="final-pts"    id="f-pts">0</div>
+        <div class="final-max"    id="f-max">van 0 punten</div>
+        <div class="final-verdict" id="f-verdict"></div>
+      </div>
+      <div class="streak-row">
+        <span style="font-size:1.25rem">🔥</span>
+        <span class="streak-label">Streak</span>
+        <span class="streak-val" id="f-streak">0 dagen</span>
+      </div>
+      <div class="breakdown" id="breakdown"></div>
+      <div class="final-actions">
+        <button class="btn btn-primary" onclick="shareScore()">📤 Delen</button>
+        <button class="btn btn-ghost"   onclick="restartGame()">↩ Opnieuw</button>
+      </div>
     </div>
   </div>
+
 </main>
 
+<canvas id="share-canvas" width="800" height="420"></canvas>
 <div id="toast"></div>
 
 <script>
-// ── STATE ──────────────────────────────────────────────────────
-let houses = [];
-let currentIndex = 0;
-let scores = [];
-let guessed = false;
+// ═══════════════════════════════════════════════
+//  KEYS
+// ═══════════════════════════════════════════════
+const KEY_SAVE   = 'fr_save';
+const KEY_STREAK = 'fr_streak';
+const KEY_GH     = 'fr_gh';
 
-// ── SETTINGS ───────────────────────────────────────────────────
+// ═══════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════
+let houses = [], currentIndex = 0, scores = [], guessed = false, todayDate = '';
+
+// ═══════════════════════════════════════════════
+//  SETTINGS
+// ═══════════════════════════════════════════════
 function openSettings() {
-  const s = JSON.parse(localStorage.getItem('gh_settings') || '{}');
+  const s = JSON.parse(localStorage.getItem(KEY_GH) || '{}');
   document.getElementById('gh-owner').value = s.owner || '';
   document.getElementById('gh-repo').value  = s.repo  || '';
   document.getElementById('gh-token').value = s.token || '';
-  document.getElementById('settings-panel').classList.add('open');
+  document.getElementById('settings-modal').classList.add('open');
 }
-function closeSettings() {
-  document.getElementById('settings-panel').classList.remove('open');
-}
+function closeSettings() { document.getElementById('settings-modal').classList.remove('open'); }
 function saveSettings() {
-  const s = {
+  localStorage.setItem(KEY_GH, JSON.stringify({
     owner: document.getElementById('gh-owner').value.trim(),
     repo:  document.getElementById('gh-repo').value.trim(),
     token: document.getElementById('gh-token').value.trim(),
-  };
-  localStorage.setItem('gh_settings', JSON.stringify(s));
-  showToast('✓ Instellingen opgeslagen');
+  }));
+  showToast('✓ Opgeslagen');
   closeSettings();
 }
 
-// ── SCRAPE TRIGGER ─────────────────────────────────────────────
+// ═══════════════════════════════════════════════
+//  SCRAPE TRIGGER
+// ═══════════════════════════════════════════════
 async function triggerScrape() {
-  const s = JSON.parse(localStorage.getItem('gh_settings') || '{}');
-  if (!s.owner || !s.repo || !s.token) {
-    openSettings();
-    showToast('Vul eerst je GitHub instellingen in');
+  const s = JSON.parse(localStorage.getItem(KEY_GH) || '{}');
+  if (!s.owner || !s.repo || !s.token) { openSettings(); return; }
+  const btn = document.getElementById('scrape-btn');
+  btn.disabled = true; btn.textContent = '⟳ …';
+  try {
+    const r = await fetch(
+      `https://api.github.com/repos/${s.owner}/${s.repo}/actions/workflows/scrape.yml/dispatches`,
+      { method:'POST',
+        headers:{ Authorization:`token ${s.token}`, Accept:'application/vnd.github.v3+json', 'Content-Type':'application/json' },
+        body: JSON.stringify({ ref:'main' }) }
+    );
+    showToast(r.status === 204 ? '✓ Scraper gestart!\nData klaar na ~1 minuut.' : `✗ Fout ${r.status}`);
+  } catch { showToast('✗ Netwerkfout'); }
+  btn.disabled = false; btn.textContent = '⟳ Scrape';
+}
+
+// ═══════════════════════════════════════════════
+//  STREAK
+// ═══════════════════════════════════════════════
+function loadStreak() { return JSON.parse(localStorage.getItem(KEY_STREAK) || '{"streak":0,"lastDate":""}'); }
+function saveStreak(o) { localStorage.setItem(KEY_STREAK, JSON.stringify(o)); }
+
+function updateStreakForDate(dateStr) {
+  const s = loadStreak();
+  if (s.lastDate === dateStr) return;
+  const yesterday = new Date(new Date(dateStr).getTime() - 86400000).toISOString().slice(0,10);
+  s.streak = (s.lastDate === yesterday) ? s.streak + 1 : 1;
+  s.lastDate = dateStr;
+  saveStreak(s);
+}
+
+function currentStreak() { return loadStreak().streak; }
+
+// ═══════════════════════════════════════════════
+//  LOAD DATA
+// ═══════════════════════════════════════════════
+async function loadHouses() {
+  try {
+    const r = await fetch(`data/houses.json?v=${Date.now()}`);
+    if (!r.ok) throw 0;
+    return await r.json();
+  } catch { return null; }
+}
+
+// ═══════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════
+async function initGame() {
+  showScreen('loading-screen');
+
+  const data = await loadHouses();
+  if (!data || !data.houses?.length) { showScreen('error-screen'); return; }
+
+  houses    = data.houses;
+  todayDate = data.date;
+
+  // Header pills
+  const d = new Date(todayDate + 'T12:00:00');
+  document.getElementById('date-pill').textContent =
+    d.toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'});
+  document.getElementById('streak-pill').textContent = `🔥 ${currentStreak()} dagen`;
+
+  // Check if already finished today
+  const save = JSON.parse(localStorage.getItem(KEY_SAVE) || 'null');
+  if (save && save.date === todayDate && save.done) {
+    scores = save.scores;
+    currentIndex = houses.length;
+    buildDots();
+    showFinalScreen();
     return;
   }
 
-  const btn = document.getElementById('scrape-btn');
-  btn.disabled = true;
-  btn.textContent = '⟳ Bezig…';
-
-  try {
-    const res = await fetch(
-      `https://api.github.com/repos/${s.owner}/${s.repo}/actions/workflows/scrape.yml/dispatches`,
-      {
-        method: 'POST',
-        headers: {
-          'Authorization': `token ${s.token}`,
-          'Accept': 'application/vnd.github.v3+json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ ref: 'main' }),
-      }
-    );
-
-    if (res.status === 204) {
-      showToast('✓ Scraper gestart! Data beschikbaar na ~1 minuut.');
-    } else {
-      const err = await res.json().catch(() => ({}));
-      showToast(`✗ Fout: ${err.message || res.status}. Controleer je token en repo naam.`);
-    }
-  } catch (e) {
-    showToast('✗ Netwerkfout. Probeer het opnieuw.');
+  // Resume or fresh start
+  if (save && save.date === todayDate) {
+    scores = save.scores;
+    currentIndex = save.currentIndex;
+  } else {
+    scores = new Array(houses.length).fill(null);
+    currentIndex = 0;
   }
 
-  btn.disabled = false;
-  btn.textContent = '⟳ Nieuwe huizen';
-}
-
-// ── DATA LOADING ───────────────────────────────────────────────
-async function loadHouses() {
-  try {
-    const res = await fetch(`data/houses.json?v=${Date.now()}`);
-    if (!res.ok) throw new Error('not found');
-    const data = await res.json();
-    return data;
-  } catch {
-    return null;
-  }
-}
-
-// ── GAME INIT ──────────────────────────────────────────────────
-async function initGame() {
-  show('loading-screen');
-
-  const data = await loadHouses();
-  if (!data || !data.houses || data.houses.length === 0) {
-    show('error-screen'); return;
-  }
-
-  houses = data.houses;
-  scores = new Array(houses.length).fill(null);
-  currentIndex = 0;
-
-  // Date badge
-  const d = new Date(data.date + 'T00:00:00');
-  document.getElementById('date-badge').textContent =
-    d.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
-
-  // Dots
   buildDots();
-  renderHouse(0);
-  show('game-screen');
+  renderHouse(currentIndex);
+  showScreen('game-screen');
 }
 
+function persist(done = false) {
+  localStorage.setItem(KEY_SAVE, JSON.stringify({ date:todayDate, scores, currentIndex, done }));
+}
+
+// ═══════════════════════════════════════════════
+//  DOTS
+// ═══════════════════════════════════════════════
 function buildDots() {
-  const wrap = document.getElementById('dots');
-  wrap.innerHTML = houses.map((_, i) => `<div class="dot" id="dot-${i}"></div>`).join('');
-  updateDots();
+  document.getElementById('dots').innerHTML =
+    houses.map((_,i)=>`<div class="dot" id="dot-${i}"></div>`).join('');
+  refreshDots();
 }
 
-function updateDots() {
-  houses.forEach((_, i) => {
-    const dot = document.getElementById(`dot-${i}`);
-    if (i < currentIndex) {
-      const sc = scores[i];
-      dot.className = 'dot ' + (sc >= 80 ? 'done' : sc >= 50 ? 'close' : 'done');
-    } else if (i === currentIndex) {
-      dot.className = 'dot active';
-    } else {
-      dot.className = 'dot';
-    }
+function refreshDots() {
+  houses.forEach((_,i) => {
+    const el = document.getElementById(`dot-${i}`);
+    if (!el) return;
+    const s = scores[i];
+    el.className = 'dot' + (
+      i === currentIndex && s === null ? ' active' :
+      s === null ? '' :
+      s >= 80 ? ' great' : s >= 50 ? ' ok' : ' miss'
+    );
   });
+  document.getElementById('live-score').textContent =
+    scores.filter(s=>s!==null).reduce((a,b)=>a+b,0);
 }
 
-// ── RENDER HOUSE ───────────────────────────────────────────────
+// ═══════════════════════════════════════════════
+//  RENDER HOUSE
+// ═══════════════════════════════════════════════
 function renderHouse(idx) {
   guessed = false;
   const h = houses[idx];
 
   document.getElementById('house-img').src = h.photo;
-  document.getElementById('house-img').alt = `Huis in ${h.city}`;
-  document.getElementById('house-number').textContent = `${idx + 1} / ${houses.length}`;
-  document.getElementById('meta-city').textContent = h.city || '?';
-  document.getElementById('meta-bedrooms').textContent = h.bedrooms != null ? `${h.bedrooms}` : '?';
-  document.getElementById('meta-surface').textContent = h.surface != null ? `${h.surface} m²` : '?';
+  document.getElementById('house-counter').textContent = `${idx+1} / ${houses.length}`;
+  document.getElementById('m-city').textContent = h.city || '?';
+  document.getElementById('m-beds').textContent = h.bedrooms != null ? `${h.bedrooms}` : '?';
+  document.getElementById('m-surf').textContent = h.surface  != null ? `${h.surface} m²` : '?';
 
-  // Energy label
-  const label = (h.energy_label || '?').replace('+', '\\+');
-  const energyEl = document.getElementById('meta-energy');
-  energyEl.innerHTML = `<span class="energy-badge energy-${h.energy_label || '?'}">${h.energy_label || '?'}</span>`;
+  const eCode = (h.energy_label||'?').replace('+','p');
+  document.getElementById('m-energy').innerHTML =
+    `<span class="energy-chip e${eCode}">${h.energy_label||'?'}</span>`;
 
-  // Reset UI
-  document.getElementById('price-input').value = '';
+  document.getElementById('price-input').value    = '';
   document.getElementById('price-input').disabled = false;
-  document.getElementById('submit-btn').disabled = false;
-  hideFeedback();
-  document.getElementById('reveal-section').classList.remove('visible');
+  document.getElementById('submit-btn').disabled  = false;
+  document.getElementById('feedback').className   = 'feedback';
+  document.getElementById('reveal').className     = 'reveal';
+  document.getElementById('next-btn').textContent =
+    idx === houses.length - 1 ? 'Bekijk score 🏁' : 'Volgend huis →';
 
-  updateDots();
-  document.getElementById('house-card').style.animation = 'none';
-  requestAnimationFrame(() => {
-    document.getElementById('house-card').style.animation = '';
-  });
+  const card = document.getElementById('house-card');
+  card.style.animation = 'none';
+  requestAnimationFrame(()=>{ card.style.animation=''; });
 
   document.getElementById('price-input').focus();
+  refreshDots();
 }
 
-// ── GUESS LOGIC ────────────────────────────────────────────────
+// ═══════════════════════════════════════════════
+//  GUESS
+// ═══════════════════════════════════════════════
 function submitGuess() {
   if (guessed) return;
-  const input = document.getElementById('price-input');
-  const guess = parseInt(input.value, 10);
-
-  if (!guess || guess < 10000) {
-    showToast('Voer een geldig bedrag in (bijv. 350000)');
-    input.focus(); return;
-  }
+  const val = parseInt(document.getElementById('price-input').value, 10);
+  if (!val || val < 10000) { showToast('Voer een geldig bedrag in'); return; }
 
   guessed = true;
-  input.disabled = true;
-  document.getElementById('submit-btn').disabled = true;
+  document.getElementById('price-input').disabled = true;
+  document.getElementById('submit-btn').disabled  = true;
 
-  const h = houses[currentIndex];
-  const diff = guess - h.price;
-  const pct = Math.abs(diff) / h.price * 100;
-
-  // Score: 100 if exact, scales down
-  const pts = Math.max(0, Math.round(100 - pct * 1.5));
+  const h   = houses[currentIndex];
+  const diff = val - h.price;
+  const pct  = Math.abs(diff) / h.price * 100;
+  const pts  = Math.max(0, Math.round(100 - pct * 1.5));
   scores[currentIndex] = pts;
-  updateRunningScore();
+  persist(false);
 
-  showFeedback(diff, pct, guess);
-  showReveal(h, pct, pts);
-}
-
-function showFeedback(diff, pct, guess) {
-  const fb = document.getElementById('feedback');
-  const fmt = v => '€\u202F' + Math.abs(v).toLocaleString('nl-NL');
-
+  // Feedback
+  const fb   = document.getElementById('feedback');
+  const fmt  = v => '€\u202F' + Math.abs(v).toLocaleString('nl-NL');
   if (pct < 2) {
-    fb.className = 'feedback visible feedback-exact';
-    document.getElementById('fb-icon').textContent = '🎯';
-    document.getElementById('fb-headline').textContent = 'Raak! Bijna perfect!';
-    document.getElementById('fb-detail').textContent = `Jij: ${fmt(guess)} — slechts ${pct.toFixed(1)}% verschil.`;
+    fb.className = 'feedback visible fb-hit';
+    document.getElementById('fb-icon').textContent  = '🎯';
+    document.getElementById('fb-title').textContent = 'Raak!';
+    document.getElementById('fb-sub').textContent   = `Slechts ${pct.toFixed(1)}% verschil — fenomenaal!`;
   } else if (diff > 0) {
-    fb.className = 'feedback visible feedback-too-high';
-    document.getElementById('fb-icon').textContent = '📉';
-    document.getElementById('fb-headline').textContent = 'Te hoog!';
-    document.getElementById('fb-detail').textContent = `${fmt(diff)} te veel geraden (${pct.toFixed(1)}% verschil).`;
+    fb.className = 'feedback visible fb-high';
+    document.getElementById('fb-icon').textContent  = '📉';
+    document.getElementById('fb-title').textContent = 'Te hoog!';
+    document.getElementById('fb-sub').textContent   = `${fmt(diff)} te veel (${pct.toFixed(1)}% verschil)`;
   } else {
-    fb.className = 'feedback visible feedback-too-low';
-    document.getElementById('fb-icon').textContent = '📈';
-    document.getElementById('fb-headline').textContent = 'Te laag!';
-    document.getElementById('fb-detail').textContent = `${fmt(diff)} te weinig geraden (${pct.toFixed(1)}% verschil).`;
+    fb.className = 'feedback visible fb-low';
+    document.getElementById('fb-icon').textContent  = '📈';
+    document.getElementById('fb-title').textContent = 'Te laag!';
+    document.getElementById('fb-sub').textContent   = `${fmt(diff)} te weinig (${pct.toFixed(1)}% verschil)`;
   }
-}
 
-function hideFeedback() {
-  document.getElementById('feedback').className = 'feedback';
-}
-
-function showReveal(h, pct, pts) {
-  const rev = document.getElementById('reveal-section');
-  document.getElementById('true-price-display').textContent =
+  // Reveal
+  document.getElementById('tpr-val').textContent =
     '€\u202F' + h.price.toLocaleString('nl-NL');
 
-  const pill = document.getElementById('accuracy-pill');
-  if (pct < 5) {
-    pill.className = 'accuracy-pill accuracy-great';
-    pill.textContent = `${pts} pts 🏆`;
-  } else if (pct < 20) {
-    pill.className = 'accuracy-pill accuracy-good';
-    pill.textContent = `${pts} pts 👍`;
-  } else {
-    pill.className = 'accuracy-pill accuracy-ok';
-    pill.textContent = `${pts} pts`;
-  }
+  const badge = document.getElementById('pts-badge');
+  if      (pts >= 80) { badge.className='pts-badge pts-great'; badge.textContent=`${pts} pts 🏆`; }
+  else if (pts >= 50) { badge.className='pts-badge pts-ok';    badge.textContent=`${pts} pts 👍`; }
+  else                { badge.className='pts-badge pts-miss';   badge.textContent=`${pts} pts`; }
 
-  if (h.url) {
-    const link = document.getElementById('funda-link');
-    link.href = h.url;
-    link.style.display = 'inline-flex';
-  } else {
-    document.getElementById('funda-link').style.display = 'none';
-  }
+  const link = document.getElementById('funda-link');
+  if (h.url) { link.href=h.url; link.style.display='inline-flex'; }
+  else { link.style.display='none'; }
 
-  // Change button text on last house
-  if (currentIndex === houses.length - 1) {
-    document.getElementById('next-btn').textContent = 'Bekijk score 🏁';
-  }
-
-  rev.classList.add('visible');
+  document.getElementById('reveal').className = 'reveal visible';
+  refreshDots();
 }
 
-function updateRunningScore() {
-  const total = scores.filter(s => s !== null).reduce((a, b) => a + b, 0);
-  document.getElementById('running-score').textContent = total;
-}
-
-// ── NAVIGATION ─────────────────────────────────────────────────
+// ═══════════════════════════════════════════════
+//  NAVIGATION
+// ═══════════════════════════════════════════════
 function nextHouse() {
   if (currentIndex < houses.length - 1) {
     currentIndex++;
     renderHouse(currentIndex);
-    updateDots();
   } else {
+    updateStreakForDate(todayDate);
+    persist(true);
+    document.getElementById('streak-pill').textContent = `🔥 ${currentStreak()} dagen`;
     showFinalScreen();
   }
 }
 
+// ═══════════════════════════════════════════════
+//  FINAL
+// ═══════════════════════════════════════════════
 function showFinalScreen() {
-  show('final-screen');
+  const total = scores.reduce((a,b)=>a+(b||0),0);
+  const max   = houses.length * 100;
+  const streak = currentStreak();
+  const pct   = total / max * 100;
 
-  const total = scores.reduce((a, b) => (a + (b || 0)), 0);
-  const max = houses.length * 100;
-  document.getElementById('final-score').textContent = total;
+  document.getElementById('f-pts').textContent     = total;
+  document.getElementById('f-max').textContent     = `van ${max} punten`;
+  document.getElementById('f-streak').textContent  = `${streak} dag${streak!==1?'en':''}`;
 
-  // Verdict
-  const pct = total / max * 100;
-  const verdicts = [
-    [90, 'Makelaar! Je bent een wandelende WOZ-beschikking. 🏆'],
-    [70, 'Heel goed! Je hebt duidelijk een oog voor woningen. 🎯'],
-    [50, 'Aardig! Je weet ruwweg wat huizen kosten. 🏠'],
-    [30, 'Oefening baart kunst — en kennis van de markt. 📖'],
-    [ 0, 'Hoppa, de markt is moeilijk! Probeer het morgen opnieuw. 😅'],
-  ];
-  const verdict = verdicts.find(([t]) => pct >= t)[1];
-  document.getElementById('final-verdict').textContent = verdict;
+  document.getElementById('f-verdict').textContent = (
+    pct >= 90 ? 'Makelaar niveau — absoluut fenomenaal! 🏆' :
+    pct >= 70 ? 'Heel goed! Jij weet wat huizen kosten. 🎯' :
+    pct >= 50 ? 'Aardig geraden. Meer oefenen? 🏠' :
+    pct >= 30 ? 'De markt verraste je vandaag. 📖' :
+                'Hoppa! Morgen beter. 😅'
+  );
 
-  // Per-house breakdown
-  const bk = document.getElementById('score-breakdown');
-  bk.innerHTML = scores.map((s, i) => `
-    <div class="score-house">
-      <div class="sh-num">#${i+1}</div>
-      <div class="sh-pts" style="color:${(s||0)>=80?'var(--sage)':(s||0)>=50?'var(--gold)':'var(--terra)'}">${s ?? '—'}</div>
-    </div>`).join('');
+  document.getElementById('breakdown').innerHTML = scores.map((s,i)=>{
+    const cls = s>=80?'pts-great':s>=50?'pts-ok':'pts-miss';
+    return `<div class="bk-house">
+      <div class="bk-n">#${i+1}</div>
+      <div class="bk-pt ${cls}">${s??'—'}</div>
+    </div>`;
+  }).join('');
+
+  showScreen('final-screen');
+}
+
+// ═══════════════════════════════════════════════
+//  SHARE
+// ═══════════════════════════════════════════════
+async function shareScore() {
+  const total  = scores.reduce((a,b)=>a+(b||0),0);
+  const max    = houses.length * 100;
+  const streak = currentStreak();
+  const canvas = document.getElementById('share-canvas');
+  const ctx    = canvas.getContext('2d');
+  const W = 800, H = 420;
+
+  // BG gradient
+  const g = ctx.createLinearGradient(0,0,W,H);
+  g.addColorStop(0,'#4E2B7A'); g.addColorStop(0.6,'#6B3FA0'); g.addColorStop(1,'#9B6DCF');
+  ctx.fillStyle = g; ctx.fillRect(0,0,W,H);
+
+  // Decorative circles
+  ctx.save(); ctx.globalAlpha = 0.07;
+  ctx.beginPath(); ctx.arc(W-60,60,200,0,Math.PI*2); ctx.fillStyle='#fff'; ctx.fill();
+  ctx.beginPath(); ctx.arc(50,H+30,160,0,Math.PI*2); ctx.fill();
+  ctx.restore();
+
+  // Logo
+  ctx.fillStyle='rgba(255,255,255,0.5)'; ctx.font='bold 20px sans-serif';
+  ctx.fillText('FundaRaad!', 50, 54);
+
+  // Date
+  const d = new Date(todayDate+'T12:00:00');
+  ctx.fillStyle='rgba(255,255,255,0.38)'; ctx.font='15px sans-serif';
+  ctx.fillText(d.toLocaleDateString('nl-NL',{day:'numeric',month:'long',year:'numeric'}),50,78);
+
+  // Big score
+  ctx.fillStyle='#fff'; ctx.font='bold 90px sans-serif';
+  ctx.fillText(String(total),50,196);
+
+  ctx.fillStyle='rgba(255,255,255,0.42)'; ctx.font='21px sans-serif';
+  ctx.fillText(`van ${max} punten`,50,232);
+
+  // Streak
+  ctx.fillStyle='#C4A8F0'; ctx.font='bold 17px sans-serif';
+  ctx.fillText(`🔥 ${streak} dag${streak!==1?'en':''} op rij`,50,274);
+
+  // House dots
+  const dx=50,dy=320,sz=20,gap=10;
+  scores.forEach((s,i)=>{
+    const col = s>=80?'#3DBFA0':s>=50?'#E8A030':'#9B6DCF';
+    ctx.fillStyle=col;
+    ctx.beginPath();
+    ctx.roundRect(dx+i*(sz+gap),dy,sz,sz,4);
+    ctx.fill();
+  });
+
+  ctx.fillStyle='rgba(255,255,255,0.27)'; ctx.font='12px sans-serif';
+  ctx.fillText('per huis',50,362);
+
+  // Bottom CTA
+  ctx.textAlign='right'; ctx.fillStyle='rgba(255,255,255,0.18)'; ctx.font='13px sans-serif';
+  ctx.fillText('Speel mee → FundaRaad!',W-40,H-28);
+  ctx.textAlign='left';
+
+  canvas.toBlob(async blob => {
+    const file = new File([blob],'fundaraad.png',{type:'image/png'});
+    if (navigator.share && navigator.canShare?.({files:[file]})) {
+      try {
+        await navigator.share({
+          title:'FundaRaad!',
+          text:`Ik scoorde ${total}/${max} op FundaRaad! 🔥 ${streak} dagen op rij`,
+          files:[file],
+        });
+        return;
+      } catch(e) { /* fall through */ }
+    }
+    // Fallback: download
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href=url; a.download='fundaraad.png'; a.click();
+    setTimeout(()=>URL.revokeObjectURL(url),2000);
+    showToast('📥 Gedownload!\nDeel hem op LinkedIn of WhatsApp.');
+  },'image/png');
+}
+
+// ═══════════════════════════════════════════════
+//  UTILS
+// ═══════════════════════════════════════════════
+function showScreen(id) {
+  ['loading-screen','error-screen','game-screen','final-screen'].forEach(s=>{
+    document.getElementById(s).style.display = s===id ? 'block' : 'none';
+  });
 }
 
 function restartGame() {
-  show('loading-screen');
-  setTimeout(initGame, 300);
+  localStorage.removeItem(KEY_SAVE);
+  showScreen('loading-screen');
+  setTimeout(initGame,200);
 }
 
-// ── UTILS ──────────────────────────────────────────────────────
-function show(id) {
-  ['loading-screen','error-screen','game-screen','final-screen'].forEach(s => {
-    document.getElementById(s).style.display = s === id ? (s === 'game-screen' ? 'block' : 'flex') : 'none';
-  });
-  if (id === 'game-screen') document.getElementById('game-screen').style.display = 'block';
-  if (id === 'final-screen') document.getElementById('final-screen').style.display = 'block';
-  if (id === 'loading-screen' || id === 'error-screen') {
-    document.getElementById(id).style.display = 'flex';
-  }
-}
-
-let toastTimer;
+let _tt;
 function showToast(msg) {
   const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => t.classList.remove('show'), 3500);
+  t.textContent=msg; t.classList.add('show');
+  clearTimeout(_tt); _tt=setTimeout(()=>t.classList.remove('show'),3500);
 }
 
-// ── START ──────────────────────────────────────────────────────
+// ── START ──
 initGame();
 </script>
 </body>
