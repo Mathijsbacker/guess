@@ -2,26 +2,26 @@
   "date": "2026-05-15",
   "houses": [
     {
-      "id": "44458370",
-      "address": "Het Jaagpad 30",
-      "city": "Tiel",
-      "price": 335000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/919/495.jpg",
+      "id": "80812917",
+      "address": "Goereesestraat 83-B",
+      "city": "Rotterdam",
+      "price": 239500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/919/646.jpg",
       "bedrooms": 2,
-      "energy_label": "A1",
-      "surface": 99,
-      "url": "https://www.funda.nl/detail/koop/tiel/appartement-het-jaagpad-30/44458370/"
+      "energy_label": "D",
+      "surface": 62,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-goereesestraat-83-b/80812917/"
     },
     {
-      "id": "80812816",
-      "address": "Waterlandlaan 1-C",
+      "id": "80812821",
+      "address": "Waterlandlaan 5-L",
       "city": "Purmerend",
-      "price": 550000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/915/150.jpg",
+      "price": 540000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/915/157.jpg",
       "bedrooms": 2,
       "energy_label": "A1",
-      "surface": 91,
-      "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-1-c/80812816/"
+      "surface": 88,
+      "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-5-l/80812821/"
     },
     {
       "id": "80812817",
@@ -35,48 +35,15 @@
       "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-1-l/80812817/"
     },
     {
-      "id": "44458362",
-      "address": "Holtkampstraat 18",
-      "city": "Deventer",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/919/190.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 107,
-      "url": "https://www.funda.nl/detail/koop/deventer/huis-holtkampstraat-18/44458362/"
-    },
-    {
-      "id": "44457908",
-      "address": "Groene Steeg 11",
-      "city": "Hasselt",
-      "price": 1100000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/859/253.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 346,
-      "url": "https://www.funda.nl/detail/koop/hasselt/huis-groene-steeg-11/44457908/"
-    },
-    {
-      "id": "80812915",
-      "address": "Klippenweg 13",
-      "city": "Borne",
-      "price": 675000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/919/464.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 171,
-      "url": "https://www.funda.nl/detail/koop/borne/huis-klippenweg-13/80812915/"
-    },
-    {
-      "id": "80812820",
-      "address": "Waterlandlaan 1-Q",
+      "id": "80812822",
+      "address": "Waterlandlaan 3-U",
       "city": "Purmerend",
-      "price": 452500,
-      "photo": "https://cloud.funda.nl/valentina_media/228/915/145.jpg",
-      "bedrooms": 2,
+      "price": 540000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/915/122.jpg",
+      "bedrooms": 3,
       "energy_label": "A1",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-1-q/80812820/"
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-3-u/80812822/"
     },
     {
       "id": "80812171",
@@ -101,15 +68,48 @@
       "url": "https://www.funda.nl/detail/koop/uden/huis-gording-76/80812184/"
     },
     {
-      "id": "80812173",
-      "address": "Millsebaan 109",
-      "city": "Uden",
-      "price": 1095000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/887/809.jpg",
-      "bedrooms": 3,
-      "energy_label": "D",
-      "surface": 222,
-      "url": "https://www.funda.nl/detail/koop/uden/huis-millsebaan-109/80812173/"
+      "id": "80812816",
+      "address": "Waterlandlaan 1-C",
+      "city": "Purmerend",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/915/150.jpg",
+      "bedrooms": 2,
+      "energy_label": "A1",
+      "surface": 91,
+      "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-1-c/80812816/"
+    },
+    {
+      "id": "44458250",
+      "address": "Wickenburglaan 36",
+      "city": "Utrecht",
+      "price": 459000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/918/477.jpg",
+      "bedrooms": 4,
+      "energy_label": "F",
+      "surface": 112,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-wickenburglaan-36/44458250/"
+    },
+    {
+      "id": "44457908",
+      "address": "Groene Steeg 11",
+      "city": "Hasselt",
+      "price": 1100000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/859/253.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 346,
+      "url": "https://www.funda.nl/detail/koop/hasselt/huis-groene-steeg-11/44457908/"
+    },
+    {
+      "id": "80812820",
+      "address": "Waterlandlaan 1-Q",
+      "city": "Purmerend",
+      "price": 452500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/915/145.jpg",
+      "bedrooms": 2,
+      "energy_label": "A1",
+      "surface": 69,
+      "url": "https://www.funda.nl/detail/koop/purmerend/appartement-waterlandlaan-1-q/80812820/"
     }
   ]
 }
