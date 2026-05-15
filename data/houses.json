@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-15",
+  "houses": [
+    {
+      "id": "80811888",
+      "address": "Schepenstraat 110-C",
+      "city": "Rotterdam",
+      "price": 500000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/874/942.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 121,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-schepenstraat-110-c/80811888/"
+    },
+    {
+      "id": "44457173",
+      "address": "Wilhelminakade 547",
+      "city": "Rotterdam",
+      "price": 549500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/866/387.jpg",
+      "bedrooms": 1,
+      "energy_label": "A",
+      "surface": 83,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-wilhelminakade-547/44457173/"
+    },
+    {
+      "id": "44457369",
+      "address": "Buitenpas 15",
+      "city": "Heesch",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/875/645.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 175,
+      "url": "https://www.funda.nl/detail/koop/heesch/huis-buitenpas-15/44457369/"
+    },
+    {
+      "id": "44457390",
+      "address": "Marterlaan 24",
+      "city": "Veenendaal",
+      "price": 499500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/877/065.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 113,
+      "url": "https://www.funda.nl/detail/koop/veenendaal/huis-marterlaan-24/44457390/"
+    },
+    {
+      "id": "80811961",
+      "address": "Vorsterstraat 21",
+      "city": "Rheden",
+      "price": 269500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/878/327.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/rheden/huis-vorsterstraat-21/80811961/"
+    },
+    {
+      "id": "44457232",
+      "address": "1e Kruisweg 8",
+      "city": "Oud-Beijerland",
+      "price": 825000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/874/394.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 163,
+      "url": "https://www.funda.nl/detail/koop/oud-beijerland/huis-1e-kruisweg-8/44457232/"
+    },
+    {
+      "id": "80811956",
+      "address": "Joelestraat 6",
+      "city": "Poppel",
+      "price": 469000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/877/787.jpg",
+      "bedrooms": 5,
+      "energy_label": "B",
+      "surface": 240,
+      "url": "https://www.funda.nl/detail/koop/poppel/huis-joelestraat-6/80811956/"
+    },
+    {
+      "id": "44457389",
+      "address": "Schapendijkje 10",
+      "city": "Leeuwarden",
+      "price": 1450000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/876/579.jpg",
+      "bedrooms": 5,
+      "energy_label": "B",
+      "surface": 231,
+      "url": "https://www.funda.nl/detail/koop/leeuwarden/huis-schapendijkje-10/44457389/"
+    },
+    {
+      "id": "44457361",
+      "address": "Muldersweg 233",
+      "city": "Nijmegen",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/875/742.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 81,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/appartement-muldersweg-233/44457361/"
+    },
+    {
+      "id": "44457903",
+      "address": "Burgemeester Bosmaweg 17",
+      "city": "Ruinerwold",
+      "price": 349000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/859/068.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/ruinerwold/huis-burgemeester-bosmaweg-17/44457903/"
+    }
+  ]
+}
