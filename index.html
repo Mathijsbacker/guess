@@ -6,22 +6,22 @@
 <title>Fundaguesser</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg:        #F4F0FF;
-  --card:      #FFFFFF;
-  --ink:       #130E2A;
-  --ink-soft:  rgba(19,14,42,0.45);
-  --purple:    #6B3FA0;
-  --purple-d:  #4E2B7A;
-  --purple-l:  #9B6DCF;
-  --purple-xl: #EDE5FF;
-  --lilac:     #C4A8F0;
-  --mint:      #3DBFA0;
-  --warn:      #E8A030;
-  --border:    rgba(107,63,160,0.15);
-  --shadow:    0 12px 48px rgba(107,63,160,0.14);
+  --bg:        #F5F0E8;
+  --card:      #FFFDF8;
+  --ink:       #1A1410;
+  --ink-soft:  rgba(26,20,16,0.45);
+  --purple:    #C4622D;
+  --purple-d:  #A04E20;
+  --purple-l:  #E8896A;
+  --purple-xl: #FDF0E8;
+  --lilac:     #D4A882;
+  --mint:      #7A8C6E;
+  --warn:      #C8A84B;
+  --border:    rgba(26,20,16,0.12);
+  --shadow:    0 8px 40px rgba(26,20,16,0.12);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -30,7 +30,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: 'Syne', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -47,16 +47,16 @@ header {
   position: sticky; top: 0; z-index: 50;
   padding: 0.9rem 1.5rem;
   display: flex; align-items: center; gap: 0.75rem;
-  background: rgba(244,240,255,0.88);
+  background: rgba(245,240,232,0.88);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
 }
 .logo {
-  font-family: 'Syne', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.3rem; font-weight: 800;
   color: var(--purple); letter-spacing: -0.03em; flex: 1;
 }
-.logo em { font-style: italic; color: var(--ink); font-family: 'Instrument Serif', serif; }
+.logo em { font-style: italic; color: var(--ink); font-family: 'Playfair Display', serif; }
 
 .header-pills { display: flex; gap: 0.45rem; align-items: center; flex-wrap: wrap; }
 .pill {
@@ -73,7 +73,7 @@ header {
 .btn {
   display: inline-flex; align-items: center; gap: 0.35rem;
   padding: 0.55rem 1rem; border-radius: 0.5rem; border: none;
-  font-family: 'Syne', sans-serif; font-size: 0.8rem; font-weight: 700;
+  font-family: 'DM Sans', sans-serif; font-size: 0.8rem; font-weight: 700;
   cursor: pointer; transition: all 0.18s; letter-spacing: 0.01em;
 }
 .btn-primary { background: var(--purple); color: #fff; }
@@ -89,7 +89,7 @@ header {
 .progress-strip {
   position: sticky; top: 57px; z-index: 40;
   padding: 0.6rem 1.5rem;
-  background: rgba(244,240,255,0.92); backdrop-filter: blur(10px);
+  background: rgba(245,240,232,0.92); backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; gap: 1rem;
 }
@@ -109,7 +109,7 @@ header {
   font-size: 0.76rem; color: var(--ink-soft);
 }
 .score-live strong {
-  font-family: 'DM Mono', monospace;
+  font-family: 'DM Sans', monospace;
   font-size: 1.15rem; font-weight: 500; color: var(--purple);
 }
 
@@ -164,12 +164,12 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   font-size: 0.67rem; font-weight: 700; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--ink-soft); margin-bottom: 0.35rem;
 }
-.meta-val { font-family: 'Instrument Serif', serif; font-size: 1.2rem; }
+.meta-val { font-family: 'Playfair Display', serif; font-size: 1.2rem; }
 
 .energy-chip {
   display: inline-flex; align-items: center; justify-content: center;
   width: 1.9rem; height: 1.9rem; border-radius: 0.35rem;
-  font-family: 'Syne', sans-serif; font-size: 0.82rem; font-weight: 800; color: #fff;
+  font-family: 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 800; color: #fff;
 }
 .eA,.eAp{background:#27AE60} .eB{background:#52BE80} .eC{background:#A9DFBF;color:#1a5c34}
 .eD{background:#F9E04B;color:#7a6000} .eE{background:#F39C12} .eF{background:#E67E22}
@@ -178,7 +178,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 /* ── GUESS ── */
 .guess-section { padding: 1.25rem 1.25rem 0; }
 .guess-heading {
-  font-family: 'Instrument Serif', serif; font-size: 1.35rem; font-style: italic;
+  font-family: 'Playfair Display', serif; font-size: 1.35rem; font-style: italic;
   margin-bottom: 0.9rem;
 }
 .input-row {
@@ -189,14 +189,14 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 .input-row:focus-within { border-color: var(--purple); }
 .euro-sign {
   display: flex; align-items: center; padding: 0 0.9rem;
-  font-family: 'Instrument Serif', serif; font-size: 1.25rem; color: var(--purple);
+  font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--purple);
   background: var(--purple-xl); border-right: 2px solid var(--border);
   transition: border-color 0.2s;
 }
 .input-row:focus-within .euro-sign { border-color: var(--purple); }
 #price-input {
   flex: 1; min-width: 0; padding: 0.8rem 0.85rem; border: none; background: transparent;
-  font-family: 'DM Mono', monospace; font-size: 1rem; font-weight: 500;
+  font-family: 'DM Sans', monospace; font-size: 1rem; font-weight: 500;
   color: var(--ink); outline: none;
 }
 #price-input::placeholder { color: var(--ink-soft); }
@@ -232,12 +232,12 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   text-transform: uppercase; color: var(--ink-soft);
 }
 .tpr-value {
-  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-family: 'Playfair Display', serif; font-style: italic;
   font-size: 2rem; color: var(--purple);
 }
 .pts-badge {
   padding: 0.18rem 0.6rem; border-radius: 99px;
-  font-size: 0.74rem; font-weight: 700; font-family: 'DM Mono', monospace;
+  font-size: 0.74rem; font-weight: 700; font-family: 'DM Sans', monospace;
 }
 .pts-great { background: #D1FAE5; color: #065F46; }
 .pts-ok    { background: #FEF9C3; color: #713F12; }
@@ -259,7 +259,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   display: flex; flex-direction: column; align-items: center;
   justify-content: center; padding: 5rem 2rem; gap: 1rem; text-align: center;
 }
-.state-screen h2 { font-family: 'Instrument Serif', serif; font-size: 1.9rem; font-style: italic; }
+.state-screen h2 { font-family: 'Playfair Display', serif; font-size: 1.9rem; font-style: italic; }
 .state-screen p  { font-size: 0.88rem; color: var(--ink-soft); max-width: 34ch; line-height: 1.6; }
 
 .spinner {
@@ -281,7 +281,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   width: min(440px,92vw); box-shadow: var(--shadow);
   position: relative; border: 1px solid var(--border);
 }
-.modal-card h2 { font-family: 'Instrument Serif', serif; font-size: 1.45rem; font-style: italic; margin-bottom: 0.3rem; }
+.modal-card h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; font-style: italic; margin-bottom: 0.3rem; }
 .modal-card p  { font-size: 0.81rem; color: var(--ink-soft); margin-bottom: 1.4rem; line-height: 1.5; }
 .close-x { position: absolute; top: 1rem; right: 1rem; background: none; border: none; cursor: pointer; font-size: 1.15rem; color: var(--ink-soft); }
 .close-x:hover { color: var(--ink); }
@@ -291,7 +291,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   width: 100%; padding: 0.62rem 0.85rem;
   border: 1.5px solid var(--border); border-radius: 0.5rem;
   background: var(--bg); color: var(--ink);
-  font-family: 'Syne', sans-serif; font-size: 0.87rem; outline: none;
+  font-family: 'DM Sans', sans-serif; font-size: 0.87rem; outline: none;
   transition: border-color 0.2s;
 }
 .field input:focus { border-color: var(--purple); }
@@ -313,10 +313,10 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   content: '🏠'; position: absolute; font-size: 9rem; opacity: 0.07;
   top: -1rem; right: -1.5rem; transform: rotate(14deg);
 }
-.final-title   { font-family: 'Instrument Serif', serif; font-size: 1rem; font-style: italic; color: rgba(255,255,255,0.65); margin-bottom: 0.4rem; }
-.final-pts     { font-family: 'DM Mono', monospace; font-size: 4rem; font-weight: 500; color: #fff; line-height: 1; }
+.final-title   { font-family: 'Playfair Display', serif; font-size: 1rem; font-style: italic; color: rgba(255,255,255,0.65); margin-bottom: 0.4rem; }
+.final-pts     { font-family: 'DM Sans', monospace; font-size: 4rem; font-weight: 500; color: #fff; line-height: 1; }
 .final-max     { font-size: 0.78rem; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
-.final-verdict { font-family: 'Instrument Serif', serif; font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.9rem; }
+.final-verdict { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.9rem; }
 
 .streak-row {
   display: flex; align-items: center; justify-content: center; gap: 0.65rem;
@@ -324,7 +324,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   background: var(--purple-xl);
 }
 .streak-label { font-size: 0.76rem; font-weight: 700; color: var(--purple); letter-spacing: 0.05em; text-transform: uppercase; }
-.streak-val   { font-family: 'DM Mono', monospace; font-size: 1.3rem; font-weight: 500; color: var(--purple-d); }
+.streak-val   { font-family: 'DM Sans', monospace; font-size: 1.3rem; font-weight: 500; color: var(--purple-d); }
 
 .breakdown {
   display: grid; grid-template-columns: repeat(5,1fr);
@@ -335,7 +335,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
   text-align: center; border: 1.5px solid var(--border);
 }
 .bk-n  { font-size: 0.63rem; color: var(--ink-soft); margin-bottom: 0.18rem; }
-.bk-pt { font-family: 'DM Mono', monospace; font-size: 1rem; font-weight: 500; }
+.bk-pt { font-family: 'DM Sans', monospace; font-size: 1rem; font-weight: 500; }
 
 .final-actions {
   padding: 1.1rem; display: flex; gap: 0.55rem; flex-wrap: wrap; justify-content: center;
@@ -386,7 +386,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 
 <!-- HEADER -->
 <header>
-  <div class="logo">Fundaguesser!</div>
+  <div class="logo">Funda<em>guesser</em></div>
   <div class="header-pills">
     <span class="pill pill-streak" id="streak-pill">🔥 —</span>
     <span class="pill pill-date"   id="date-pill">—</span>
@@ -397,7 +397,7 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 
 <!-- CACHE WARNING -->
 <div class="cache-warning">
-  Je voortgang, streak en score worden opgeslagen in je browsercache. Wis je cache en je bent alles kwijt.
+  ⚠️&nbsp; Je voortgang, streak en score worden opgeslagen in je browsercache. Wis je cache en je bent alles kwijt.
 </div>
 
 <!-- PROGRESS -->
@@ -815,7 +815,7 @@ async function shareScore() {
 
   // BG gradient
   const g = ctx.createLinearGradient(0,0,W,H);
-  g.addColorStop(0,'#4E2B7A'); g.addColorStop(0.6,'#6B3FA0'); g.addColorStop(1,'#9B6DCF');
+  g.addColorStop(0,'#A04E20'); g.addColorStop(0.6,'#C4622D'); g.addColorStop(1,'#E8896A');
   ctx.fillStyle = g; ctx.fillRect(0,0,W,H);
 
   // Decorative circles
@@ -826,7 +826,7 @@ async function shareScore() {
 
   // Logo
   ctx.fillStyle='rgba(255,255,255,0.5)'; ctx.font='bold 20px sans-serif';
-  ctx.fillText('FundaRaad!', 50, 54);
+  ctx.fillText('Fundaguesser', 50, 54);
 
   // Date
   const d = new Date(todayDate+'T12:00:00');
@@ -841,13 +841,13 @@ async function shareScore() {
   ctx.fillText(`van ${max} punten`,50,232);
 
   // Streak
-  ctx.fillStyle='#C4A8F0'; ctx.font='bold 17px sans-serif';
+  ctx.fillStyle='#D4A882'; ctx.font='bold 17px sans-serif';
   ctx.fillText(`🔥 ${streak} dag${streak!==1?'en':''} op rij`,50,274);
 
   // House dots
   const dx=50,dy=320,sz=20,gap=10;
   scores.forEach((s,i)=>{
-    const col = s>=80?'#3DBFA0':s>=50?'#E8A030':'#9B6DCF';
+    const col = s>=80?'#7A8C6E':s>=50?'#C8A84B':'#D4A882';
     ctx.fillStyle=col;
     ctx.beginPath();
     ctx.roundRect(dx+i*(sz+gap),dy,sz,sz,4);
@@ -859,7 +859,7 @@ async function shareScore() {
 
   // Bottom CTA
   ctx.textAlign='right'; ctx.fillStyle='rgba(255,255,255,0.18)'; ctx.font='13px sans-serif';
-  ctx.fillText('Speel mee → FundaRaad!',W-40,H-28);
+  ctx.fillText('Speel mee → Fundaguesser',W-40,H-28);
   ctx.textAlign='left';
 
   canvas.toBlob(async blob => {
@@ -867,8 +867,8 @@ async function shareScore() {
     if (navigator.share && navigator.canShare?.({files:[file]})) {
       try {
         await navigator.share({
-          title:'FundaRaad!',
-          text:`Ik scoorde ${total}/${max} op FundaRaad! 🔥 ${streak} dagen op rij`,
+          title:'Fundaguesser',
+          text:`Ik scoorde ${total}/${max} op Fundaguesser 🔥 ${streak} dagen op rij`,
           files:[file],
         });
         return;
