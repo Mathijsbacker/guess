@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funda Raad!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #F5F0E8;
+    --ink: #1A1410;
+    --terra: #C4622D;
+    --terra-light: #E8896A;
+    --sage: #7A8C6E;
+    --sky: #4A7C9E;
+    --gold: #C8A84B;
+    --card: #FFFDF8;
+    --border: rgba(26,20,16,0.12);
+    --shadow: 0 8px 40px rgba(26,20,16,0.12);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── TEXTURE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: relative; z-index: 10;
+    padding: 1.5rem 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1.5px solid var(--border);
+    background: var(--cream);
+  }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem; font-weight: 900;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  .logo span { color: var(--terra); }
+
+  .header-right { display: flex; gap: 0.75rem; align-items: center; }
+
+  .date-badge {
+    font-size: 0.78rem; font-weight: 500;
+    color: var(--ink); opacity: 0.5;
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.75rem; border-radius: 99px;
+  }
+
+  /* ── SETTINGS PANEL ── */
+  #settings-panel {
+    display: none;
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(26,20,16,0.55); backdrop-filter: blur(4px);
+    align-items: center; justify-content: center;
+  }
+  #settings-panel.open { display: flex; }
+
+  .settings-card {
+    background: var(--card);
+    border-radius: 1rem; padding: 2rem;
+    width: min(420px, 90vw);
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .settings-card h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem; margin-bottom: 0.4rem;
+  }
+  .settings-card p { font-size: 0.85rem; opacity: 0.6; margin-bottom: 1.5rem; line-height: 1.5; }
+
+  .field { margin-bottom: 1rem; }
+  .field label { display: block; font-size: 0.78rem; font-weight: 500; opacity: 0.6; margin-bottom: 0.4rem; }
+  .field input {
+    width: 100%; padding: 0.65rem 0.9rem;
+    border: 1.5px solid var(--border); border-radius: 0.5rem;
+    background: var(--cream); color: var(--ink);
+    font-family: 'DM Sans', sans-serif; font-size: 0.9rem;
+    outline: none; transition: border-color 0.2s;
+  }
+  .field input:focus { border-color: var(--terra); }
+
+  .settings-actions { display: flex; gap: 0.75rem; margin-top: 1.5rem; }
+
+  /* ── BUTTONS ── */
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.65rem 1.2rem; border-radius: 0.5rem; border: none;
+    font-family: 'DM Sans', sans-serif; font-size: 0.88rem; font-weight: 500;
+    cursor: pointer; transition: all 0.18s;
+  }
+  .btn-primary { background: var(--terra); color: #fff; }
+  .btn-primary:hover { background: var(--terra-light); }
+  .btn-secondary { background: transparent; border: 1.5px solid var(--border); color: var(--ink); }
+  .btn-secondary:hover { border-color: var(--terra); color: var(--terra); }
+  .btn-sm { padding: 0.45rem 0.85rem; font-size: 0.8rem; }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .close-btn {
+    position: absolute; top: 1rem; right: 1rem;
+    background: none; border: none; cursor: pointer;
+    font-size: 1.3rem; color: var(--ink); opacity: 0.4;
+    line-height: 1;
+  }
+  .close-btn:hover { opacity: 0.9; }
+
+  /* ── PROGRESS BAR ── */
+  .progress-strip {
+    position: relative; z-index: 5;
+    padding: 0.85rem 2rem;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 1.5rem;
+  }
+
+  .dots { display: flex; gap: 6px; }
+  .dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--border); border: 1.5px solid transparent;
+    transition: all 0.3s;
+  }
+  .dot.active { background: var(--terra); border-color: var(--terra); transform: scale(1.2); }
+  .dot.done { background: var(--sage); border-color: var(--sage); }
+  .dot.close { background: var(--gold); border-color: var(--gold); }
+
+  .score-display {
+    margin-left: auto; display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.85rem; font-weight: 500;
+  }
+  .score-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem; font-weight: 700; color: var(--terra);
+  }
+
+  /* ── MAIN GAME AREA ── */
+  main {
+    position: relative; z-index: 5;
+    max-width: 700px; margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  /* ── HOUSE CARD ── */
+  .house-card {
+    background: var(--card);
+    border-radius: 1.2rem;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    animation: slideIn 0.4s cubic-bezier(0.34, 1.36, 0.64, 1);
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(24px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  .house-photo {
+    position: relative;
+    width: 100%; height: 320px; overflow: hidden;
+  }
+  .house-photo img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.6s ease;
+  }
+  .house-photo:hover img { transform: scale(1.03); }
+  .house-number {
+    position: absolute; top: 1rem; left: 1rem;
+    background: rgba(26,20,16,0.7); backdrop-filter: blur(6px);
+    color: #fff; font-size: 0.78rem; font-weight: 500;
+    padding: 0.3rem 0.7rem; border-radius: 99px;
+  }
+
+  .house-meta {
+    padding: 1.5rem;
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .meta-item { display: flex; flex-direction: column; gap: 0.2rem; }
+  .meta-label { font-size: 0.72rem; font-weight: 500; opacity: 0.45; text-transform: uppercase; letter-spacing: 0.06em; }
+  .meta-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem; font-weight: 700; color: var(--ink);
+  }
+
+  .energy-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; border-radius: 0.3rem;
+    font-size: 0.9rem; font-weight: 700; color: #fff;
+  }
+  .energy-A, .energy-A\\+ { background: #2E8B57; }
+  .energy-B { background: #5BAD6E; }
+  .energy-C { background: #A3C639; color: #333; }
+  .energy-D { background: #F9D423; color: #333; }
+  .energy-E { background: #F5A623; }
+  .energy-F { background: #E07020; }
+  .energy-G { background: #C0392B; }
+  .energy-\\? { background: #999; }
+
+  /* ── GUESS AREA ── */
+  .guess-area { padding: 1.5rem; }
+
+  .guess-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem; font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .price-input-wrap {
+    display: flex; align-items: stretch; gap: 0;
+    border: 2px solid var(--border); border-radius: 0.6rem; overflow: hidden;
+    transition: border-color 0.2s;
+    background: var(--cream);
+  }
+  .price-input-wrap:focus-within { border-color: var(--terra); }
+
+  .euro-prefix {
+    display: flex; align-items: center;
+    padding: 0 1rem;
+    background: var(--cream); border-right: 2px solid var(--border);
+    font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700;
+    color: var(--terra);
+  }
+  .price-input-wrap:focus-within .euro-prefix { border-color: var(--terra); }
+
+  #price-input {
+    flex: 1; padding: 0.85rem 1rem;
+    border: none; background: transparent;
+    font-family: 'DM Sans', sans-serif; font-size: 1.1rem; font-weight: 500;
+    color: var(--ink); outline: none; min-width: 0;
+  }
+
+  #submit-btn { border-radius: 0; border-left: 2px solid var(--border); }
+
+  /* ── FEEDBACK ── */
+  .feedback {
+    margin-top: 1.25rem; padding: 1.25rem;
+    border-radius: 0.8rem;
+    animation: fadeUp 0.35s ease;
+    display: none;
+  }
+  .feedback.visible { display: block; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .feedback-too-high { background: #FEF3F2; border: 1.5px solid #FECDCA; }
+  .feedback-too-low  { background: #F0FDF4; border: 1.5px solid #A7F3D0; }
+  .feedback-exact    { background: #FFF9ED; border: 1.5px solid var(--gold); }
+
+  .feedback-header {
+    display: flex; align-items: center; gap: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .feedback-icon { font-size: 1.4rem; }
+  .feedback-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem; font-weight: 700;
+  }
+  .feedback-detail { font-size: 0.88rem; opacity: 0.7; line-height: 1.5; }
+
+  /* ── REVEAL SECTION ── */
+  .reveal-section {
+    display: none; padding: 1.25rem 1.5rem;
+    border-top: 1px solid var(--border);
+    animation: fadeUp 0.4s ease;
+  }
+  .reveal-section.visible { display: block; }
+
+  .true-price {
+    display: flex; align-items: baseline; gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .true-price-label { font-size: 0.8rem; opacity: 0.5; font-weight: 500; }
+  .true-price-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem; font-weight: 900; color: var(--terra);
+  }
+  .accuracy-pill {
+    display: inline-block;
+    padding: 0.25rem 0.75rem; border-radius: 99px;
+    font-size: 0.8rem; font-weight: 600;
+  }
+  .accuracy-great { background: #D1FAE5; color: #065F46; }
+  .accuracy-good  { background: #FEF9C3; color: #713F12; }
+  .accuracy-ok    { background: #FFE4E6; color: #9F1239; }
+
+  .funda-link {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    font-size: 0.82rem; color: var(--terra); font-weight: 500;
+    text-decoration: none; margin-top: 0.75rem;
+  }
+  .funda-link:hover { text-decoration: underline; }
+
+  .next-wrap { margin-top: 1.25rem; display: flex; justify-content: flex-end; }
+
+  /* ── LOADING / EMPTY / DONE STATES ── */
+  .state-screen {
+    text-align: center; padding: 5rem 2rem;
+    display: flex; flex-direction: column; align-items: center; gap: 1rem;
+  }
+  .state-screen h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem; font-weight: 900;
+  }
+  .state-screen p { font-size: 0.95rem; opacity: 0.6; max-width: 36ch; line-height: 1.6; }
+
+  .spinner {
+    width: 36px; height: 36px;
+    border: 3px solid var(--border);
+    border-top-color: var(--terra);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── FINAL SCORE SCREEN ── */
+  #final-screen { display: none; }
+
+  .score-breakdown {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem; margin: 1.5rem 0;
+  }
+  .score-house {
+    background: var(--card); border-radius: 0.6rem; padding: 0.75rem 0.5rem;
+    text-align: center; border: 1.5px solid var(--border);
+  }
+  .score-house .sh-num { font-size: 0.7rem; opacity: 0.45; margin-bottom: 0.25rem; }
+  .score-house .sh-pts {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem; font-weight: 700;
+  }
+
+  .total-score-display {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem; font-weight: 900; color: var(--terra);
+    line-height: 1;
+  }
+  .total-score-label { font-size: 0.9rem; opacity: 0.5; margin-top: 0.25rem; }
+
+  /* ── SCRAPE TOAST ── */
+  #toast {
+    position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
+    background: var(--ink); color: #fff;
+    padding: 0.75rem 1.5rem; border-radius: 0.6rem;
+    font-size: 0.88rem; font-weight: 500;
+    z-index: 200; opacity: 0; pointer-events: none;
+    transition: opacity 0.3s;
+    max-width: 90vw; text-align: center;
+  }
+  #toast.show { opacity: 1; }
+
+  @media (max-width: 500px) {
+    .house-meta { grid-template-columns: 1fr 1fr; }
+    .score-breakdown { grid-template-columns: repeat(5, 1fr); }
+    header { padding: 1rem; }
+    main { padding: 1.25rem 0.75rem 3rem; }
+    .house-photo { height: 220px; }
+    .total-score-display { font-size: 3rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SETTINGS PANEL -->
+<div id="settings-panel">
+  <div class="settings-card">
+    <button class="close-btn" onclick="closeSettings()">✕</button>
+    <h2>GitHub instellingen</h2>
+    <p>Vereist om de scraper te starten vanuit deze pagina. Je token wordt alleen lokaal opgeslagen.</p>
+    <div class="field">
+      <label>GitHub gebruikersnaam</label>
+      <input type="text" id="gh-owner" placeholder="jouwgebruikersnaam">
+    </div>
+    <div class="field">
+      <label>Repository naam</label>
+      <input type="text" id="gh-repo" placeholder="funda-game">
+    </div>
+    <div class="field">
+      <label>Personal Access Token (workflow scope)</label>
+      <input type="password" id="gh-token" placeholder="ghp_…">
+    </div>
+    <div class="settings-actions">
+      <button class="btn btn-primary" onclick="saveSettings()">Opslaan</button>
+      <button class="btn btn-secondary" onclick="closeSettings()">Annuleren</button>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">Funda<span>Raad!</span></div>
+  <div class="header-right">
+    <span class="date-badge" id="date-badge">—</span>
+    <button class="btn btn-secondary btn-sm" id="scrape-btn" onclick="triggerScrape()">
+      ⟳ Nieuwe huizen
+    </button>
+    <button class="btn btn-secondary btn-sm" onclick="openSettings()">⚙</button>
+  </div>
+</header>
+
+<!-- PROGRESS -->
+<div class="progress-strip">
+  <div class="dots" id="dots"></div>
+  <div class="score-display">
+    Score: <span class="score-number" id="running-score">0</span>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main>
+  <!-- Loading -->
+  <div class="state-screen" id="loading-screen">
+    <div class="spinner"></div>
+    <p>Huizen laden…</p>
+  </div>
+
+  <!-- Error -->
+  <div class="state-screen" id="error-screen" style="display:none">
+    <div style="font-size:3rem">🏚</div>
+    <h2>Geen huizen gevonden</h2>
+    <p>Klik op "Nieuwe huizen" om de scraper te starten, of controleer of <code>data/houses.json</code> bestaat.</p>
+  </div>
+
+  <!-- Game -->
+  <div id="game-screen" style="display:none">
+    <div class="house-card" id="house-card">
+      <div class="house-photo">
+        <img id="house-img" src="" alt="Huis foto">
+        <div class="house-number" id="house-number"></div>
+      </div>
+
+      <div class="house-meta">
+        <div class="meta-item">
+          <span class="meta-label">📍 Stad / Dorp</span>
+          <span class="meta-value" id="meta-city">—</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">🛏 Slaapkamers</span>
+          <span class="meta-value" id="meta-bedrooms">—</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">📐 Oppervlakte</span>
+          <span class="meta-value" id="meta-surface">—</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">⚡ Energielabel</span>
+          <span class="meta-value" id="meta-energy">—</span>
+        </div>
+      </div>
+
+      <div class="guess-area">
+        <div class="guess-label">Wat kost dit huis?</div>
+        <div class="price-input-wrap">
+          <div class="euro-prefix">€</div>
+          <input type="number" id="price-input" placeholder="bijv. 350000"
+                 min="50000" max="5000000" step="1000"
+                 onkeydown="if(event.key==='Enter') submitGuess()">
+          <button class="btn btn-primary btn-sm" id="submit-btn" onclick="submitGuess()" style="border-radius:0; padding:0 1.25rem;">
+            Raad!
+          </button>
+        </div>
+
+        <div class="feedback" id="feedback">
+          <div class="feedback-header">
+            <span class="feedback-icon" id="fb-icon"></span>
+            <span class="feedback-headline" id="fb-headline"></span>
+          </div>
+          <div class="feedback-detail" id="fb-detail"></div>
+        </div>
+      </div>
+
+      <div class="reveal-section" id="reveal-section">
+        <div class="true-price">
+          <span class="true-price-label">Vraagprijs</span>
+          <span class="true-price-value" id="true-price-display"></span>
+          <span class="accuracy-pill" id="accuracy-pill"></span>
+        </div>
+        <a class="funda-link" id="funda-link" href="#" target="_blank" rel="noopener">
+          Bekijk op Funda →
+        </a>
+        <div class="next-wrap">
+          <button class="btn btn-primary" id="next-btn" onclick="nextHouse()">
+            Volgend huis →
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Final -->
+  <div id="final-screen">
+    <div class="state-screen" style="padding-top:3rem">
+      <div style="font-size:3rem">🏠</div>
+      <h2>Gespeeld!</h2>
+      <div class="total-score-display" id="final-score"></div>
+      <div class="total-score-label">punten van 1000</div>
+      <div class="score-breakdown" id="score-breakdown"></div>
+      <p id="final-verdict"></p>
+      <button class="btn btn-primary" onclick="restartGame()" style="margin-top:1rem">
+        Opnieuw
+      </button>
+    </div>
+  </div>
+</main>
+
+<div id="toast"></div>
+
+<script>
+// ── STATE ──────────────────────────────────────────────────────
+let houses = [];
+let currentIndex = 0;
+let scores = [];
+let guessed = false;
+
+// ── SETTINGS ───────────────────────────────────────────────────
+function openSettings() {
+  const s = JSON.parse(localStorage.getItem('gh_settings') || '{}');
+  document.getElementById('gh-owner').value = s.owner || '';
+  document.getElementById('gh-repo').value  = s.repo  || '';
+  document.getElementById('gh-token').value = s.token || '';
+  document.getElementById('settings-panel').classList.add('open');
+}
+function closeSettings() {
+  document.getElementById('settings-panel').classList.remove('open');
+}
+function saveSettings() {
+  const s = {
+    owner: document.getElementById('gh-owner').value.trim(),
+    repo:  document.getElementById('gh-repo').value.trim(),
+    token: document.getElementById('gh-token').value.trim(),
+  };
+  localStorage.setItem('gh_settings', JSON.stringify(s));
+  showToast('✓ Instellingen opgeslagen');
+  closeSettings();
+}
+
+// ── SCRAPE TRIGGER ─────────────────────────────────────────────
+async function triggerScrape() {
+  const s = JSON.parse(localStorage.getItem('gh_settings') || '{}');
+  if (!s.owner || !s.repo || !s.token) {
+    openSettings();
+    showToast('Vul eerst je GitHub instellingen in');
+    return;
+  }
+
+  const btn = document.getElementById('scrape-btn');
+  btn.disabled = true;
+  btn.textContent = '⟳ Bezig…';
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${s.owner}/${s.repo}/actions/workflows/scrape.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `token ${s.token}`,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+
+    if (res.status === 204) {
+      showToast('✓ Scraper gestart! Data beschikbaar na ~1 minuut.');
+    } else {
+      const err = await res.json().catch(() => ({}));
+      showToast(`✗ Fout: ${err.message || res.status}. Controleer je token en repo naam.`);
+    }
+  } catch (e) {
+    showToast('✗ Netwerkfout. Probeer het opnieuw.');
+  }
+
+  btn.disabled = false;
+  btn.textContent = '⟳ Nieuwe huizen';
+}
+
+// ── DATA LOADING ───────────────────────────────────────────────
+async function loadHouses() {
+  try {
+    const res = await fetch(`data/houses.json?v=${Date.now()}`);
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+// ── GAME INIT ──────────────────────────────────────────────────
+async function initGame() {
+  show('loading-screen');
+
+  const data = await loadHouses();
+  if (!data || !data.houses || data.houses.length === 0) {
+    show('error-screen'); return;
+  }
+
+  houses = data.houses;
+  scores = new Array(houses.length).fill(null);
+  currentIndex = 0;
+
+  // Date badge
+  const d = new Date(data.date + 'T00:00:00');
+  document.getElementById('date-badge').textContent =
+    d.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
+
+  // Dots
+  buildDots();
+  renderHouse(0);
+  show('game-screen');
+}
+
+function buildDots() {
+  const wrap = document.getElementById('dots');
+  wrap.innerHTML = houses.map((_, i) => `<div class="dot" id="dot-${i}"></div>`).join('');
+  updateDots();
+}
+
+function updateDots() {
+  houses.forEach((_, i) => {
+    const dot = document.getElementById(`dot-${i}`);
+    if (i < currentIndex) {
+      const sc = scores[i];
+      dot.className = 'dot ' + (sc >= 80 ? 'done' : sc >= 50 ? 'close' : 'done');
+    } else if (i === currentIndex) {
+      dot.className = 'dot active';
+    } else {
+      dot.className = 'dot';
+    }
+  });
+}
+
+// ── RENDER HOUSE ───────────────────────────────────────────────
+function renderHouse(idx) {
+  guessed = false;
+  const h = houses[idx];
+
+  document.getElementById('house-img').src = h.photo;
+  document.getElementById('house-img').alt = `Huis in ${h.city}`;
+  document.getElementById('house-number').textContent = `${idx + 1} / ${houses.length}`;
+  document.getElementById('meta-city').textContent = h.city || '?';
+  document.getElementById('meta-bedrooms').textContent = h.bedrooms != null ? `${h.bedrooms}` : '?';
+  document.getElementById('meta-surface').textContent = h.surface != null ? `${h.surface} m²` : '?';
+
+  // Energy label
+  const label = (h.energy_label || '?').replace('+', '\\+');
+  const energyEl = document.getElementById('meta-energy');
+  energyEl.innerHTML = `<span class="energy-badge energy-${h.energy_label || '?'}">${h.energy_label || '?'}</span>`;
+
+  // Reset UI
+  document.getElementById('price-input').value = '';
+  document.getElementById('price-input').disabled = false;
+  document.getElementById('submit-btn').disabled = false;
+  hideFeedback();
+  document.getElementById('reveal-section').classList.remove('visible');
+
+  updateDots();
+  document.getElementById('house-card').style.animation = 'none';
+  requestAnimationFrame(() => {
+    document.getElementById('house-card').style.animation = '';
+  });
+
+  document.getElementById('price-input').focus();
+}
+
+// ── GUESS LOGIC ────────────────────────────────────────────────
+function submitGuess() {
+  if (guessed) return;
+  const input = document.getElementById('price-input');
+  const guess = parseInt(input.value, 10);
+
+  if (!guess || guess < 10000) {
+    showToast('Voer een geldig bedrag in (bijv. 350000)');
+    input.focus(); return;
+  }
+
+  guessed = true;
+  input.disabled = true;
+  document.getElementById('submit-btn').disabled = true;
+
+  const h = houses[currentIndex];
+  const diff = guess - h.price;
+  const pct = Math.abs(diff) / h.price * 100;
+
+  // Score: 100 if exact, scales down
+  const pts = Math.max(0, Math.round(100 - pct * 1.5));
+  scores[currentIndex] = pts;
+  updateRunningScore();
+
+  showFeedback(diff, pct, guess);
+  showReveal(h, pct, pts);
+}
+
+function showFeedback(diff, pct, guess) {
+  const fb = document.getElementById('feedback');
+  const fmt = v => '€\u202F' + Math.abs(v).toLocaleString('nl-NL');
+
+  if (pct < 2) {
+    fb.className = 'feedback visible feedback-exact';
+    document.getElementById('fb-icon').textContent = '🎯';
+    document.getElementById('fb-headline').textContent = 'Raak! Bijna perfect!';
+    document.getElementById('fb-detail').textContent = `Jij: ${fmt(guess)} — slechts ${pct.toFixed(1)}% verschil.`;
+  } else if (diff > 0) {
+    fb.className = 'feedback visible feedback-too-high';
+    document.getElementById('fb-icon').textContent = '📉';
+    document.getElementById('fb-headline').textContent = 'Te hoog!';
+    document.getElementById('fb-detail').textContent = `${fmt(diff)} te veel geraden (${pct.toFixed(1)}% verschil).`;
+  } else {
+    fb.className = 'feedback visible feedback-too-low';
+    document.getElementById('fb-icon').textContent = '📈';
+    document.getElementById('fb-headline').textContent = 'Te laag!';
+    document.getElementById('fb-detail').textContent = `${fmt(diff)} te weinig geraden (${pct.toFixed(1)}% verschil).`;
+  }
+}
+
+function hideFeedback() {
+  document.getElementById('feedback').className = 'feedback';
+}
+
+function showReveal(h, pct, pts) {
+  const rev = document.getElementById('reveal-section');
+  document.getElementById('true-price-display').textContent =
+    '€\u202F' + h.price.toLocaleString('nl-NL');
+
+  const pill = document.getElementById('accuracy-pill');
+  if (pct < 5) {
+    pill.className = 'accuracy-pill accuracy-great';
+    pill.textContent = `${pts} pts 🏆`;
+  } else if (pct < 20) {
+    pill.className = 'accuracy-pill accuracy-good';
+    pill.textContent = `${pts} pts 👍`;
+  } else {
+    pill.className = 'accuracy-pill accuracy-ok';
+    pill.textContent = `${pts} pts`;
+  }
+
+  if (h.url) {
+    const link = document.getElementById('funda-link');
+    link.href = h.url;
+    link.style.display = 'inline-flex';
+  } else {
+    document.getElementById('funda-link').style.display = 'none';
+  }
+
+  // Change button text on last house
+  if (currentIndex === houses.length - 1) {
+    document.getElementById('next-btn').textContent = 'Bekijk score 🏁';
+  }
+
+  rev.classList.add('visible');
+}
+
+function updateRunningScore() {
+  const total = scores.filter(s => s !== null).reduce((a, b) => a + b, 0);
+  document.getElementById('running-score').textContent = total;
+}
+
+// ── NAVIGATION ─────────────────────────────────────────────────
+function nextHouse() {
+  if (currentIndex < houses.length - 1) {
+    currentIndex++;
+    renderHouse(currentIndex);
+    updateDots();
+  } else {
+    showFinalScreen();
+  }
+}
+
+function showFinalScreen() {
+  show('final-screen');
+
+  const total = scores.reduce((a, b) => (a + (b || 0)), 0);
+  const max = houses.length * 100;
+  document.getElementById('final-score').textContent = total;
+
+  // Verdict
+  const pct = total / max * 100;
+  const verdicts = [
+    [90, 'Makelaar! Je bent een wandelende WOZ-beschikking. 🏆'],
+    [70, 'Heel goed! Je hebt duidelijk een oog voor woningen. 🎯'],
+    [50, 'Aardig! Je weet ruwweg wat huizen kosten. 🏠'],
+    [30, 'Oefening baart kunst — en kennis van de markt. 📖'],
+    [ 0, 'Hoppa, de markt is moeilijk! Probeer het morgen opnieuw. 😅'],
+  ];
+  const verdict = verdicts.find(([t]) => pct >= t)[1];
+  document.getElementById('final-verdict').textContent = verdict;
+
+  // Per-house breakdown
+  const bk = document.getElementById('score-breakdown');
+  bk.innerHTML = scores.map((s, i) => `
+    <div class="score-house">
+      <div class="sh-num">#${i+1}</div>
+      <div class="sh-pts" style="color:${(s||0)>=80?'var(--sage)':(s||0)>=50?'var(--gold)':'var(--terra)'}">${s ?? '—'}</div>
+    </div>`).join('');
+}
+
+function restartGame() {
+  show('loading-screen');
+  setTimeout(initGame, 300);
+}
+
+// ── UTILS ──────────────────────────────────────────────────────
+function show(id) {
+  ['loading-screen','error-screen','game-screen','final-screen'].forEach(s => {
+    document.getElementById(s).style.display = s === id ? (s === 'game-screen' ? 'block' : 'flex') : 'none';
+  });
+  if (id === 'game-screen') document.getElementById('game-screen').style.display = 'block';
+  if (id === 'final-screen') document.getElementById('final-screen').style.display = 'block';
+  if (id === 'loading-screen' || id === 'error-screen') {
+    document.getElementById(id).style.display = 'flex';
+  }
+}
+
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 3500);
+}
+
+// ── START ──────────────────────────────────────────────────────
+initGame();
+</script>
+</body>
+</html>
