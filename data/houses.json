@@ -1,115 +1,115 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "houses": [
     {
-      "id": "44458514",
-      "address": "Bordeslaan 157",
-      "city": "Den Bosch",
-      "price": 795000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/886/554.jpg",
+      "id": "44459446",
+      "address": "Boomgaardpad 29",
+      "city": "Ooltgensplaat",
+      "price": 568000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/927/617.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 111,
+      "url": "https://www.funda.nl/detail/koop/ooltgensplaat/huis-boomgaardpad-29/44459446/"
+    },
+    {
+      "id": "44459443",
+      "address": "Harmonie 2",
+      "city": "Klaaswaal",
+      "price": 624500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/927/458.jpg",
+      "bedrooms": 6,
+      "energy_label": "A",
+      "surface": 177,
+      "url": "https://www.funda.nl/detail/koop/klaaswaal/huis-harmonie-2/44459443/"
+    },
+    {
+      "id": "80813088",
+      "address": "Rietpluim 18",
+      "city": "Marknesse",
+      "price": 595000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/927/891.jpg",
+      "bedrooms": 4,
+      "energy_label": "A3",
+      "surface": 211,
+      "url": "https://www.funda.nl/detail/koop/marknesse/huis-rietpluim-18/80813088/"
+    },
+    {
+      "id": "44459449",
+      "address": "Voltastraat 1-A",
+      "city": "Zandvoort",
+      "price": 649000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/927/757.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/zandvoort/huis-voltastraat-1-a/44459449/"
+    },
+    {
+      "id": "44459467",
+      "address": "Julianalaan 56",
+      "city": "Etten-Leur",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/923/857.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/etten-leur/huis-julianalaan-56/44459467/"
+    },
+    {
+      "id": "43333974",
+      "address": "Ansemhoek 14",
+      "city": "Helmond",
+      "price": 1625000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/294/665.jpg",
       "bedrooms": 3,
       "energy_label": "A3",
-      "surface": 178,
-      "url": "https://www.funda.nl/detail/koop/den-bosch/appartement-bordeslaan-157/44458514/"
+      "surface": 345,
+      "url": "https://www.funda.nl/detail/koop/helmond/huis-ansemhoek-14/43333974/"
     },
     {
-      "id": "44458152",
-      "address": "Botter 11 20",
-      "city": "Lelystad",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/914/216.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-botter-11-20/44458152/"
+      "id": "44459473",
+      "address": "Grotestraat 34",
+      "city": "Huisseling",
+      "price": 975000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/924/079.jpg",
+      "bedrooms": 6,
+      "energy_label": "E",
+      "surface": 256,
+      "url": "https://www.funda.nl/detail/koop/huisseling/huis-grotestraat-34/44459473/"
     },
     {
-      "id": "80811739",
-      "address": "Boddaertstraat 52",
-      "city": "Den Haag",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/867/140.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 94,
-      "url": "https://www.funda.nl/detail/koop/den-haag/huis-boddaertstraat-52/80811739/"
-    },
-    {
-      "id": "44458391",
-      "address": "Klaas Katerstraat 102",
-      "city": "Amsterdam",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/920/733.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 81,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-klaas-katerstraat-102/44458391/"
-    },
-    {
-      "id": "44458377",
-      "address": "Rijksstraatweg 67",
-      "city": "Warnsveld",
-      "price": 1875000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/919/772.jpg",
-      "bedrooms": 7,
-      "energy_label": "B",
-      "surface": 418,
-      "url": "https://www.funda.nl/detail/koop/warnsveld/huis-rijksstraatweg-67/44458377/"
-    },
-    {
-      "id": "80812823",
-      "address": "Havezathenallee 144",
-      "city": "Zwolle",
-      "price": 479500,
-      "photo": "https://cloud.funda.nl/valentina_media/228/915/202.jpg",
+      "id": "44459424",
+      "address": "van Wassenaerlaan 46",
+      "city": "Oegstgeest",
+      "price": 750000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/926/634.jpg",
       "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 127,
-      "url": "https://www.funda.nl/detail/koop/zwolle/huis-havezathenallee-144/80812823/"
-    },
-    {
-      "id": "44458434",
-      "address": "Emmaweg 4",
-      "city": "Nieuwegein",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/883/159.jpg",
-      "bedrooms": 1,
-      "energy_label": "D",
-      "surface": 67,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-emmaweg-4/44458434/"
-    },
-    {
-      "id": "80811469",
-      "address": "Stadhouderstraat 11",
-      "city": "Heerlen",
-      "price": 170000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/855/513.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 64,
-      "url": "https://www.funda.nl/detail/koop/heerlen/huis-stadhouderstraat-11/80811469/"
-    },
-    {
-      "id": "44458106",
-      "address": "Jan van Galenstraat 170-3",
-      "city": "Amsterdam",
-      "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/911/345.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 56,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-jan-van-galenstraat-170-3/44458106/"
-    },
-    {
-      "id": "80812061",
-      "address": "Oudemansstraat 29",
-      "city": "Den Haag",
-      "price": 335000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/882/855.jpg",
-      "bedrooms": 2,
       "energy_label": "C",
-      "surface": 93,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-oudemansstraat-29/80812061/"
+      "surface": 145,
+      "url": "https://www.funda.nl/detail/koop/oegstgeest/huis-van-wassenaerlaan-46/44459424/"
+    },
+    {
+      "id": "80813087",
+      "address": "Radarweg 368",
+      "city": "Amsterdam",
+      "price": 950000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/927/844.jpg",
+      "bedrooms": 2,
+      "energy_label": "A2",
+      "surface": 101,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-radarweg-368/80813087/"
+    },
+    {
+      "id": "44459440",
+      "address": "Nieuwendamlaan 252",
+      "city": "Den Haag",
+      "price": 250000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/927/808.jpg",
+      "bedrooms": 1,
+      "energy_label": "E",
+      "surface": 55,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-nieuwendamlaan-252/44459440/"
     }
   ]
 }
