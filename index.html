@@ -524,7 +524,46 @@ const KEY_GH     = 'fr_gh';
 // ═══════════════════════════════════════════════
 let houses = [], currentIndex = 0, scores = [], guessed = false, todayDate = '';
 
+// ═══════════════════════════════════════════════
+//  SETTINGS
+// ═══════════════════════════════════════════════
+function openSettings() {
+  const s = JSON.parse(localStorage.getItem(KEY_GH) || '{}');
+  document.getElementById('gh-owner').value = s.owner || '';
+  document.getElementById('gh-repo').value  = s.repo  || '';
+  document.getElementById('gh-token').value = s.token || '';
+  document.getElementById('settings-modal').classList.add('open');
+}
+function closeSettings() { document.getElementById('settings-modal').classList.remove('open'); }
+function saveSettings() {
+  localStorage.setItem(KEY_GH, JSON.stringify({
+    owner: document.getElementById('gh-owner').value.trim(),
+    repo:  document.getElementById('gh-repo').value.trim(),
+    token: document.getElementById('gh-token').value.trim(),
+  }));
+  showToast('✓ Opgeslagen');
+  closeSettings();
+}
 
+// ═══════════════════════════════════════════════
+//  SCRAPE TRIGGER
+// ═══════════════════════════════════════════════
+async function triggerScrape() {
+  const s = JSON.parse(localStorage.getItem(KEY_GH) || '{}');
+  if (!s.owner || !s.repo || !s.token) { openSettings(); return; }
+  const btn = document.getElementById('scrape-btn');
+  btn.disabled = true; btn.textContent = '⟳ …';
+  try {
+    const r = await fetch(
+      `https://api.github.com/repos/${s.owner}/${s.repo}/actions/workflows/scrape.yml/dispatches`,
+      { method:'POST',
+        headers:{ Authorization:`token ${s.token}`, Accept:'application/vnd.github.v3+json', 'Content-Type':'application/json' },
+        body: JSON.stringify({ ref:'main' }) }
+    );
+    showToast(r.status === 204 ? '✓ Scraper gestart!\nData klaar na ~1 minuut.' : `✗ Fout ${r.status}`);
+  } catch { showToast('✗ Netwerkfout'); }
+  btn.disabled = false; btn.textContent = '⟳ Scrape';
+}
 
 // ═══════════════════════════════════════════════
 //  STREAK
@@ -564,7 +603,11 @@ async function initGame() {
   if (!data || !data.houses?.length) { showScreen('error-screen'); return; }
 
   houses    = data.houses;
-  todayDate = data.date;
+  // Lock resets at midnight NL time, regardless of when the scrape ran
+  todayDate = new Date().toLocaleDateString('nl-NL', {
+    timeZone: 'Europe/Amsterdam',
+    year: 'numeric', month: '2-digit', day: '2-digit'
+  }).split('-').reverse().join('-'); // → YYYY-MM-DD
 
   // Header pills
   const d = new Date(todayDate + 'T12:00:00');
