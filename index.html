@@ -353,6 +353,41 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 /* ── SHARE CANVAS (hidden) ── */
 #share-canvas { display: none; }
 
+/* ── LOGIN BUTTON ── */
+.btn-login {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.28rem 0.65rem; border-radius: 99px;
+  font-size: 0.74rem; font-weight: 600;
+  border: 1.5px solid var(--border);
+  background: var(--card); cursor: pointer;
+  white-space: nowrap; transition: all 0.18s;
+  font-family: 'DM Sans', sans-serif; color: var(--ink);
+}
+.btn-login:hover { border-color: var(--purple); color: var(--purple); }
+.btn-login.logged-in { background: var(--purple); color: #fff; border-color: var(--purple); }
+
+/* ── ADMIN PANEL ── */
+.admin-bar {
+  display: none;
+  background: rgba(196,98,45,0.07);
+  border-bottom: 1px solid rgba(196,98,45,0.18);
+  padding: 0.45rem 1.5rem;
+  align-items: center; gap: 0.75rem;
+  font-size: 0.75rem; color: var(--purple-d);
+}
+.admin-bar.visible { display: flex; }
+.admin-bar strong { font-weight: 700; }
+.btn-admin {
+  margin-left: auto;
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.28rem 0.7rem; border-radius: 99px;
+  font-size: 0.73rem; font-weight: 700;
+  background: var(--purple); color: #fff; border: none;
+  cursor: pointer; font-family: 'DM Sans', sans-serif;
+  transition: background 0.18s;
+}
+.btn-admin:hover { background: var(--purple-d); }
+
 /* ── TOAST ── */
 #toast {
   position: fixed; bottom: 1.75rem; left: 50%;
@@ -377,6 +412,22 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
 </head>
 <body>
 
+<!-- LOGIN MODAL -->
+<div class="modal-bg" id="login-modal">
+  <div class="modal-card">
+    <button class="close-x" onclick="closeLogin()">✕</button>
+    <h2>Inloggen</h2>
+    <p>Log in om extra opties te gebruiken.</p>
+    <div class="field"><label>Gebruikersnaam</label><input type="text" id="login-user" placeholder="gebruikersnaam" autocomplete="username"></div>
+    <div class="field"><label>Wachtwoord</label><input type="password" id="login-pass" placeholder="••••••••" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()"></div>
+    <div id="login-error" style="font-size:0.78rem;color:#E74C3C;margin-top:-0.3rem;display:none;">Onjuiste inloggegevens.</div>
+    <div class="modal-actions">
+      <button class="btn btn-primary" onclick="doLogin()">Inloggen</button>
+      <button class="btn btn-ghost"   onclick="closeLogin()">Annuleren</button>
+    </div>
+  </div>
+</div>
+
 <!-- SETTINGS MODAL -->
 <div class="modal-bg" id="settings-modal">
   <div class="modal-card">
@@ -400,7 +451,15 @@ main { max-width: 660px; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
     <span class="pill pill-streak" id="streak-pill">🔥 —</span>
     <span class="pill pill-date"   id="date-pill">—</span>
   </div>
+  <button class="btn-login" id="login-btn" onclick="openLogin()">👤 Inloggen</button>
 </header>
+
+<!-- ADMIN BAR -->
+<div class="admin-bar" id="admin-bar">
+  <span>🔐 Ingelogd als <strong id="admin-username"></strong></span>
+  <button class="btn-admin" onclick="ophefBlokkade()">🔓 Blokkade opheffen</button>
+  <button class="btn-ghost btn-sm" style="border-radius:99px;font-size:0.72rem;padding:0.22rem 0.6rem" onclick="doLogout()">Uitloggen</button>
+</div>
 
 <!-- CACHE WARNING -->
 <div class="cache-warning">
@@ -532,6 +591,89 @@ const KEY_GH     = 'fr_gh';
 //  STATE
 // ═══════════════════════════════════════════════
 let houses = [], currentIndex = 0, scores = [], guessed = false, todayDate = '';
+
+// ═══════════════════════════════════════════════
+//  AUTH
+// ═══════════════════════════════════════════════
+const ADMIN_USER = 'Mathijsbacker';
+const ADMIN_PASS = 'Toby3054!';
+const KEY_AUTH   = 'fr_auth';
+
+let loggedInUser = null;
+
+function initAuth() {
+  const stored = sessionStorage.getItem(KEY_AUTH);
+  if (stored === ADMIN_USER) {
+    loggedInUser = ADMIN_USER;
+    applyAuthUI();
+  }
+}
+
+function openLogin() {
+  document.getElementById('login-user').value = '';
+  document.getElementById('login-pass').value = '';
+  document.getElementById('login-error').style.display = 'none';
+  document.getElementById('login-modal').classList.add('open');
+  setTimeout(() => document.getElementById('login-user').focus(), 80);
+}
+function closeLogin() { document.getElementById('login-modal').classList.remove('open'); }
+
+function doLogin() {
+  const u = document.getElementById('login-user').value.trim();
+  const p = document.getElementById('login-pass').value;
+  if (u === ADMIN_USER && p === ADMIN_PASS) {
+    loggedInUser = ADMIN_USER;
+    sessionStorage.setItem(KEY_AUTH, ADMIN_USER);
+    closeLogin();
+    applyAuthUI();
+    showToast('✓ Welkom, ' + ADMIN_USER + '!');
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+  }
+}
+
+function doLogout() {
+  loggedInUser = null;
+  sessionStorage.removeItem(KEY_AUTH);
+  applyAuthUI();
+  showToast('Uitgelogd.');
+}
+
+function applyAuthUI() {
+  const btn   = document.getElementById('login-btn');
+  const bar   = document.getElementById('admin-bar');
+  const uname = document.getElementById('admin-username');
+  if (loggedInUser) {
+    btn.textContent = '👤 ' + loggedInUser;
+    btn.classList.add('logged-in');
+    btn.onclick = doLogout;
+    bar.classList.add('visible');
+    uname.textContent = loggedInUser;
+  } else {
+    btn.textContent = '👤 Inloggen';
+    btn.classList.remove('logged-in');
+    btn.onclick = openLogin;
+    bar.classList.remove('visible');
+  }
+}
+
+function ophefBlokkade() {
+  if (loggedInUser !== ADMIN_USER) return;
+  const save = JSON.parse(localStorage.getItem(KEY_SAVE) || 'null');
+  if (!save || save.date !== todayDate) {
+    showToast('ℹ️ Geen actieve blokkade voor vandaag.');
+    return;
+  }
+  // Reset done flag + scores, keep streak intact
+  const freshSave = { date: todayDate, scores: new Array(houses.length).fill(null), currentIndex: 0, done: false };
+  localStorage.setItem(KEY_SAVE, JSON.stringify(freshSave));
+  scores = freshSave.scores;
+  currentIndex = 0;
+  showToast('🔓 Blokkade opgeheven. Score wordt opnieuw opgebouwd.');
+  // Restart game view
+  showScreen('loading-screen');
+  setTimeout(initGame, 300);
+}
 
 // ═══════════════════════════════════════════════
 //  SETTINGS
@@ -916,6 +1058,7 @@ function showToast(msg) {
 }
 
 // ── START ──
+initAuth();
 initGame();
 </script>
 </body>
