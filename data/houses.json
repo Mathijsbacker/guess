@@ -1,115 +1,115 @@
 {
-  "date": "2026-05-16",
+  "date": "2026-05-17",
   "houses": [
     {
-      "id": "44459446",
-      "address": "Boomgaardpad 29",
-      "city": "Ooltgensplaat",
-      "price": 568000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/927/617.jpg",
+      "id": "44458115",
+      "address": "Staringplein 5-H",
+      "city": "Amsterdam",
+      "price": 875000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/911/908.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 92,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-staringplein-5-h/44458115/"
+    },
+    {
+      "id": "44458484",
+      "address": "Klokjeslaan 82",
+      "city": "Maarssen",
+      "price": 549500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/880/936.jpg",
+      "bedrooms": 5,
+      "energy_label": "D",
+      "surface": 117,
+      "url": "https://www.funda.nl/detail/koop/maarssen/huis-klokjeslaan-82/44458484/"
+    },
+    {
+      "id": "80811502",
+      "address": "Delacroixstraat 23",
+      "city": "Almere",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/857/368.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 132,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-delacroixstraat-23/80811502/"
+    },
+    {
+      "id": "44458179",
+      "address": "Narcisstraat 11",
+      "city": "Utrecht",
+      "price": 350000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/910/430.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 42,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-narcisstraat-11/44458179/"
+    },
+    {
+      "id": "44459504",
+      "address": "Mackenziestraat 19",
+      "city": "Geldrop",
+      "price": 499000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/929/635.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 152,
+      "url": "https://www.funda.nl/detail/koop/geldrop/huis-mackenziestraat-19/44459504/"
+    },
+    {
+      "id": "44455941",
+      "address": "H.W. Mesdagplein 18",
+      "city": "Groningen",
+      "price": 900000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/784/109.jpg",
+      "bedrooms": 6,
+      "energy_label": "C",
+      "surface": 209,
+      "url": "https://www.funda.nl/detail/koop/groningen/huis-hw-mesdagplein-18/44455941/"
+    },
+    {
+      "id": "80813065",
+      "address": "Melkweg 55",
+      "city": "Oude-Tonge",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/926/874.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 106,
+      "url": "https://www.funda.nl/detail/koop/oude-tonge/huis-melkweg-55/80813065/"
+    },
+    {
+      "id": "80813202",
+      "address": "Maria Snelplantsoen 64",
+      "city": "Amsterdam",
+      "price": 485000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/931/916.jpg",
       "bedrooms": 4,
       "energy_label": "B",
-      "surface": 111,
-      "url": "https://www.funda.nl/detail/koop/ooltgensplaat/huis-boomgaardpad-29/44459446/"
+      "surface": 100,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-maria-snelplantsoen-64/80813202/"
     },
     {
-      "id": "44459443",
-      "address": "Harmonie 2",
-      "city": "Klaaswaal",
-      "price": 624500,
-      "photo": "https://cloud.funda.nl/valentina_media/228/927/458.jpg",
-      "bedrooms": 6,
-      "energy_label": "A",
-      "surface": 177,
-      "url": "https://www.funda.nl/detail/koop/klaaswaal/huis-harmonie-2/44459443/"
-    },
-    {
-      "id": "80813088",
-      "address": "Rietpluim 18",
-      "city": "Marknesse",
-      "price": 595000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/927/891.jpg",
-      "bedrooms": 4,
-      "energy_label": "A3",
-      "surface": 211,
-      "url": "https://www.funda.nl/detail/koop/marknesse/huis-rietpluim-18/80813088/"
-    },
-    {
-      "id": "44459449",
-      "address": "Voltastraat 1-A",
-      "city": "Zandvoort",
-      "price": 649000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/927/757.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 103,
-      "url": "https://www.funda.nl/detail/koop/zandvoort/huis-voltastraat-1-a/44459449/"
-    },
-    {
-      "id": "44459467",
-      "address": "Julianalaan 56",
-      "city": "Etten-Leur",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/923/857.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 86,
-      "url": "https://www.funda.nl/detail/koop/etten-leur/huis-julianalaan-56/44459467/"
-    },
-    {
-      "id": "43333974",
-      "address": "Ansemhoek 14",
-      "city": "Helmond",
-      "price": 1625000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/294/665.jpg",
-      "bedrooms": 3,
-      "energy_label": "A3",
-      "surface": 345,
-      "url": "https://www.funda.nl/detail/koop/helmond/huis-ansemhoek-14/43333974/"
-    },
-    {
-      "id": "44459473",
-      "address": "Grotestraat 34",
-      "city": "Huisseling",
-      "price": 975000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/924/079.jpg",
-      "bedrooms": 6,
-      "energy_label": "E",
-      "surface": 256,
-      "url": "https://www.funda.nl/detail/koop/huisseling/huis-grotestraat-34/44459473/"
-    },
-    {
-      "id": "44459424",
-      "address": "van Wassenaerlaan 46",
-      "city": "Oegstgeest",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/926/634.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 145,
-      "url": "https://www.funda.nl/detail/koop/oegstgeest/huis-van-wassenaerlaan-46/44459424/"
-    },
-    {
-      "id": "80813087",
-      "address": "Radarweg 368",
+      "id": "44458380",
+      "address": "Overtoom 188-3",
       "city": "Amsterdam",
-      "price": 950000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/927/844.jpg",
-      "bedrooms": 2,
-      "energy_label": "A2",
-      "surface": 101,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-radarweg-368/80813087/"
+      "price": 1275000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/920/171.jpg",
+      "bedrooms": 5,
+      "energy_label": "B",
+      "surface": 154,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-overtoom-188-3/44458380/"
     },
     {
-      "id": "44459440",
-      "address": "Nieuwendamlaan 252",
-      "city": "Den Haag",
-      "price": 250000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/927/808.jpg",
-      "bedrooms": 1,
-      "energy_label": "E",
-      "surface": 55,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-nieuwendamlaan-252/44459440/"
+      "id": "80813173",
+      "address": "Grondzeilerstraat 32",
+      "city": "Oude-Tonge",
+      "price": 465000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/930/820.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/oude-tonge/huis-grondzeilerstraat-32/80813173/"
     }
   ]
 }
