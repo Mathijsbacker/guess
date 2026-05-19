@@ -1,115 +1,115 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-19",
   "houses": [
     {
-      "id": "44458115",
-      "address": "Staringplein 5-H",
-      "city": "Amsterdam",
-      "price": 875000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/911/908.jpg",
+      "id": "44450642",
+      "address": "Riddershof - Maisonnettes 5 (Bouwnr. 5)",
+      "city": "Tilburg",
+      "price": 429500,
+      "photo": "https://cloud.funda.nl/valentina_media/228/977/491.jpg",
       "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 92,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-staringplein-5-h/44458115/"
+      "energy_label": "A3",
+      "surface": 112,
+      "url": "https://www.funda.nl/detail/koop/tilburg/appartement-riddershof-maisonnettes-5-bouwnr-5/44450642/"
     },
     {
-      "id": "44458484",
-      "address": "Klokjeslaan 82",
-      "city": "Maarssen",
-      "price": 549500,
-      "photo": "https://cloud.funda.nl/valentina_media/228/880/936.jpg",
-      "bedrooms": 5,
-      "energy_label": "D",
+      "id": "44450920",
+      "address": "Punter 24 21",
+      "city": "Lelystad",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/990/341.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
       "surface": 117,
-      "url": "https://www.funda.nl/detail/koop/maarssen/huis-klokjeslaan-82/44458484/"
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-punter-24-21/44450920/"
     },
     {
-      "id": "80811502",
-      "address": "Delacroixstraat 23",
-      "city": "Almere",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/857/368.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 132,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-delacroixstraat-23/80811502/"
-    },
-    {
-      "id": "44458179",
-      "address": "Narcisstraat 11",
-      "city": "Utrecht",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/910/430.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 42,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-narcisstraat-11/44458179/"
-    },
-    {
-      "id": "44459504",
-      "address": "Mackenziestraat 19",
-      "city": "Geldrop",
-      "price": 499000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/929/635.jpg",
-      "bedrooms": 4,
-      "energy_label": "D",
-      "surface": 152,
-      "url": "https://www.funda.nl/detail/koop/geldrop/huis-mackenziestraat-19/44459504/"
-    },
-    {
-      "id": "44455941",
-      "address": "H.W. Mesdagplein 18",
-      "city": "Groningen",
-      "price": 900000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/784/109.jpg",
-      "bedrooms": 6,
-      "energy_label": "C",
-      "surface": 209,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-hw-mesdagplein-18/44455941/"
-    },
-    {
-      "id": "80813065",
-      "address": "Melkweg 55",
-      "city": "Oude-Tonge",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/926/874.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 106,
-      "url": "https://www.funda.nl/detail/koop/oude-tonge/huis-melkweg-55/80813065/"
-    },
-    {
-      "id": "80813202",
-      "address": "Maria Snelplantsoen 64",
-      "city": "Amsterdam",
-      "price": 485000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/931/916.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-maria-snelplantsoen-64/80813202/"
-    },
-    {
-      "id": "44458380",
-      "address": "Overtoom 188-3",
-      "city": "Amsterdam",
-      "price": 1275000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/920/171.jpg",
-      "bedrooms": 5,
-      "energy_label": "B",
-      "surface": 154,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-overtoom-188-3/44458380/"
-    },
-    {
-      "id": "80813173",
-      "address": "Grondzeilerstraat 32",
-      "city": "Oude-Tonge",
-      "price": 465000,
-      "photo": "https://cloud.funda.nl/valentina_media/228/930/820.jpg",
+      "id": "44450592",
+      "address": "Paletsingel 157",
+      "city": "Zoetermeer",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/970/386.jpg",
       "bedrooms": 3,
       "energy_label": "A",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/oude-tonge/huis-grondzeilerstraat-32/80813173/"
+      "surface": 99,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-paletsingel-157/44450592/"
+    },
+    {
+      "id": "80814879",
+      "address": "Crynssenstraat 66-1",
+      "city": "Amsterdam",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/004/094.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 51,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-crynssenstraat-66-1/80814879/"
+    },
+    {
+      "id": "44450422",
+      "address": "Sint Hubertse Binnenweg 35",
+      "city": "Sint Hubert",
+      "price": 495000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/967/847.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 151,
+      "url": "https://www.funda.nl/detail/koop/sint-hubert/huis-sint-hubertse-binnenweg-35/44450422/"
+    },
+    {
+      "id": "44450938",
+      "address": "Fultsemaheerd 95",
+      "city": "Groningen",
+      "price": 385000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/990/627.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 151,
+      "url": "https://www.funda.nl/detail/koop/groningen/huis-fultsemaheerd-95/44450938/"
+    },
+    {
+      "id": "44459239",
+      "address": "De Larix 4",
+      "city": "Groningen",
+      "price": 379000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/959/492.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 92,
+      "url": "https://www.funda.nl/detail/koop/groningen/huis-de-larix-4/44459239/"
+    },
+    {
+      "id": "80814796",
+      "address": "Hoofdweg 335-H",
+      "city": "Amsterdam",
+      "price": 495000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/000/405.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 58,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-hoofdweg-335-h/80814796/"
+    },
+    {
+      "id": "44459693",
+      "address": "Kneppelhoutstraat 20",
+      "city": "Utrecht",
+      "price": 499000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/933/286.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 64,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-kneppelhoutstraat-20/44459693/"
+    },
+    {
+      "id": "80813336",
+      "address": "Karel Doormanlaan 103",
+      "city": "Utrecht",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/228/938/515.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 73,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-karel-doormanlaan-103/80813336/"
     }
   ]
 }
