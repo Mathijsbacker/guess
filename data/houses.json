@@ -1,115 +1,115 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "houses": [
     {
-      "id": "44452663",
-      "address": "Land in Zicht 37",
-      "city": "Almere",
-      "price": 1175000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/061/714.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 177,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-land-in-zicht-37/44452663/"
-    },
-    {
-      "id": "44451568",
-      "address": "Olmstraat 83",
-      "city": "Breda",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/015/864.jpg",
-      "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/breda/huis-olmstraat-83/44451568/"
-    },
-    {
-      "id": "44452951",
-      "address": "Dijkstraat 25",
-      "city": "Wijk bij Duurstede",
-      "price": 1100000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/074/322.jpg",
-      "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 225,
-      "url": "https://www.funda.nl/detail/koop/wijk-bij-duurstede/huis-dijkstraat-25/44452951/"
-    },
-    {
-      "id": "44451180",
-      "address": "Franz Lehársingel 61",
-      "city": "Utrecht",
-      "price": 1075000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/042/298.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 203,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-franz-leharsingel-61/44451180/"
-    },
-    {
-      "id": "44452476",
-      "address": "Ds. Nahuyslaan 26",
-      "city": "Zeist",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/054/396.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 99,
-      "url": "https://www.funda.nl/detail/koop/zeist/huis-ds-nahuyslaan-26/44452476/"
-    },
-    {
-      "id": "44452754",
-      "address": "Paradijsvogelstraat 41",
-      "city": "Groningen",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/067/360.jpg",
+      "id": "44452223",
+      "address": "Streefkerkstraat 70",
+      "city": "Zoetermeer",
+      "price": 599000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/084/310.jpg",
       "bedrooms": 5,
       "energy_label": "A1",
-      "surface": 171,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-paradijsvogelstraat-41/44452754/"
+      "surface": 148,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-streefkerkstraat-70/44452223/"
     },
     {
-      "id": "44451137",
-      "address": "Staalstraat 43",
-      "city": "Rotterdam",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/044/354.jpg",
+      "id": "44452207",
+      "address": "Vlasven 52",
+      "city": "Veghel",
+      "price": 399000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/083/557.jpg",
       "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 67,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-staalstraat-43/44451137/"
+      "energy_label": "A",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/veghel/huis-vlasven-52/44452207/"
     },
     {
-      "id": "44451194",
-      "address": "Zonnehout 47",
-      "city": "Houten",
+      "id": "44453143",
+      "address": "Mariniersweg 199",
+      "city": "Rotterdam",
       "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/042/419.jpg",
+      "photo": "https://cloud.funda.nl/valentina_media/229/122/255.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 60,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-mariniersweg-199/44453143/"
+    },
+    {
+      "id": "44451265",
+      "address": "Beukweg 92-H",
+      "city": "Hengelo (OV)",
+      "price": 319000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/045/774.jpg",
       "bedrooms": 1,
       "energy_label": "A",
-      "surface": 54,
-      "url": "https://www.funda.nl/detail/koop/houten/appartement-zonnehout-47/44451194/"
+      "surface": 74,
+      "url": "https://www.funda.nl/detail/koop/hengelo-ov/appartement-beukweg-92-h/44451265/"
     },
     {
-      "id": "44451397",
-      "address": "Westdijk 31",
-      "city": "Sommelsdijk",
-      "price": 250000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/051/278.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 49,
-      "url": "https://www.funda.nl/detail/koop/sommelsdijk/huis-westdijk-31/44451397/"
-    },
-    {
-      "id": "44452189",
-      "address": "Roeterskamp 33",
-      "city": "Scherpenzeel (GE)",
-      "price": 479000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/079/106.jpg",
+      "id": "44453776",
+      "address": "Duiveland 52",
+      "city": "Haarlem",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/102/454.jpg",
       "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 133,
+      "url": "https://www.funda.nl/detail/koop/haarlem/huis-duiveland-52/44453776/"
+    },
+    {
+      "id": "80814911",
+      "address": "Kuipersdijk 10-1",
+      "city": "Enschede",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/006/757.jpg",
+      "bedrooms": 3,
+      "energy_label": "A3",
+      "surface": 111,
+      "url": "https://www.funda.nl/detail/koop/enschede/appartement-kuipersdijk-10-1/80814911/"
+    },
+    {
+      "id": "44453248",
+      "address": "Anninksweg 69",
+      "city": "Hengelo (OV)",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/126/366.jpg",
+      "bedrooms": 4,
+      "energy_label": "E",
+      "surface": 109,
+      "url": "https://www.funda.nl/detail/koop/hengelo-ov/huis-anninksweg-69/44453248/"
+    },
+    {
+      "id": "44452061",
+      "address": "Benonistraat 32",
+      "city": "Zuidoostbeemster",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/074/751.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 131,
+      "url": "https://www.funda.nl/detail/koop/zuidoostbeemster/huis-benonistraat-32/44452061/"
+    },
+    {
+      "id": "80816922",
+      "address": "van Woudeweg 38",
+      "city": "Woubrugge",
+      "price": 535000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/087/009.jpg",
+      "bedrooms": 5,
       "energy_label": "C",
-      "surface": 119,
-      "url": "https://www.funda.nl/detail/koop/scherpenzeel-ge/huis-roeterskamp-33/44452189/"
+      "surface": 123,
+      "url": "https://www.funda.nl/detail/koop/woubrugge/huis-van-woudeweg-38/80816922/"
+    },
+    {
+      "id": "80818631",
+      "address": "Piekenier 1",
+      "city": "Lierop",
+      "price": 785000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/157/109.jpg",
+      "bedrooms": 5,
+      "energy_label": "A2",
+      "surface": 181,
+      "url": "https://www.funda.nl/detail/koop/lierop/huis-piekenier-1/80818631/"
     }
   ]
 }
