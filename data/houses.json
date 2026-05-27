@@ -1,115 +1,115 @@
 {
-  "date": "2026-05-26",
+  "date": "2026-05-27",
   "houses": [
     {
-      "id": "44460516",
-      "address": "Weissenbruchstraat 13",
-      "city": "Haarlem",
-      "price": 1150000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/371/118.jpg",
-      "bedrooms": 5,
-      "energy_label": "A2",
-      "surface": 157,
-      "url": "https://www.funda.nl/detail/koop/haarlem/huis-weissenbruchstraat-13/44460516/"
-    },
-    {
-      "id": "44460602",
-      "address": "Barbusselaan 302",
-      "city": "Amsterdam",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/374/944.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 86,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-barbusselaan-302/44460602/"
-    },
-    {
-      "id": "44460558",
-      "address": "Prins Hendrikkade 54-203",
-      "city": "Sneek",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/372/732.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/sneek/appartement-prins-hendrikkade-54-203/44460558/"
-    },
-    {
-      "id": "44460553",
-      "address": "Prins Hendrikkade 54-101",
-      "city": "Sneek",
-      "price": 269500,
-      "photo": "https://cloud.funda.nl/valentina_media/229/372/648.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 54,
-      "url": "https://www.funda.nl/detail/koop/sneek/appartement-prins-hendrikkade-54-101/44460553/"
-    },
-    {
-      "id": "44467919",
-      "address": "Rendierweide 9",
-      "city": "Nieuwegein",
-      "price": 399000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/259/456.jpg",
+      "id": "44461469",
+      "address": "Tuindreef 99",
+      "city": "Zoetermeer",
+      "price": 478000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/405/697.jpg",
       "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 89,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-rendierweide-9/44467919/"
+      "energy_label": "C",
+      "surface": 109,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-tuindreef-99/44461469/"
     },
     {
-      "id": "44460551",
-      "address": "Prins Hendrikkade 54-201",
-      "city": "Sneek",
-      "price": 307500,
-      "photo": "https://cloud.funda.nl/valentina_media/229/372/694.jpg",
+      "id": "44461520",
+      "address": "Lavendel 413",
+      "city": "Cuijk",
+      "price": 485000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/410/960.jpg",
       "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 70,
-      "url": "https://www.funda.nl/detail/koop/sneek/appartement-prins-hendrikkade-54-201/44460551/"
-    },
-    {
-      "id": "44460530",
-      "address": "De Liefde 14",
-      "city": "Amsterdam",
-      "price": 995000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/372/045.jpg",
-      "bedrooms": 4,
       "energy_label": "B",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-de-liefde-14/44460530/"
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/cuijk/appartement-lavendel-413/44461520/"
     },
     {
-      "id": "44469682",
-      "address": "Amstel 163-4",
-      "city": "Amsterdam",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/325/778.jpg",
+      "id": "44461964",
+      "address": "Bergweg 216",
+      "city": "Zeist",
+      "price": 785000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/425/311.jpg",
+      "bedrooms": 5,
+      "energy_label": "E",
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/zeist/huis-bergweg-216/44461964/"
+    },
+    {
+      "id": "44461327",
+      "address": "Strengen 82",
+      "city": "Oudewater",
+      "price": 435000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/443/774.jpg",
       "bedrooms": 2,
       "energy_label": "?",
-      "surface": 94,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-amstel-163-4/44469682/"
+      "surface": 74,
+      "url": "https://www.funda.nl/detail/koop/oudewater/appartement-strengen-82/44461327/"
     },
     {
-      "id": "44460556",
-      "address": "Prins Hendrikkade 54-202",
-      "city": "Sneek",
-      "price": 310000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/372/888.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 63,
-      "url": "https://www.funda.nl/detail/koop/sneek/appartement-prins-hendrikkade-54-202/44460556/"
-    },
-    {
-      "id": "44460663",
-      "address": "De Wetterwille 200",
-      "city": "Drachten",
-      "price": 399000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/372/967.jpg",
+      "id": "44461502",
+      "address": "Anemoonweg 38",
+      "city": "Paterswolde",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/410/333.jpg",
       "bedrooms": 5,
-      "energy_label": "B",
-      "surface": 131,
-      "url": "https://www.funda.nl/detail/koop/drachten/huis-de-wetterwille-200/44460663/"
+      "energy_label": "A1",
+      "surface": 132,
+      "url": "https://www.funda.nl/detail/koop/paterswolde/huis-anemoonweg-38/44461502/"
+    },
+    {
+      "id": "44461960",
+      "address": "Cornelis Ketelstraat 79",
+      "city": "Gouda",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/425/662.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/gouda/huis-cornelis-ketelstraat-79/44461960/"
+    },
+    {
+      "id": "44460899",
+      "address": "Sommelsdijkse Haven 10",
+      "city": "Sommelsdijk",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/383/114.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 123,
+      "url": "https://www.funda.nl/detail/koop/sommelsdijk/huis-sommelsdijkse-haven-10/44460899/"
+    },
+    {
+      "id": "44460708",
+      "address": "Rijnseguldenhof 5",
+      "city": "Utrecht",
+      "price": 689000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/379/448.jpg",
+      "bedrooms": 3,
+      "energy_label": "A3",
+      "surface": 116,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-rijnseguldenhof-5/44460708/"
+    },
+    {
+      "id": "44461738",
+      "address": "de Timmerijgang 8",
+      "city": "Driebergen-Rijsenburg",
+      "price": 699000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/420/041.jpg",
+      "bedrooms": 4,
+      "energy_label": "A2",
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/driebergen-rijsenburg/appartement-de-timmerijgang-8/44461738/"
+    },
+    {
+      "id": "44461976",
+      "address": "Raadhuislaan 14",
+      "city": "Berkel en Rodenrijs",
+      "price": 750000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/425/649.jpg",
+      "bedrooms": 5,
+      "energy_label": "A1",
+      "surface": 150,
+      "url": "https://www.funda.nl/detail/koop/berkel-en-rodenrijs/huis-raadhuislaan-14/44461976/"
     }
   ]
 }
