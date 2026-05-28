@@ -1,115 +1,49 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "houses": [
     {
-      "id": "44461469",
-      "address": "Tuindreef 99",
-      "city": "Zoetermeer",
-      "price": 478000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/405/697.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 109,
-      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-tuindreef-99/44461469/"
-    },
-    {
-      "id": "44461520",
-      "address": "Lavendel 413",
-      "city": "Cuijk",
-      "price": 485000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/410/960.jpg",
+      "id": "44463481",
+      "address": "Langestraat 30",
+      "city": "Tilburg",
+      "price": 320000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/483/341.jpg",
       "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 105,
-      "url": "https://www.funda.nl/detail/koop/cuijk/appartement-lavendel-413/44461520/"
-    },
-    {
-      "id": "44461964",
-      "address": "Bergweg 216",
-      "city": "Zeist",
-      "price": 785000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/425/311.jpg",
-      "bedrooms": 5,
       "energy_label": "E",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/zeist/huis-bergweg-216/44461964/"
+      "surface": 60,
+      "url": "https://www.funda.nl/detail/koop/tilburg/huis-langestraat-30/44463481/"
     },
     {
-      "id": "44461327",
-      "address": "Strengen 82",
-      "city": "Oudewater",
-      "price": 435000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/443/774.jpg",
-      "bedrooms": 2,
-      "energy_label": "?",
-      "surface": 74,
-      "url": "https://www.funda.nl/detail/koop/oudewater/appartement-strengen-82/44461327/"
-    },
-    {
-      "id": "44461502",
-      "address": "Anemoonweg 38",
-      "city": "Paterswolde",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/410/333.jpg",
-      "bedrooms": 5,
-      "energy_label": "A1",
-      "surface": 132,
-      "url": "https://www.funda.nl/detail/koop/paterswolde/huis-anemoonweg-38/44461502/"
-    },
-    {
-      "id": "44461960",
-      "address": "Cornelis Ketelstraat 79",
-      "city": "Gouda",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/425/662.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/gouda/huis-cornelis-ketelstraat-79/44461960/"
-    },
-    {
-      "id": "44460899",
-      "address": "Sommelsdijkse Haven 10",
-      "city": "Sommelsdijk",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/383/114.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 123,
-      "url": "https://www.funda.nl/detail/koop/sommelsdijk/huis-sommelsdijkse-haven-10/44460899/"
-    },
-    {
-      "id": "44460708",
-      "address": "Rijnseguldenhof 5",
-      "city": "Utrecht",
-      "price": 689000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/379/448.jpg",
+      "id": "44461769",
+      "address": "Wijnesteijnstraat 17-1",
+      "city": "Nieuwegein",
+      "price": 545000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/417/243.jpg",
       "bedrooms": 3,
       "energy_label": "A3",
-      "surface": 116,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-rijnseguldenhof-5/44460708/"
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-wijnesteijnstraat-17-1/44461769/"
     },
     {
-      "id": "44461738",
-      "address": "de Timmerijgang 8",
-      "city": "Driebergen-Rijsenburg",
-      "price": 699000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/420/041.jpg",
+      "id": "44463651",
+      "address": "Pauwoogweide 1",
+      "city": "Nieuwegein",
+      "price": 540000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/494/793.jpg",
       "bedrooms": 4,
-      "energy_label": "A2",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/driebergen-rijsenburg/appartement-de-timmerijgang-8/44461738/"
+      "energy_label": "A",
+      "surface": 167,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-pauwoogweide-1/44463651/"
     },
     {
-      "id": "44461976",
-      "address": "Raadhuislaan 14",
-      "city": "Berkel en Rodenrijs",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/425/649.jpg",
+      "id": "44463452",
+      "address": "Homberg 2426",
+      "city": "Wijchen",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/486/508.jpg",
       "bedrooms": 5,
-      "energy_label": "A1",
-      "surface": 150,
-      "url": "https://www.funda.nl/detail/koop/berkel-en-rodenrijs/huis-raadhuislaan-14/44461976/"
+      "energy_label": "B",
+      "surface": 129,
+      "url": "https://www.funda.nl/detail/koop/wijchen/huis-homberg-2426/44463452/"
     }
   ]
 }
