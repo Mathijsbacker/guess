@@ -1,49 +1,115 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "houses": [
     {
-      "id": "44463481",
-      "address": "Langestraat 30",
-      "city": "Tilburg",
-      "price": 320000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/483/341.jpg",
-      "bedrooms": 2,
-      "energy_label": "E",
-      "surface": 60,
-      "url": "https://www.funda.nl/detail/koop/tilburg/huis-langestraat-30/44463481/"
+      "id": "44463673",
+      "address": "Kloosterdrift 56",
+      "city": "Nieuwegein",
+      "price": 360000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/490/697.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 109,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-kloosterdrift-56/44463673/"
     },
     {
-      "id": "44461769",
-      "address": "Wijnesteijnstraat 17-1",
-      "city": "Nieuwegein",
-      "price": 545000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/417/243.jpg",
+      "id": "44464272",
+      "address": "Waterdorp 42",
+      "city": "Beuningen (GE)",
+      "price": 649000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/553/655.jpg",
       "bedrooms": 3,
-      "energy_label": "A3",
-      "surface": 105,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-wijnesteijnstraat-17-1/44461769/"
+      "energy_label": "A",
+      "surface": 131,
+      "url": "https://www.funda.nl/detail/koop/beuningen-ge/appartement-waterdorp-42/44464272/"
     },
     {
-      "id": "44463651",
-      "address": "Pauwoogweide 1",
+      "id": "80828433",
+      "address": "Kooizandweg 6-444",
+      "city": "Enkhuizen",
+      "price": 140000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/539/182.jpg",
+      "bedrooms": 2,
+      "energy_label": "?",
+      "surface": 45,
+      "url": "https://www.funda.nl/detail/koop/enkhuizen/huis-kooizandweg-6-444/80828433/"
+    },
+    {
+      "id": "44475372",
+      "address": "Krijgerstraat 6",
+      "city": "Vriezenveen",
+      "price": 250000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/600/742.jpg",
+      "bedrooms": 1,
+      "energy_label": "D",
+      "surface": 66,
+      "url": "https://www.funda.nl/detail/koop/vriezenveen/huis-krijgerstraat-6/44475372/"
+    },
+    {
+      "id": "44464646",
+      "address": "Schouwburglaan 8",
+      "city": "Gouda",
+      "price": 365000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/533/923.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 94,
+      "url": "https://www.funda.nl/detail/koop/gouda/appartement-schouwburglaan-8/44464646/"
+    },
+    {
+      "id": "44462240",
+      "address": "Graaf Anselmdek 26",
       "city": "Nieuwegein",
-      "price": 540000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/494/793.jpg",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/478/228.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-graaf-anselmdek-26/44462240/"
+    },
+    {
+      "id": "44464345",
+      "address": "Gerard Doustraat 13",
+      "city": "Hengelo (OV)",
+      "price": 269000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/560/640.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 83,
+      "url": "https://www.funda.nl/detail/koop/hengelo-ov/huis-gerard-doustraat-13/44464345/"
+    },
+    {
+      "id": "44464350",
+      "address": "Dijkmeent 12",
+      "city": "Almere",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/561/759.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 96,
+      "url": "https://www.funda.nl/detail/koop/almere/appartement-dijkmeent-12/44464350/"
+    },
+    {
+      "id": "44475927",
+      "address": "Goudwespmeent 74",
+      "city": "Hilversum",
+      "price": 695000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/584/341.jpg",
       "bedrooms": 4,
       "energy_label": "A",
-      "surface": 167,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-pauwoogweide-1/44463651/"
+      "surface": 165,
+      "url": "https://www.funda.nl/detail/koop/hilversum/huis-goudwespmeent-74/44475927/"
     },
     {
-      "id": "44463452",
-      "address": "Homberg 2426",
-      "city": "Wijchen",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/486/508.jpg",
-      "bedrooms": 5,
+      "id": "44464322",
+      "address": "Horst 13 12",
+      "city": "Lelystad",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/560/182.jpg",
+      "bedrooms": 4,
       "energy_label": "B",
-      "surface": 129,
-      "url": "https://www.funda.nl/detail/koop/wijchen/huis-homberg-2426/44463452/"
+      "surface": 113,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-horst-13-12/44464322/"
     }
   ]
 }
