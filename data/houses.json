@@ -1,115 +1,115 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "houses": [
     {
-      "id": "44478176",
-      "address": "Schierstins 56",
-      "city": "Amsterdam",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/717/708.jpg",
-      "bedrooms": 3,
-      "energy_label": "D",
-      "surface": 67,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-schierstins-56/44478176/"
-    },
-    {
-      "id": "44478704",
-      "address": "Wolter Heukelslaan 53",
-      "city": "Utrecht",
-      "price": 1145000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/704/308.jpg",
-      "bedrooms": 4,
-      "energy_label": "D",
-      "surface": 166,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-wolter-heukelslaan-53/44478704/"
-    },
-    {
-      "id": "44478705",
-      "address": "Jan Pieterszoon Coenstraat 82",
-      "city": "Utrecht",
-      "price": 415000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/704/333.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 60,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-jan-pieterszoon-coenstraat-82/44478705/"
-    },
-    {
-      "id": "80832715",
-      "address": "Het Bleekveld 11",
-      "city": "Heiloo",
-      "price": 530000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/717/886.jpg",
-      "bedrooms": 3,
-      "energy_label": "?",
-      "surface": 114,
-      "url": "https://www.funda.nl/detail/koop/heiloo/huis-het-bleekveld-11/80832715/"
-    },
-    {
-      "id": "44478800",
-      "address": "Krijn Taconiskade 471",
-      "city": "Amsterdam",
-      "price": 550000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/709/202.jpg",
-      "bedrooms": 2,
-      "energy_label": "A2",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-krijn-taconiskade-471/44478800/"
-    },
-    {
-      "id": "44478091",
-      "address": "Mijl 26",
-      "city": "Beuningen (GE)",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/714/411.jpg",
-      "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 104,
-      "url": "https://www.funda.nl/detail/koop/beuningen-ge/huis-mijl-26/44478091/"
-    },
-    {
-      "id": "80830236",
-      "address": "Coolhaven 226-C",
-      "city": "Rotterdam",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/615/236.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-coolhaven-226-c/80830236/"
-    },
-    {
-      "id": "80832700",
-      "address": "Slotlaan 52",
-      "city": "Ulvenhout (Gem. Breda)",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/716/994.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 114,
-      "url": "https://www.funda.nl/detail/koop/ulvenhout-gem-breda/huis-slotlaan-52/80832700/"
-    },
-    {
-      "id": "44478178",
-      "address": "Rijksstraatweg 130",
-      "city": "Glimmen",
-      "price": 1249000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/717/815.jpg",
-      "bedrooms": 4,
-      "energy_label": "?",
-      "surface": 253,
-      "url": "https://www.funda.nl/detail/koop/glimmen/huis-rijksstraatweg-130/44478178/"
-    },
-    {
-      "id": "80832713",
-      "address": "Burg. Mr. H. Popstraat 22",
-      "city": "Dinteloord",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/717/758.jpg",
+      "id": "80832819",
+      "address": "Hooghbeemd 25",
+      "city": "Waalre",
+      "price": 745000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/722/269.jpg",
       "bedrooms": 5,
       "energy_label": "A",
-      "surface": 117,
-      "url": "https://www.funda.nl/detail/koop/dinteloord/huis-burg-mr-h-popstraat-22/80832713/"
+      "surface": 143,
+      "url": "https://www.funda.nl/detail/koop/waalre/huis-hooghbeemd-25/80832819/"
+    },
+    {
+      "id": "80832800",
+      "address": "Schiekade 44-C02",
+      "city": "Rotterdam",
+      "price": 485000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/721/841.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-schiekade-44-c02/80832800/"
+    },
+    {
+      "id": "44478189",
+      "address": "Van Dalenlaan 55",
+      "city": "Santpoort-Zuid",
+      "price": 825000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/718/459.jpg",
+      "bedrooms": 5,
+      "energy_label": "B",
+      "surface": 150,
+      "url": "https://www.funda.nl/detail/koop/santpoort-zuid/huis-van-dalenlaan-55/44478189/"
+    },
+    {
+      "id": "44476786",
+      "address": "Eerste Jan van der Heijdenstraat 94-1",
+      "city": "Amsterdam",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/618/889.jpg",
+      "bedrooms": 1,
+      "energy_label": "?",
+      "surface": 43,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-eerste-jan-van-der-heijdenstraat-94-1/44476786/"
+    },
+    {
+      "id": "80832789",
+      "address": "Bommelsedijk 28",
+      "city": "Den Bommel",
+      "price": 365000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/721/085.jpg",
+      "bedrooms": 4,
+      "energy_label": "G",
+      "surface": 89,
+      "url": "https://www.funda.nl/detail/koop/den-bommel/huis-bommelsedijk-28/80832789/"
+    },
+    {
+      "id": "80832717",
+      "address": "Wimpelplantsoen 124",
+      "city": "Almere",
+      "price": 635000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/718/049.jpg",
+      "bedrooms": 5,
+      "energy_label": "A1",
+      "surface": 151,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-wimpelplantsoen-124/80832717/"
+    },
+    {
+      "id": "80831162",
+      "address": "De Carpentierstraat 59",
+      "city": "Den Haag",
+      "price": 350000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/654/104.jpg",
+      "bedrooms": 2,
+      "energy_label": "F",
+      "surface": 75,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-de-carpentierstraat-59/80831162/"
+    },
+    {
+      "id": "80839926",
+      "address": "Hanna Hilgersstraat 17",
+      "city": "Almere",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/601/049.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 135,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-hanna-hilgersstraat-17/80839926/"
+    },
+    {
+      "id": "80839925",
+      "address": "Glenn Millerweg 25",
+      "city": "Almere",
+      "price": 500000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/601/000.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 141,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-glenn-millerweg-25/80839925/"
+    },
+    {
+      "id": "80830664",
+      "address": "Van Lennepstraat 45",
+      "city": "Alphen aan den Rijn",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/631/879.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/alphen-aan-den-rijn/huis-van-lennepstraat-45/80830664/"
     }
   ]
 }
