@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "houses": [
     {
-      "id": "44479969",
-      "address": "Kaarnheugte 3",
-      "city": "Assen",
+      "id": "44479673",
+      "address": "Richterslaan 31",
+      "city": "Nieuwegein",
       "price": 295000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/748/238.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 78,
-      "url": "https://www.funda.nl/detail/koop/assen/huis-kaarnheugte-3/44479969/"
+      "photo": "https://cloud.funda.nl/valentina_media/229/737/189.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 76,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-richterslaan-31/44479673/"
     },
     {
-      "id": "44479035",
-      "address": "Jasper Warnerstraat 426",
-      "city": "Almere",
-      "price": 465000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/755/356.jpg",
-      "bedrooms": 2,
-      "energy_label": "?",
-      "surface": 74,
-      "url": "https://www.funda.nl/detail/koop/almere/appartement-jasper-warnerstraat-426/44479035/"
-    },
-    {
-      "id": "44479626",
-      "address": "Voorheuvel 41-G",
+      "id": "44471953",
+      "address": "Ernst Casimirlaan 46",
       "city": "Zeist",
-      "price": 575000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/738/832.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/zeist/appartement-voorheuvel-41-g/44479626/"
-    },
-    {
-      "id": "44470645",
-      "address": "Zevensterstraat 40",
-      "city": "Assen",
-      "price": 324500,
-      "photo": "https://cloud.funda.nl/valentina_media/229/780/401.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 98,
-      "url": "https://www.funda.nl/detail/koop/assen/huis-zevensterstraat-40/44470645/"
-    },
-    {
-      "id": "44470532",
-      "address": "Laan op Zuid 734",
-      "city": "Rotterdam",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/775/571.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 97,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-laan-op-zuid-734/44470532/"
-    },
-    {
-      "id": "44479288",
-      "address": "Goudplevierweg 5",
-      "city": "Almere",
-      "price": 1075000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/761/697.jpg",
+      "price": 1295000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/833/958.jpg",
       "bedrooms": 5,
       "energy_label": "C",
-      "surface": 348,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-goudplevierweg-5/44479288/"
+      "surface": 189,
+      "url": "https://www.funda.nl/detail/koop/zeist/huis-ernst-casimirlaan-46/44471953/"
     },
     {
-      "id": "44470965",
-      "address": "Fazantenkamp 417",
-      "city": "Maarssen",
+      "id": "80836452",
+      "address": "Kapellaan 1-D",
+      "city": "Vught",
+      "price": 315000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/865/710.jpg",
+      "bedrooms": 1,
+      "energy_label": "G",
+      "surface": 52,
+      "url": "https://www.funda.nl/detail/koop/vught/appartement-kapellaan-1-d/80836452/"
+    },
+    {
+      "id": "44470316",
+      "address": "Noordweg 129",
+      "city": "Zeist",
       "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/790/288.jpg",
-      "bedrooms": 3,
-      "energy_label": "?",
-      "surface": 168,
-      "url": "https://www.funda.nl/detail/koop/maarssen/huis-fazantenkamp-417/44470965/"
-    },
-    {
-      "id": "80834170",
-      "address": "Goeverneurlaan 275",
-      "city": "Den Haag",
-      "price": 265000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/775/234.jpg",
-      "bedrooms": 3,
+      "photo": "https://cloud.funda.nl/valentina_media/229/810/110.jpg",
+      "bedrooms": 5,
       "energy_label": "C",
-      "surface": 79,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-goeverneurlaan-275/80834170/"
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/zeist/huis-noordweg-129/44470316/"
     },
     {
-      "id": "44470413",
-      "address": "Ronsseweg 521",
-      "city": "Gouda",
-      "price": 358000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/770/763.jpg",
+      "id": "44471811",
+      "address": "Nieuw-Loosdrechtsedijk 297",
+      "city": "Loosdrecht",
+      "price": 1875000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/828/417.jpg",
       "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 89,
-      "url": "https://www.funda.nl/detail/koop/gouda/appartement-ronsseweg-521/44470413/"
+      "energy_label": "E",
+      "surface": 188,
+      "url": "https://www.funda.nl/detail/koop/loosdrecht/huis-nieuw-loosdrechtsedijk-297/44471811/"
     },
     {
-      "id": "80834165",
-      "address": "Sterremuurweg 16",
-      "city": "Haren (GR)",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/775/028.jpg",
+      "id": "44472603",
+      "address": "Calsstraat 58",
+      "city": "Zwolle",
+      "price": 465000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/856/288.jpg",
       "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 121,
+      "url": "https://www.funda.nl/detail/koop/zwolle/huis-calsstraat-58/44472603/"
+    },
+    {
+      "id": "44472814",
+      "address": "Kamelenspoor 344",
+      "city": "Maarssen",
+      "price": 500000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/865/659.jpg",
+      "bedrooms": 4,
+      "energy_label": "?",
+      "surface": 141,
+      "url": "https://www.funda.nl/detail/koop/maarssen/huis-kamelenspoor-344/44472814/"
+    },
+    {
+      "id": "80836459",
+      "address": "Muntstraat 127",
+      "city": "Lisserbroek",
+      "price": 575000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/865/540.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 132,
+      "url": "https://www.funda.nl/detail/koop/lisserbroek/huis-muntstraat-127/80836459/"
+    },
+    {
+      "id": "44472507",
+      "address": "Pepermuntweg 22",
+      "city": "Zwolle",
+      "price": 415000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/852/344.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/zwolle/huis-pepermuntweg-22/44472507/"
+    },
+    {
+      "id": "44470003",
+      "address": "Otterweide 17",
+      "city": "Nieuwegein",
+      "price": 225000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/796/122.jpg",
+      "bedrooms": 1,
       "energy_label": "B",
-      "surface": 127,
-      "url": "https://www.funda.nl/detail/koop/haren-gr/huis-sterremuurweg-16/80834165/"
+      "surface": 28,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-otterweide-17/44470003/"
     }
   ]
 }
