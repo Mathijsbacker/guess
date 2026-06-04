@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "houses": [
     {
-      "id": "44479673",
-      "address": "Richterslaan 31",
-      "city": "Nieuwegein",
-      "price": 295000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/737/189.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 76,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-richterslaan-31/44479673/"
-    },
-    {
-      "id": "44471953",
-      "address": "Ernst Casimirlaan 46",
-      "city": "Zeist",
-      "price": 1295000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/833/958.jpg",
-      "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 189,
-      "url": "https://www.funda.nl/detail/koop/zeist/huis-ernst-casimirlaan-46/44471953/"
-    },
-    {
-      "id": "80836452",
-      "address": "Kapellaan 1-D",
-      "city": "Vught",
-      "price": 315000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/865/710.jpg",
-      "bedrooms": 1,
-      "energy_label": "G",
-      "surface": 52,
-      "url": "https://www.funda.nl/detail/koop/vught/appartement-kapellaan-1-d/80836452/"
-    },
-    {
-      "id": "44470316",
-      "address": "Noordweg 129",
-      "city": "Zeist",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/810/110.jpg",
-      "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 105,
-      "url": "https://www.funda.nl/detail/koop/zeist/huis-noordweg-129/44470316/"
-    },
-    {
-      "id": "44471811",
-      "address": "Nieuw-Loosdrechtsedijk 297",
-      "city": "Loosdrecht",
-      "price": 1875000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/828/417.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 188,
-      "url": "https://www.funda.nl/detail/koop/loosdrecht/huis-nieuw-loosdrechtsedijk-297/44471811/"
-    },
-    {
-      "id": "44472603",
-      "address": "Calsstraat 58",
-      "city": "Zwolle",
-      "price": 465000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/856/288.jpg",
+      "id": "44472970",
+      "address": "Bernadettegang 10",
+      "city": "Zoetermeer",
+      "price": 490000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/868/874.jpg",
       "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 121,
-      "url": "https://www.funda.nl/detail/koop/zwolle/huis-calsstraat-58/44472603/"
-    },
-    {
-      "id": "44472814",
-      "address": "Kamelenspoor 344",
-      "city": "Maarssen",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/865/659.jpg",
-      "bedrooms": 4,
-      "energy_label": "?",
-      "surface": 141,
-      "url": "https://www.funda.nl/detail/koop/maarssen/huis-kamelenspoor-344/44472814/"
-    },
-    {
-      "id": "80836459",
-      "address": "Muntstraat 127",
-      "city": "Lisserbroek",
-      "price": 575000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/865/540.jpg",
-      "bedrooms": 3,
       "energy_label": "A",
-      "surface": 132,
-      "url": "https://www.funda.nl/detail/koop/lisserbroek/huis-muntstraat-127/80836459/"
+      "surface": 100,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-bernadettegang-10/44472970/"
     },
     {
-      "id": "44472507",
-      "address": "Pepermuntweg 22",
-      "city": "Zwolle",
-      "price": 415000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/852/344.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/zwolle/huis-pepermuntweg-22/44472507/"
+      "id": "80836553",
+      "address": "Akkerviool 55",
+      "city": "Hendrik-Ido-Ambacht",
+      "price": 760000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/870/220.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 138,
+      "url": "https://www.funda.nl/detail/koop/hendrik-ido-ambacht/huis-akkerviool-55/80836553/"
     },
     {
-      "id": "44470003",
-      "address": "Otterweide 17",
-      "city": "Nieuwegein",
-      "price": 225000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/796/122.jpg",
+      "id": "44473459",
+      "address": "Glasblazersstraat 4",
+      "city": "Haarlem",
+      "price": 575000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/893/977.jpg",
       "bedrooms": 1,
       "energy_label": "B",
-      "surface": 28,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-otterweide-17/44470003/"
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/haarlem/huis-glasblazersstraat-4/44473459/"
+    },
+    {
+      "id": "80836760",
+      "address": "Willem Ruysplein 9",
+      "city": "Zwijndrecht",
+      "price": 275000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/879/871.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/zwijndrecht/appartement-willem-ruysplein-9/80836760/"
+    },
+    {
+      "id": "44474521",
+      "address": "Westdijk 21",
+      "city": "Nieuwe-Tonge",
+      "price": 725000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/935/446.jpg",
+      "bedrooms": 1,
+      "energy_label": "?",
+      "surface": 180,
+      "url": "https://www.funda.nl/detail/koop/nieuwe-tonge/huis-westdijk-21/44474521/"
+    },
+    {
+      "id": "80838013",
+      "address": "Regentessestraat 65",
+      "city": "Groningen",
+      "price": 665000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/928/826.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 159,
+      "url": "https://www.funda.nl/detail/koop/groningen/huis-regentessestraat-65/80838013/"
+    },
+    {
+      "id": "44472132",
+      "address": "Telegraafstraat 38",
+      "city": "Tilburg",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/880/606.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/tilburg/appartement-telegraafstraat-38/44472132/"
+    },
+    {
+      "id": "44464321",
+      "address": "Reggelaan 12",
+      "city": "Heemstede",
+      "price": 2195000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/560/156.jpg",
+      "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 213,
+      "url": "https://www.funda.nl/detail/koop/heemstede/huis-reggelaan-12/44464321/"
+    },
+    {
+      "id": "44474563",
+      "address": "Kapteynstraat 10",
+      "city": "Leiden",
+      "price": 669000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/932/668.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/leiden/huis-kapteynstraat-10/44474563/"
+    },
+    {
+      "id": "44473845",
+      "address": "Touwslagersbaan 77",
+      "city": "Wijchen",
+      "price": 1250000,
+      "photo": "https://cloud.funda.nl/valentina_media/229/908/256.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 160,
+      "url": "https://www.funda.nl/detail/koop/wijchen/appartement-touwslagersbaan-77/44473845/"
     }
   ]
 }
