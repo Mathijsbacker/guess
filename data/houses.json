@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "houses": [
     {
-      "id": "44486019",
-      "address": "Albert Plesmanplein 35",
-      "city": "Gouda",
-      "price": 285000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/037/058.jpg",
-      "bedrooms": 2,
-      "energy_label": "F",
-      "surface": 79,
-      "url": "https://www.funda.nl/detail/koop/gouda/appartement-albert-plesmanplein-35/44486019/"
-    },
-    {
-      "id": "44487718",
-      "address": "Baken 97",
-      "city": "Groningen",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/065/087.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-baken-97/44487718/"
-    },
-    {
-      "id": "80849163",
-      "address": "Wilhelminaweg 12",
-      "city": "Woerden",
-      "price": 915000,
-      "photo": "https://cloud.funda.nl/valentina_media/229/975/093.jpg",
-      "bedrooms": 6,
-      "energy_label": "E",
-      "surface": 218,
-      "url": "https://www.funda.nl/detail/koop/woerden/huis-wilhelminaweg-12/80849163/"
-    },
-    {
-      "id": "44487033",
-      "address": "Charlotteplaats 32",
-      "city": "Zoetermeer",
+      "id": "44489703",
+      "address": "Boogoort 56",
+      "city": "Broek op Langedijk",
       "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/078/890.jpg",
+      "photo": "https://cloud.funda.nl/valentina_media/230/151/888.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 126,
+      "url": "https://www.funda.nl/detail/koop/broek-op-langedijk/huis-boogoort-56/44489703/"
+    },
+    {
+      "id": "80843272",
+      "address": "Veemstede 7",
+      "city": "Oude Pekela",
+      "price": 249500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/148/831.jpg",
       "bedrooms": 4,
       "energy_label": "C",
-      "surface": 138,
-      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-charlotteplaats-32/44487033/"
+      "surface": 129,
+      "url": "https://www.funda.nl/detail/koop/oude-pekela/huis-veemstede-7/80843272/"
     },
     {
-      "id": "44489545",
-      "address": "Palmgracht 103",
-      "city": "Amsterdam",
-      "price": 575000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/143/956.jpg",
+      "id": "80843176",
+      "address": "Delfgaauwstraat 23-B",
+      "city": "Rotterdam",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/143/715.jpg",
       "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 55,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-palmgracht-103/44489545/"
+      "energy_label": "D",
+      "surface": 77,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-delfgaauwstraat-23-b/80843176/"
     },
     {
-      "id": "44488573",
-      "address": "Limbahout 42",
-      "city": "Zoetermeer",
-      "price": 1395000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/096/323.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 218,
-      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-limbahout-42/44488573/"
-    },
-    {
-      "id": "80842368",
-      "address": "Bessemerstraat 80",
-      "city": "Amsterdam",
-      "price": 595000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/108/229.jpg",
+      "id": "44489616",
+      "address": "Dominee Bakkerushof 52",
+      "city": "Hedel",
+      "price": 465000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/147/769.jpg",
       "bedrooms": 3,
-      "energy_label": "G",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-bessemerstraat-80/80842368/"
+      "energy_label": "A1",
+      "surface": 109,
+      "url": "https://www.funda.nl/detail/koop/hedel/huis-dominee-bakkerushof-52/44489616/"
     },
     {
-      "id": "44487638",
-      "address": "Veursestraatweg 110",
-      "city": "Leidschendam",
-      "price": 3500000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/061/530.jpg",
+      "id": "80843294",
+      "address": "Nassaukade 22-3",
+      "city": "Amsterdam",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/149/887.jpg",
+      "bedrooms": 1,
+      "energy_label": "B",
+      "surface": 68,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-nassaukade-22-3/80843294/"
+    },
+    {
+      "id": "44489563",
+      "address": "Kouwerplantsoen 81",
+      "city": "Utrecht",
+      "price": 675000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/140/362.jpg",
+      "bedrooms": 5,
+      "energy_label": "C",
+      "surface": 131,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-kouwerplantsoen-81/44489563/"
+    },
+    {
+      "id": "44489792",
+      "address": "Helmlaan 25",
+      "city": "Haarlem",
+      "price": 995000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/151/785.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 140,
+      "url": "https://www.funda.nl/detail/koop/haarlem/huis-helmlaan-25/44489792/"
+    },
+    {
+      "id": "44488410",
+      "address": "Stanleystraat 24",
+      "city": "Hulst",
+      "price": 389500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/095/032.jpg",
       "bedrooms": 5,
       "energy_label": "A",
-      "surface": 327,
-      "url": "https://www.funda.nl/detail/koop/leidschendam/huis-veursestraatweg-110/44487638/"
+      "surface": 152,
+      "url": "https://www.funda.nl/detail/koop/hulst/huis-stanleystraat-24/44488410/"
     },
     {
-      "id": "80843180",
-      "address": "Moeraskreek 3",
-      "city": "Spijkenisse",
-      "price": 300000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/143/915.jpg",
-      "bedrooms": 4,
+      "id": "44486789",
+      "address": "Talmastraat 4",
+      "city": "Brummen",
+      "price": 469000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/022/561.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/brummen/huis-talmastraat-4/44486789/"
+    },
+    {
+      "id": "44489583",
+      "address": "Maria van Reedestraat 17",
+      "city": "Utrecht",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/141/163.jpg",
+      "bedrooms": 1,
       "energy_label": "C",
-      "surface": 107,
-      "url": "https://www.funda.nl/detail/koop/spijkenisse/huis-moeraskreek-3/80843180/"
-    },
-    {
-      "id": "44488256",
-      "address": "Derde Oosterparkstraat 121-D",
-      "city": "Amsterdam",
-      "price": 775000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/131/358.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 92,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-derde-oosterparkstraat-121-d/44488256/"
+      "surface": 51,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-maria-van-reedestraat-17/44489583/"
     }
   ]
 }
