@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "houses": [
     {
-      "id": "44480978",
-      "address": "Lourens Costerstraat 17",
-      "city": "Haarlem",
-      "price": 749000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/201/514.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 111,
-      "url": "https://www.funda.nl/detail/koop/haarlem/huis-lourens-costerstraat-17/44480978/"
-    },
-    {
-      "id": "44489303",
-      "address": "Gedempte Oude Gracht 118-A",
-      "city": "Haarlem",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/176/765.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 71,
-      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-gedempte-oude-gracht-118-a/44489303/"
-    },
-    {
-      "id": "44480743",
-      "address": "Galjoen 22 10",
-      "city": "Lelystad",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/195/799.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 148,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-galjoen-22-10/44480743/"
-    },
-    {
-      "id": "44480206",
-      "address": "Capelseweg 38",
-      "city": "Capelle aan den IJssel",
-      "price": 415000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/211/747.jpg",
-      "bedrooms": 2,
-      "energy_label": "E",
-      "surface": 84,
-      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/huis-capelseweg-38/44480206/"
-    },
-    {
-      "id": "44489207",
-      "address": "Minkmaatstraat 5-B",
-      "city": "Enschede",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/172/139.jpg",
+      "id": "44482017",
+      "address": "Nienoord 11",
+      "city": "Zeewolde",
+      "price": 500000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/289/268.jpg",
       "bedrooms": 4,
-      "energy_label": "D",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/enschede/huis-minkmaatstraat-5-b/44489207/"
+      "energy_label": "A2",
+      "surface": 142,
+      "url": "https://www.funda.nl/detail/koop/zeewolde/huis-nienoord-11/44482017/"
     },
     {
-      "id": "44489920",
-      "address": "P.A. de Genestetstraat 1",
-      "city": "Sliedrecht",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/161/342.jpg",
+      "id": "44481392",
+      "address": "J. Craandijkstraat 26",
+      "city": "Haarlem",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/260/400.jpg",
+      "bedrooms": 6,
+      "energy_label": "A3",
+      "surface": 133,
+      "url": "https://www.funda.nl/detail/koop/haarlem/huis-j-craandijkstraat-26/44481392/"
+    },
+    {
+      "id": "80845878",
+      "address": "Schelpenkade 42-A",
+      "city": "Leiden",
+      "price": 335000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/258/257.jpg",
+      "bedrooms": 1,
+      "energy_label": "E",
+      "surface": 44,
+      "url": "https://www.funda.nl/detail/koop/leiden/appartement-schelpenkade-42-a/80845878/"
+    },
+    {
+      "id": "44481528",
+      "address": "Grondel 9",
+      "city": "Zeewolde",
+      "price": 825000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/227/739.jpg",
+      "bedrooms": 6,
+      "energy_label": "A",
+      "surface": 175,
+      "url": "https://www.funda.nl/detail/koop/zeewolde/huis-grondel-9/44481528/"
+    },
+    {
+      "id": "80845080",
+      "address": "St.-Sebastiaanhof 6",
+      "city": "Vught",
+      "price": 559500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/223/762.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 130,
+      "url": "https://www.funda.nl/detail/koop/vught/huis-st-sebastiaanhof-6/80845080/"
+    },
+    {
+      "id": "44481197",
+      "address": "Belleperenlaan 11",
+      "city": "Vleuten",
+      "price": 1198000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/251/707.jpg",
+      "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 183,
+      "url": "https://www.funda.nl/detail/koop/vleuten/huis-belleperenlaan-11/44481197/"
+    },
+    {
+      "id": "44482524",
+      "address": "Louis Couperusplaats 133",
+      "city": "Capelle aan den IJssel",
+      "price": 298000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/269/421.jpg",
+      "bedrooms": 2,
+      "energy_label": "G",
+      "surface": 84,
+      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-louis-couperusplaats-133/44482524/"
+    },
+    {
+      "id": "44481092",
+      "address": "Floraronde 45",
+      "city": "Velserbroek",
+      "price": 565000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/247/892.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/velserbroek/huis-floraronde-45/44481092/"
+    },
+    {
+      "id": "44482663",
+      "address": "Albast 27",
+      "city": "Zoetermeer",
+      "price": 880000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/271/267.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 159,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-albast-27/44482663/"
+    },
+    {
+      "id": "44482426",
+      "address": "Bunschotensestraat 27",
+      "city": "Den Haag",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/265/021.jpg",
       "bedrooms": 3,
       "energy_label": "E",
-      "surface": 109,
-      "url": "https://www.funda.nl/detail/koop/sliedrecht/huis-pa-de-genestetstraat-1/44489920/"
-    },
-    {
-      "id": "44489209",
-      "address": "Aan de Wind 17",
-      "city": "Almere",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/188/569.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 136,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-aan-de-wind-17/44489209/"
-    },
-    {
-      "id": "44480461",
-      "address": "Gedempte Oude Gracht 118-K",
-      "city": "Haarlem",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/179/807.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 52,
-      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-gedempte-oude-gracht-118-k/44480461/"
-    },
-    {
-      "id": "44481474",
-      "address": "IJdoornlaan 261-W2",
-      "city": "Amsterdam",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/220/567.jpg",
-      "bedrooms": 2,
-      "energy_label": "A2",
-      "surface": 85,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-ijdoornlaan-261-w2/44481474/"
-    },
-    {
-      "id": "44489914",
-      "address": "Willem Verheidenstraat 1",
-      "city": "Grave",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/160/935.jpg",
-      "bedrooms": 3,
-      "energy_label": "D",
-      "surface": 124,
-      "url": "https://www.funda.nl/detail/koop/grave/huis-willem-verheidenstraat-1/44489914/"
+      "surface": 81,
+      "url": "https://www.funda.nl/detail/koop/den-haag/huis-bunschotensestraat-27/44482426/"
     }
   ]
 }
