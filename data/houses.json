@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-10",
+  "date": "2026-06-11",
   "houses": [
     {
-      "id": "44482017",
-      "address": "Nienoord 11",
-      "city": "Zeewolde",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/289/268.jpg",
-      "bedrooms": 4,
-      "energy_label": "A2",
-      "surface": 142,
-      "url": "https://www.funda.nl/detail/koop/zeewolde/huis-nienoord-11/44482017/"
-    },
-    {
-      "id": "44481392",
-      "address": "J. Craandijkstraat 26",
-      "city": "Haarlem",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/260/400.jpg",
-      "bedrooms": 6,
-      "energy_label": "A3",
-      "surface": 133,
-      "url": "https://www.funda.nl/detail/koop/haarlem/huis-j-craandijkstraat-26/44481392/"
-    },
-    {
-      "id": "80845878",
-      "address": "Schelpenkade 42-A",
-      "city": "Leiden",
-      "price": 335000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/258/257.jpg",
+      "id": "80848437",
+      "address": "Willem Parelstraat 250",
+      "city": "Amsterdam",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/362/613.jpg",
       "bedrooms": 1,
-      "energy_label": "E",
+      "energy_label": "A2",
       "surface": 44,
-      "url": "https://www.funda.nl/detail/koop/leiden/appartement-schelpenkade-42-a/80845878/"
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-willem-parelstraat-250/80848437/"
     },
     {
-      "id": "44481528",
-      "address": "Grondel 9",
-      "city": "Zeewolde",
-      "price": 825000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/227/739.jpg",
-      "bedrooms": 6,
-      "energy_label": "A",
-      "surface": 175,
-      "url": "https://www.funda.nl/detail/koop/zeewolde/huis-grondel-9/44481528/"
-    },
-    {
-      "id": "80845080",
-      "address": "St.-Sebastiaanhof 6",
-      "city": "Vught",
-      "price": 559500,
-      "photo": "https://cloud.funda.nl/valentina_media/230/223/762.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 130,
-      "url": "https://www.funda.nl/detail/koop/vught/huis-st-sebastiaanhof-6/80845080/"
-    },
-    {
-      "id": "44481197",
-      "address": "Belleperenlaan 11",
-      "city": "Vleuten",
-      "price": 1198000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/251/707.jpg",
-      "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 183,
-      "url": "https://www.funda.nl/detail/koop/vleuten/huis-belleperenlaan-11/44481197/"
-    },
-    {
-      "id": "44482524",
-      "address": "Louis Couperusplaats 133",
-      "city": "Capelle aan den IJssel",
+      "id": "44483493",
+      "address": "Prins Clausstraat 19",
+      "city": "Terborg",
       "price": 298000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/269/421.jpg",
-      "bedrooms": 2,
-      "energy_label": "G",
-      "surface": 84,
-      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-louis-couperusplaats-133/44482524/"
-    },
-    {
-      "id": "44481092",
-      "address": "Floraronde 45",
-      "city": "Velserbroek",
-      "price": 565000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/247/892.jpg",
+      "photo": "https://cloud.funda.nl/valentina_media/230/305/567.jpg",
       "bedrooms": 4,
       "energy_label": "C",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/velserbroek/huis-floraronde-45/44481092/"
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/terborg/huis-prins-clausstraat-19/44483493/"
     },
     {
-      "id": "44482663",
-      "address": "Albast 27",
-      "city": "Zoetermeer",
-      "price": 880000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/271/267.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 159,
-      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-albast-27/44482663/"
-    },
-    {
-      "id": "44482426",
-      "address": "Bunschotensestraat 27",
+      "id": "80847521",
+      "address": "Rodenbachstraat 62",
       "city": "Den Haag",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/265/021.jpg",
+      "price": 275000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/326/324.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 63,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-rodenbachstraat-62/80847521/"
+    },
+    {
+      "id": "44483112",
+      "address": "De Brink 117",
+      "city": "Zeist",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/336/969.jpg",
       "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 81,
-      "url": "https://www.funda.nl/detail/koop/den-haag/huis-bunschotensestraat-27/44482426/"
+      "energy_label": "B",
+      "surface": 101,
+      "url": "https://www.funda.nl/detail/koop/zeist/huis-de-brink-117/44483112/"
+    },
+    {
+      "id": "44483957",
+      "address": "Stationsstraat 10-B",
+      "city": "Ruurlo",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/329/377.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 143,
+      "url": "https://www.funda.nl/detail/koop/ruurlo/huis-stationsstraat-10-b/44483957/"
+    },
+    {
+      "id": "44484753",
+      "address": "Korte Leidsedwarsstraat 29-A",
+      "city": "Amsterdam",
+      "price": 485000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/360/412.jpg",
+      "bedrooms": 1,
+      "energy_label": "A",
+      "surface": 52,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-korte-leidsedwarsstraat-29-a/44484753/"
+    },
+    {
+      "id": "80847191",
+      "address": "Marga Klompéstraat 15",
+      "city": "Waalwijk",
+      "price": 565000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/312/916.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/waalwijk/huis-marga-klompestraat-15/80847191/"
+    },
+    {
+      "id": "80847141",
+      "address": "Zeeburgerdijk 750",
+      "city": "Amsterdam",
+      "price": 654000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/310/689.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 90,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-zeeburgerdijk-750/80847141/"
+    },
+    {
+      "id": "44482269",
+      "address": "NDSM-straat 75",
+      "city": "Amsterdam",
+      "price": 485000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/295/820.jpg",
+      "bedrooms": 2,
+      "energy_label": "A2",
+      "surface": 57,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-ndsm-straat-75/44482269/"
+    },
+    {
+      "id": "80848459",
+      "address": "Palmstraat 11",
+      "city": "Asten",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/363/771.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 101,
+      "url": "https://www.funda.nl/detail/koop/asten/huis-palmstraat-11/80848459/"
     }
   ]
 }
