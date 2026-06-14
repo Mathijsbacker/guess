@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "houses": [
     {
-      "id": "44498523",
-      "address": "Hamstraat 35",
-      "city": "Grave",
-      "price": 300000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/511/471.jpg",
-      "bedrooms": 1,
-      "energy_label": "F",
-      "surface": 64,
-      "url": "https://www.funda.nl/detail/koop/grave/appartement-hamstraat-35/44498523/"
-    },
-    {
-      "id": "44497238",
-      "address": "Mediterrane villa",
-      "city": "Jávea",
-      "price": 1250000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/501/061.jpg",
-      "bedrooms": 3,
-      "energy_label": "?",
-      "surface": 323,
-      "url": "https://www.funda.nl/detail/koop/javea/huis-mediterrane-villa/44497238/"
-    },
-    {
-      "id": "80853049",
-      "address": "West 102",
-      "city": "Avenhorn",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/544/261.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 95,
-      "url": "https://www.funda.nl/detail/koop/avenhorn/huis-west-102/80853049/"
-    },
-    {
-      "id": "44497115",
-      "address": "Jac. P. Thijssepark 95",
-      "city": "Naarden",
-      "price": 469500,
-      "photo": "https://cloud.funda.nl/valentina_media/230/497/050.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 119,
-      "url": "https://www.funda.nl/detail/koop/naarden/huis-jac-p-thijssepark-95/44497115/"
-    },
-    {
-      "id": "44496170",
-      "address": "Ruychrocklaan 20",
-      "city": "Den Haag",
-      "price": 1195000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/453/299.jpg",
-      "bedrooms": 6,
-      "energy_label": "F",
-      "surface": 195,
-      "url": "https://www.funda.nl/detail/koop/den-haag/huis-ruychrocklaan-20/44496170/"
-    },
-    {
-      "id": "44499436",
-      "address": "Kruisweg 68-G",
-      "city": "Haarlem",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/545/864.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 59,
-      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-kruisweg-68-g/44499436/"
-    },
-    {
-      "id": "44499612",
-      "address": "Moark 10",
-      "city": "Feanwâlden",
-      "price": 409000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/550/855.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/feanwalden/huis-moark-10/44499612/"
-    },
-    {
-      "id": "44498785",
-      "address": "Deken Botsstraat 25",
-      "city": "Tilburg",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/518/172.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/tilburg/huis-deken-botsstraat-25/44498785/"
-    },
-    {
-      "id": "44497265",
-      "address": "Onsteinpad 6",
-      "city": "Rotterdam",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/499/019.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 102,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/huis-onsteinpad-6/44497265/"
-    },
-    {
-      "id": "44497087",
-      "address": "Prins Mauritslaan 96",
-      "city": "Overveen",
-      "price": 985000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/491/377.jpg",
+      "id": "44495283",
+      "address": "De Waarden 61",
+      "city": "Zutphen",
+      "price": 355000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/418/329.jpg",
       "bedrooms": 5,
       "energy_label": "C",
-      "surface": 141,
-      "url": "https://www.funda.nl/detail/koop/overveen/huis-prins-mauritslaan-96/44497087/"
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/zutphen/huis-de-waarden-61/44495283/"
+    },
+    {
+      "id": "44496243",
+      "address": "Heufkens 312",
+      "city": "Uden",
+      "price": 435000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/460/158.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 115,
+      "url": "https://www.funda.nl/detail/koop/uden/huis-heufkens-312/44496243/"
+    },
+    {
+      "id": "44499873",
+      "address": "Beestenmarkt 31",
+      "city": "Delft",
+      "price": 315000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/557/473.jpg",
+      "bedrooms": 1,
+      "energy_label": "F",
+      "surface": 45,
+      "url": "https://www.funda.nl/detail/koop/delft/appartement-beestenmarkt-31/44499873/"
+    },
+    {
+      "id": "80853448",
+      "address": "Zuiderdiep 461",
+      "city": "Nieuw-Buinen",
+      "price": 389000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/559/680.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 130,
+      "url": "https://www.funda.nl/detail/koop/nieuw-buinen/huis-zuiderdiep-461/80853448/"
+    },
+    {
+      "id": "44499740",
+      "address": "Abersland 2928",
+      "city": "Wijchen",
+      "price": 379500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/556/551.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 71,
+      "url": "https://www.funda.nl/detail/koop/wijchen/huis-abersland-2928/44499740/"
+    },
+    {
+      "id": "80853459",
+      "address": "Piet Heinstraat 129",
+      "city": "Lisse",
+      "price": 875000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/559/748.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 134,
+      "url": "https://www.funda.nl/detail/koop/lisse/appartement-piet-heinstraat-129/80853459/"
+    },
+    {
+      "id": "44497072",
+      "address": "P.C. Bothstraat 85",
+      "city": "Gouda",
+      "price": 329000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/491/278.jpg",
+      "bedrooms": 3,
+      "energy_label": "E",
+      "surface": 74,
+      "url": "https://www.funda.nl/detail/koop/gouda/huis-pc-bothstraat-85/44497072/"
+    },
+    {
+      "id": "44496873",
+      "address": "Europalaan 28",
+      "city": "Goes",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/440/147.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 137,
+      "url": "https://www.funda.nl/detail/koop/goes/huis-europalaan-28/44496873/"
+    },
+    {
+      "id": "44499449",
+      "address": "Amerikalaan 180",
+      "city": "Utrecht",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/546/408.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 94,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-amerikalaan-180/44499449/"
+    },
+    {
+      "id": "44499687",
+      "address": "001 | 3-kmr app | C6 | Sierlijke Dames (Bouwnr. 1)",
+      "city": "Eindhoven",
+      "price": 486500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/549/342.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 74,
+      "url": "https://www.funda.nl/detail/koop/eindhoven/appartement-001-3-kmr-app-c6-sierlijke-dames-bouwnr-1/44499687/"
     }
   ]
 }
