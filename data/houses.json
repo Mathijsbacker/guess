@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "houses": [
     {
-      "id": "80857545",
-      "address": "Van der Mondestraat 60",
-      "city": "Utrecht",
-      "price": 445000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/716/536.jpg",
+      "id": "44406304",
+      "address": "Lombardkade 82-A",
+      "city": "Rotterdam",
+      "price": 295000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/838/644.jpg",
       "bedrooms": 2,
       "energy_label": "C",
-      "surface": 66,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-van-der-mondestraat-60/80857545/"
+      "surface": 60,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-lombardkade-82-a/44406304/"
     },
     {
-      "id": "44494444",
-      "address": "Ds J A Visserstraat 37",
-      "city": "Lathum",
-      "price": 557500,
-      "photo": "https://cloud.funda.nl/valentina_media/230/738/516.jpg",
-      "bedrooms": 4,
-      "energy_label": "F",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/lathum/huis-ds-j-a-visserstraat-37/44494444/"
-    },
-    {
-      "id": "44493849",
-      "address": "Schalkwijkerstraat 39-ZW",
-      "city": "Haarlem",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/714/370.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-schalkwijkerstraat-39-zw/44493849/"
-    },
-    {
-      "id": "80869167",
-      "address": "Zeemanlaan 18-A",
-      "city": "Leiden",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/773/358.jpg",
-      "bedrooms": 5,
-      "energy_label": "E",
-      "surface": 115,
-      "url": "https://www.funda.nl/detail/koop/leiden/appartement-zeemanlaan-18-a/80869167/"
-    },
-    {
-      "id": "44493085",
-      "address": "Sandwyck 28",
-      "city": "Vleuten",
-      "price": 739000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/720/191.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 148,
-      "url": "https://www.funda.nl/detail/koop/vleuten/huis-sandwyck-28/44493085/"
-    },
-    {
-      "id": "44494166",
-      "address": "Javalaan 7",
-      "city": "Zoetermeer",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/756/963.jpg",
-      "bedrooms": 4,
-      "energy_label": "A2",
-      "surface": 135,
-      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-javalaan-7/44494166/"
-    },
-    {
-      "id": "44405501",
-      "address": "Anna Spenglerstraat 6",
-      "city": "Amsterdam",
-      "price": 530000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/772/413.jpg",
-      "bedrooms": 1,
-      "energy_label": "B",
-      "surface": 62,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-anna-spenglerstraat-6/44405501/"
-    },
-    {
-      "id": "44494068",
-      "address": "Roxenissestraat 13",
-      "city": "Zoetermeer",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/752/878.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 139,
-      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-roxenissestraat-13/44494068/"
-    },
-    {
-      "id": "44493067",
-      "address": "Florastraat 23",
-      "city": "Boven-Leeuwen",
-      "price": 619000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/719/028.jpg",
+      "id": "44406306",
+      "address": "Kreutzerstraat 22",
+      "city": "Tilburg",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/838/650.jpg",
       "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 123,
-      "url": "https://www.funda.nl/detail/koop/boven-leeuwen/huis-florastraat-23/44493067/"
+      "energy_label": "C",
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/tilburg/huis-kreutzerstraat-22/44406306/"
     },
     {
-      "id": "44405696",
-      "address": "Achterom 1-B",
-      "city": "Delft",
-      "price": 265000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/774/884.jpg",
+      "id": "44406720",
+      "address": "Nicolaïstraat 99",
+      "city": "Den Haag",
+      "price": 549500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/817/704.jpg",
       "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 84,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-nicolaistraat-99/44406720/"
+    },
+    {
+      "id": "44493821",
+      "address": "Prof. Dr. Bakkerlaan 67",
+      "city": "Nieuwegein",
+      "price": 245000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/713/376.jpg",
+      "bedrooms": 1,
+      "energy_label": "D",
+      "surface": 63,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-prof-dr-bakkerlaan-67/44493821/"
+    },
+    {
+      "id": "44405216",
+      "address": "de Gildekamp 2238",
+      "city": "Nijmegen",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/797/032.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-de-gildekamp-2238/44405216/"
+    },
+    {
+      "id": "80861310",
+      "address": "Klokhuisdijk 7",
+      "city": "Langedijke",
+      "price": 649000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/852/555.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 140,
+      "url": "https://www.funda.nl/detail/koop/langedijke/huis-klokhuisdijk-7/80861310/"
+    },
+    {
+      "id": "44405815",
+      "address": "Regattaweg 308",
+      "city": "Groningen",
+      "price": 495000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/783/071.jpg",
+      "bedrooms": 2,
+      "energy_label": "A1",
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/groningen/appartement-regattaweg-308/44405815/"
+    },
+    {
+      "id": "44405983",
+      "address": "Gramserweg 15",
+      "city": "Austerlitz",
+      "price": 995000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/786/024.jpg",
+      "bedrooms": 5,
+      "energy_label": "A1",
+      "surface": 189,
+      "url": "https://www.funda.nl/detail/koop/austerlitz/huis-gramserweg-15/44405983/"
+    },
+    {
+      "id": "44406230",
+      "address": "Albert van Dalsumlaan 381",
+      "city": "Utrecht",
+      "price": 599000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/835/892.jpg",
+      "bedrooms": 4,
       "energy_label": "A",
-      "surface": 31,
-      "url": "https://www.funda.nl/detail/koop/delft/appartement-achterom-1-b/44405696/"
+      "surface": 106,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-albert-van-dalsumlaan-381/44406230/"
+    },
+    {
+      "id": "44405910",
+      "address": "Waterberg 122",
+      "city": "Capelle aan den IJssel",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/787/332.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 104,
+      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-waterberg-122/44405910/"
     }
   ]
 }
