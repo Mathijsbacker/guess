@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "houses": [
     {
-      "id": "44406198",
-      "address": "Hortensialaan 20",
-      "city": "Pijnacker",
-      "price": 380000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/830/629.jpg",
+      "id": "44407127",
+      "address": "Madridstraat 90-D",
+      "city": "Utrecht",
+      "price": 625000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/871/183.jpg",
       "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/pijnacker/appartement-hortensialaan-20/44406198/"
+      "energy_label": "A4",
+      "surface": 91,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-madridstraat-90-d/44407127/"
     },
     {
-      "id": "44409360",
-      "address": "Brugstraat 17",
-      "city": "Grave",
-      "price": 535000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/956/832.jpg",
+      "id": "80863966",
+      "address": "Soestdijkseweg Zuid 182",
+      "city": "Bilthoven",
+      "price": 2795000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/960/065.jpg",
+      "bedrooms": 8,
+      "energy_label": "C",
+      "surface": 419,
+      "url": "https://www.funda.nl/detail/koop/bilthoven/huis-soestdijkseweg-zuid-182/80863966/"
+    },
+    {
+      "id": "44409395",
+      "address": "Balistraat 51",
+      "city": "Delft",
+      "price": 329000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/958/058.jpg",
+      "bedrooms": 2,
+      "energy_label": "E",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/delft/appartement-balistraat-51/44409395/"
+    },
+    {
+      "id": "44408283",
+      "address": "Tinelstraat 186",
+      "city": "Eindhoven",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/915/446.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 104,
+      "url": "https://www.funda.nl/detail/koop/eindhoven/huis-tinelstraat-186/44408283/"
+    },
+    {
+      "id": "44407219",
+      "address": "Rijnlaan 170-A",
+      "city": "Utrecht",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/875/135.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 70,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-rijnlaan-170-a/44407219/"
+    },
+    {
+      "id": "44409869",
+      "address": "Boomberglaan 59",
+      "city": "Hilversum",
+      "price": 2285000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/938/290.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 281,
+      "url": "https://www.funda.nl/detail/koop/hilversum/huis-boomberglaan-59/44409869/"
+    },
+    {
+      "id": "44400460",
+      "address": "Albert Cuypstraat 47-1",
+      "city": "Amsterdam",
+      "price": 435000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/961/705.jpg",
+      "bedrooms": 1,
+      "energy_label": "A",
+      "surface": 44,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-albert-cuypstraat-47-1/44400460/"
+    },
+    {
+      "id": "80864030",
+      "address": "Geldropseweg 6-A",
+      "city": "Heeze",
+      "price": 890000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/962/738.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 233,
+      "url": "https://www.funda.nl/detail/koop/heeze/huis-geldropseweg-6-a/80864030/"
+    },
+    {
+      "id": "44407853",
+      "address": "Grauwaartsingel 492",
+      "city": "Utrecht",
+      "price": 545000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/859/936.jpg",
       "bedrooms": 2,
       "energy_label": "A",
-      "surface": 110,
-      "url": "https://www.funda.nl/detail/koop/grave/appartement-brugstraat-17/44409360/"
+      "surface": 85,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-grauwaartsingel-492/44407853/"
     },
     {
-      "id": "44409368",
-      "address": "Vondelstraat 109",
-      "city": "Dordrecht",
-      "price": 285000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/956/761.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/dordrecht/appartement-vondelstraat-109/44409368/"
-    },
-    {
-      "id": "44409361",
-      "address": "Bohemen 53",
-      "city": "Leusden",
-      "price": 529000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/956/831.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 144,
-      "url": "https://www.funda.nl/detail/koop/leusden/huis-bohemen-53/44409361/"
-    },
-    {
-      "id": "44409311",
-      "address": "Minister Goeman Borgesiusstraat 25",
-      "city": "Enschede",
-      "price": 895000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/959/533.jpg",
-      "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 190,
-      "url": "https://www.funda.nl/detail/koop/enschede/huis-minister-goeman-borgesiusstraat-25/44409311/"
-    },
-    {
-      "id": "44409322",
-      "address": "Graafschapstraat 3-H",
+      "id": "44409331",
+      "address": "Kanaalstraat 140-H",
       "city": "Amsterdam",
-      "price": 595000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/960/108.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 70,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-graafschapstraat-3-h/44409322/"
-    },
-    {
-      "id": "80863952",
-      "address": "Brunostraat 14",
-      "city": "Bolsward",
-      "price": 295000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/959/316.jpg",
-      "bedrooms": 6,
-      "energy_label": "C",
-      "surface": 130,
-      "url": "https://www.funda.nl/detail/koop/bolsward/huis-brunostraat-14/80863952/"
-    },
-    {
-      "id": "80863117",
-      "address": "Johan de Meesterstraat 24-B",
-      "city": "Rotterdam",
-      "price": 295000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/927/552.jpg",
+      "price": 625000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/960/368.jpg",
       "bedrooms": 2,
       "energy_label": "D",
-      "surface": 54,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-johan-de-meesterstraat-24-b/80863117/"
-    },
-    {
-      "id": "80863675",
-      "address": "Willem de Zwijgerlaan 5-A",
-      "city": "Doorn",
-      "price": 1795000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/948/574.jpg",
-      "bedrooms": 5,
-      "energy_label": "?",
-      "surface": 266,
-      "url": "https://www.funda.nl/detail/koop/doorn/huis-willem-de-zwijgerlaan-5-a/80863675/"
-    },
-    {
-      "id": "44409304",
-      "address": "Noordveenweg 1",
-      "city": "Nieuwe Wetering",
-      "price": 900000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/958/616.jpg",
-      "bedrooms": 2,
-      "energy_label": "E",
-      "surface": 152,
-      "url": "https://www.funda.nl/detail/koop/nieuwe-wetering/huis-noordveenweg-1/44409304/"
+      "surface": 66,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-kanaalstraat-140-h/44409331/"
     }
   ]
 }
