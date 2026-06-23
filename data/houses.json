@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "houses": [
     {
-      "id": "44407127",
-      "address": "Madridstraat 90-D",
-      "city": "Utrecht",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/871/183.jpg",
-      "bedrooms": 2,
-      "energy_label": "A4",
-      "surface": 91,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-madridstraat-90-d/44407127/"
-    },
-    {
-      "id": "80863966",
-      "address": "Soestdijkseweg Zuid 182",
-      "city": "Bilthoven",
-      "price": 2795000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/960/065.jpg",
-      "bedrooms": 8,
-      "energy_label": "C",
-      "surface": 419,
-      "url": "https://www.funda.nl/detail/koop/bilthoven/huis-soestdijkseweg-zuid-182/80863966/"
-    },
-    {
-      "id": "44409395",
-      "address": "Balistraat 51",
-      "city": "Delft",
-      "price": 329000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/958/058.jpg",
-      "bedrooms": 2,
-      "energy_label": "E",
-      "surface": 72,
-      "url": "https://www.funda.nl/detail/koop/delft/appartement-balistraat-51/44409395/"
-    },
-    {
-      "id": "44408283",
-      "address": "Tinelstraat 186",
-      "city": "Eindhoven",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/915/446.jpg",
+      "id": "44401481",
+      "address": "Van Limburg Stirumstraat 9",
+      "city": "Hilversum",
+      "price": 465000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/004/694.jpg",
       "bedrooms": 4,
       "energy_label": "C",
-      "surface": 104,
-      "url": "https://www.funda.nl/detail/koop/eindhoven/huis-tinelstraat-186/44408283/"
+      "surface": 118,
+      "url": "https://www.funda.nl/detail/koop/hilversum/huis-van-limburg-stirumstraat-9/44401481/"
     },
     {
-      "id": "44407219",
-      "address": "Rijnlaan 170-A",
-      "city": "Utrecht",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/875/135.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 70,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-rijnlaan-170-a/44407219/"
-    },
-    {
-      "id": "44409869",
-      "address": "Boomberglaan 59",
-      "city": "Hilversum",
-      "price": 2285000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/938/290.jpg",
+      "id": "44400338",
+      "address": "Karveel 07 24",
+      "city": "Lelystad",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/002/633.jpg",
       "bedrooms": 5,
       "energy_label": "A",
-      "surface": 281,
-      "url": "https://www.funda.nl/detail/koop/hilversum/huis-boomberglaan-59/44409869/"
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-karveel-07-24/44400338/"
     },
     {
-      "id": "44400460",
-      "address": "Albert Cuypstraat 47-1",
-      "city": "Amsterdam",
-      "price": 435000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/961/705.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 44,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-albert-cuypstraat-47-1/44400460/"
-    },
-    {
-      "id": "80864030",
-      "address": "Geldropseweg 6-A",
-      "city": "Heeze",
-      "price": 890000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/962/738.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 233,
-      "url": "https://www.funda.nl/detail/koop/heeze/huis-geldropseweg-6-a/80864030/"
-    },
-    {
-      "id": "44407853",
-      "address": "Grauwaartsingel 492",
+      "id": "44400557",
+      "address": "Plantenkasstraat 5",
       "city": "Utrecht",
-      "price": 545000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/859/936.jpg",
-      "bedrooms": 2,
+      "price": 675000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/970/489.jpg",
+      "bedrooms": 4,
       "energy_label": "A",
-      "surface": 85,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-grauwaartsingel-492/44407853/"
+      "surface": 126,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-plantenkasstraat-5/44400557/"
     },
     {
-      "id": "44409331",
-      "address": "Kanaalstraat 140-H",
-      "city": "Amsterdam",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/230/960/368.jpg",
+      "id": "44400951",
+      "address": "Olympiaweg 13",
+      "city": "Sommelsdijk",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/987/969.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 96,
+      "url": "https://www.funda.nl/detail/koop/sommelsdijk/appartement-olympiaweg-13/44400951/"
+    },
+    {
+      "id": "44400979",
+      "address": "Lookwatering 11",
+      "city": "Den Hoorn (ZH)",
+      "price": 415000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/984/147.jpg",
       "bedrooms": 2,
       "energy_label": "D",
-      "surface": 66,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-kanaalstraat-140-h/44409331/"
+      "surface": 77,
+      "url": "https://www.funda.nl/detail/koop/den-hoorn-zh/huis-lookwatering-11/44400979/"
+    },
+    {
+      "id": "44401969",
+      "address": "Lampenistenstraat 58",
+      "city": "Amsterdam",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/019/675.jpg",
+      "bedrooms": 1,
+      "energy_label": "B",
+      "surface": 51,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-lampenistenstraat-58/44401969/"
+    },
+    {
+      "id": "44400081",
+      "address": "Postjesweg 443",
+      "city": "Amsterdam",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/989/137.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 70,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-postjesweg-443/44400081/"
+    },
+    {
+      "id": "44400881",
+      "address": "Jacob van Lennepkade 12",
+      "city": "Gouda",
+      "price": 397500,
+      "photo": "https://cloud.funda.nl/valentina_media/230/980/559.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/gouda/huis-jacob-van-lennepkade-12/44400881/"
+    },
+    {
+      "id": "44401911",
+      "address": "Eschberg 44",
+      "city": "Amersfoort",
+      "price": 935000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/021/718.jpg",
+      "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 174,
+      "url": "https://www.funda.nl/detail/koop/amersfoort/huis-eschberg-44/44401911/"
+    },
+    {
+      "id": "44400573",
+      "address": "Markedreef 33",
+      "city": "Assen",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/230/966/405.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 91,
+      "url": "https://www.funda.nl/detail/koop/assen/huis-markedreef-33/44400573/"
     }
   ]
 }
