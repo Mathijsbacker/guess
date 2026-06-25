@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "houses": [
     {
-      "id": "44403610",
-      "address": "Beysterveld 269",
+      "id": "44404528",
+      "address": "Paardenbloemsingel 52",
+      "city": "Vleuten",
+      "price": 735000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/129/418.jpg",
+      "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 152,
+      "url": "https://www.funda.nl/detail/koop/vleuten/huis-paardenbloemsingel-52/44404528/"
+    },
+    {
+      "id": "44403288",
+      "address": "Heemstedestraat 39-2",
       "city": "Amsterdam",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/091/299.jpg",
+      "price": 495000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/114/570.jpg",
       "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 86,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-beysterveld-269/44403610/"
-    },
-    {
-      "id": "80867068",
-      "address": "De Genestetlaan 32",
-      "city": "Den Haag",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/082/512.jpg",
-      "bedrooms": 3,
       "energy_label": "C",
-      "surface": 85,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-de-genestetlaan-32/80867068/"
+      "surface": 55,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-heemstedestraat-39-2/44403288/"
     },
     {
-      "id": "44402729",
-      "address": "Franz Lehársingel 61",
-      "city": "Utrecht",
-      "price": 998000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/058/088.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 203,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-franz-leharsingel-61/44402729/"
+      "id": "44404987",
+      "address": "Anatole Franceplaats 596",
+      "city": "Rotterdam",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/143/990.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 84,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-anatole-franceplaats-596/44404987/"
     },
     {
-      "id": "44402802",
-      "address": "Radiumstraat 3",
+      "id": "44403810",
+      "address": "Pericleslaan 8",
+      "city": "Assen",
+      "price": 500000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/100/748.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 136,
+      "url": "https://www.funda.nl/detail/koop/assen/huis-pericleslaan-8/44403810/"
+    },
+    {
+      "id": "44404508",
+      "address": "Zuiderkerkstraat 4",
       "city": "Groningen",
-      "price": 275000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/061/237.jpg",
-      "bedrooms": 3,
+      "price": 799000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/128/675.jpg",
+      "bedrooms": 4,
       "energy_label": "C",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-radiumstraat-3/44402802/"
+      "surface": 191,
+      "url": "https://www.funda.nl/detail/koop/groningen/huis-zuiderkerkstraat-4/44404508/"
     },
     {
-      "id": "80867012",
-      "address": "Turnerstraat 27-D",
-      "city": "Amsterdam",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/079/645.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 67,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-turnerstraat-27-d/80867012/"
-    },
-    {
-      "id": "44403590",
-      "address": "Koningsveldland 13",
-      "city": "Den Hoorn (ZH)",
-      "price": 739500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/084/562.jpg",
-      "bedrooms": 6,
-      "energy_label": "A",
-      "surface": 148,
-      "url": "https://www.funda.nl/detail/koop/den-hoorn-zh/huis-koningsveldland-13/44403590/"
-    },
-    {
-      "id": "44402690",
-      "address": "Handelskade 1",
-      "city": "Oude-Tonge",
-      "price": 825000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/051/955.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 215,
-      "url": "https://www.funda.nl/detail/koop/oude-tonge/huis-handelskade-1/44402690/"
-    },
-    {
-      "id": "44402976",
-      "address": "Aalsmeerderweg 287",
-      "city": "Aalsmeer",
-      "price": 1200000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/063/357.jpg",
-      "bedrooms": 6,
-      "energy_label": "B",
-      "surface": 350,
-      "url": "https://www.funda.nl/detail/koop/aalsmeer/huis-aalsmeerderweg-287/44402976/"
-    },
-    {
-      "id": "44402775",
-      "address": "Mariniersweg 83",
-      "city": "Oude-Tonge",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/055/559.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 158,
-      "url": "https://www.funda.nl/detail/koop/oude-tonge/huis-mariniersweg-83/44402775/"
-    },
-    {
-      "id": "44403671",
-      "address": "Madepolderweg 45-D",
+      "id": "80868746",
+      "address": "Loenensestraat 15",
       "city": "Den Haag",
-      "price": 1365000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/089/252.jpg",
+      "price": 279000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/152/877.jpg",
+      "bedrooms": 2,
+      "energy_label": "F",
+      "surface": 83,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-loenensestraat-15/80868746/"
+    },
+    {
+      "id": "44404797",
+      "address": "Schoneveldsdijk 2",
+      "city": "Vorden",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/137/093.jpg",
       "bedrooms": 5,
-      "energy_label": "A3",
-      "surface": 182,
-      "url": "https://www.funda.nl/detail/koop/den-haag/huis-madepolderweg-45-d/44403671/"
+      "energy_label": "E",
+      "surface": 213,
+      "url": "https://www.funda.nl/detail/koop/vorden/huis-schoneveldsdijk-2/44404797/"
+    },
+    {
+      "id": "44404062",
+      "address": "Wold 23 10",
+      "city": "Lelystad",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/147/630.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 93,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-wold-23-10/44404062/"
+    },
+    {
+      "id": "44404978",
+      "address": "Chestertonlaan 33",
+      "city": "Amsterdam",
+      "price": 310000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/143/742.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 70,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-chestertonlaan-33/44404978/"
+    },
+    {
+      "id": "44403391",
+      "address": "Witte Kruis 61",
+      "city": "Babberich",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/119/899.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 123,
+      "url": "https://www.funda.nl/detail/koop/babberich/huis-witte-kruis-61/44403391/"
     }
   ]
 }
