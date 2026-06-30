@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "houses": [
     {
-      "id": "44417389",
-      "address": "Adelboldstraat 33",
-      "city": "Utrecht",
-      "price": 599000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/269/762.jpg",
+      "id": "80874536",
+      "address": "Wolphaertsbocht 453-A",
+      "city": "Rotterdam",
+      "price": 285000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/374/434.jpg",
+      "bedrooms": 2,
+      "energy_label": "?",
+      "surface": 97,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-wolphaertsbocht-453-a/80874536/"
+    },
+    {
+      "id": "44419252",
+      "address": "Berlagelaan 213",
+      "city": "Hilversum",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/347/702.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 100,
+      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-berlagelaan-213/44419252/"
+    },
+    {
+      "id": "44410760",
+      "address": "Lelietuin 4",
+      "city": "Bergschenhoek",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/363/901.jpg",
       "bedrooms": 4,
       "energy_label": "A",
-      "surface": 102,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-adelboldstraat-33/44417389/"
+      "surface": 157,
+      "url": "https://www.funda.nl/detail/koop/bergschenhoek/huis-lelietuin-4/44410760/"
     },
     {
-      "id": "44417813",
-      "address": "Kruidentuinlaan 40",
-      "city": "Vleuten",
-      "price": 715000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/251/245.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 131,
-      "url": "https://www.funda.nl/detail/koop/vleuten/huis-kruidentuinlaan-40/44417813/"
-    },
-    {
-      "id": "44418590",
-      "address": "Miles Davisstraat 247",
-      "city": "Utrecht",
-      "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/278/322.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-miles-davisstraat-247/44418590/"
-    },
-    {
-      "id": "44419584",
-      "address": "Van Polanenpark 80",
-      "city": "Wassenaar",
-      "price": 599000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/317/502.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 131,
-      "url": "https://www.funda.nl/detail/koop/wassenaar/huis-van-polanenpark-80/44419584/"
-    },
-    {
-      "id": "44419456",
-      "address": "Korte Molenweg 8",
-      "city": "Blaricum",
-      "price": 1050000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/316/420.jpg",
-      "bedrooms": 3,
-      "energy_label": "D",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/blaricum/huis-korte-molenweg-8/44419456/"
-    },
-    {
-      "id": "44417217",
-      "address": "Legmeerstraat 4-H",
-      "city": "Amsterdam",
-      "price": 535000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/266/945.jpg",
+      "id": "80874341",
+      "address": "Rollandstraat 28",
+      "city": "Haarlem",
+      "price": 649000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/365/195.jpg",
       "bedrooms": 2,
       "energy_label": "C",
-      "surface": 59,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-legmeerstraat-4-h/44417217/"
+      "surface": 92,
+      "url": "https://www.funda.nl/detail/koop/haarlem/huis-rollandstraat-28/80874341/"
     },
     {
-      "id": "80873103",
-      "address": "Einsteinstraat 40",
-      "city": "Nijmegen",
-      "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/316/888.jpg",
+      "id": "80873987",
+      "address": "Trompetstraat 36",
+      "city": "Uden",
+      "price": 410000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/351/476.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 116,
+      "url": "https://www.funda.nl/detail/koop/uden/huis-trompetstraat-36/80873987/"
+    },
+    {
+      "id": "44410500",
+      "address": "Markendaalseweg 405",
+      "city": "Breda",
+      "price": 289000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/357/088.jpg",
+      "bedrooms": 1,
+      "energy_label": "D",
+      "surface": 54,
+      "url": "https://www.funda.nl/detail/koop/breda/appartement-markendaalseweg-405/44410500/"
+    },
+    {
+      "id": "80874434",
+      "address": "Van Musschenbroekstraat 124",
+      "city": "Den Haag",
+      "price": 269500,
+      "photo": "https://cloud.funda.nl/valentina_media/231/369/348.jpg",
+      "bedrooms": 2,
+      "energy_label": "F",
+      "surface": 77,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-van-musschenbroekstraat-124/80874434/"
+    },
+    {
+      "id": "44419041",
+      "address": "Jan Wolkerssingel 201",
+      "city": "Utrecht",
+      "price": 889000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/340/237.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 165,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-jan-wolkerssingel-201/44419041/"
+    },
+    {
+      "id": "44410642",
+      "address": "Adriaan de Jongestraat 20",
+      "city": "Haarlem",
+      "price": 815000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/363/063.jpg",
       "bedrooms": 4,
       "energy_label": "B",
-      "surface": 130,
-      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-einsteinstraat-40/80873103/"
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/haarlem/huis-adriaan-de-jongestraat-20/44410642/"
     },
     {
-      "id": "44415153",
-      "address": "Bloemstraat 5",
-      "city": "Utrecht",
-      "price": 449000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/192/540.jpg",
-      "bedrooms": 1,
+      "id": "44419805",
+      "address": "Schipperhorst 33",
+      "city": "Enschede",
+      "price": 385000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/330/691.jpg",
+      "bedrooms": 3,
       "energy_label": "C",
-      "surface": 60,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-bloemstraat-5/44415153/"
-    },
-    {
-      "id": "80873113",
-      "address": "Labouchèrelaan 42",
-      "city": "Rijswijk (ZH)",
-      "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/317/157.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 144,
-      "url": "https://www.funda.nl/detail/koop/rijswijk-zh/appartement-laboucherelaan-42/80873113/"
-    },
-    {
-      "id": "44417340",
-      "address": "Van Reigersbergenstraat 45-3",
-      "city": "Amsterdam",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/271/843.jpg",
-      "bedrooms": 1,
-      "energy_label": "D",
-      "surface": 42,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-van-reigersbergenstraat-45-3/44417340/"
+      "surface": 109,
+      "url": "https://www.funda.nl/detail/koop/enschede/huis-schipperhorst-33/44419805/"
     }
   ]
 }
