@@ -1,115 +1,115 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "houses": [
     {
-      "id": "80874536",
-      "address": "Wolphaertsbocht 453-A",
-      "city": "Rotterdam",
-      "price": 285000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/374/434.jpg",
+      "id": "44411269",
+      "address": "Graaf Adolflaan 5-1",
+      "city": "Zeist",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/421/638.jpg",
       "bedrooms": 2,
-      "energy_label": "?",
-      "surface": 97,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-wolphaertsbocht-453-a/80874536/"
-    },
-    {
-      "id": "44419252",
-      "address": "Berlagelaan 213",
-      "city": "Hilversum",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/347/702.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-berlagelaan-213/44419252/"
-    },
-    {
-      "id": "44410760",
-      "address": "Lelietuin 4",
-      "city": "Bergschenhoek",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/363/901.jpg",
-      "bedrooms": 4,
       "energy_label": "A",
-      "surface": 157,
-      "url": "https://www.funda.nl/detail/koop/bergschenhoek/huis-lelietuin-4/44410760/"
+      "surface": 71,
+      "url": "https://www.funda.nl/detail/koop/zeist/appartement-graaf-adolflaan-5-1/44411269/"
     },
     {
-      "id": "80874341",
-      "address": "Rollandstraat 28",
-      "city": "Haarlem",
-      "price": 649000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/365/195.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 92,
-      "url": "https://www.funda.nl/detail/koop/haarlem/huis-rollandstraat-28/80874341/"
-    },
-    {
-      "id": "80873987",
-      "address": "Trompetstraat 36",
-      "city": "Uden",
-      "price": 410000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/351/476.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 116,
-      "url": "https://www.funda.nl/detail/koop/uden/huis-trompetstraat-36/80873987/"
-    },
-    {
-      "id": "44410500",
-      "address": "Markendaalseweg 405",
-      "city": "Breda",
-      "price": 289000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/357/088.jpg",
-      "bedrooms": 1,
-      "energy_label": "D",
-      "surface": 54,
-      "url": "https://www.funda.nl/detail/koop/breda/appartement-markendaalseweg-405/44410500/"
-    },
-    {
-      "id": "80874434",
-      "address": "Van Musschenbroekstraat 124",
-      "city": "Den Haag",
-      "price": 269500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/369/348.jpg",
-      "bedrooms": 2,
-      "energy_label": "F",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-van-musschenbroekstraat-124/80874434/"
-    },
-    {
-      "id": "44419041",
-      "address": "Jan Wolkerssingel 201",
-      "city": "Utrecht",
-      "price": 889000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/340/237.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 165,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-jan-wolkerssingel-201/44419041/"
-    },
-    {
-      "id": "44410642",
-      "address": "Adriaan de Jongestraat 20",
-      "city": "Haarlem",
-      "price": 815000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/363/063.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 103,
-      "url": "https://www.funda.nl/detail/koop/haarlem/huis-adriaan-de-jongestraat-20/44410642/"
-    },
-    {
-      "id": "44419805",
-      "address": "Schipperhorst 33",
-      "city": "Enschede",
-      "price": 385000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/330/691.jpg",
+      "id": "44411241",
+      "address": "Van der Horststraat 20",
+      "city": "Maassluis",
+      "price": 415000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/425/314.jpg",
       "bedrooms": 3,
+      "energy_label": "E",
+      "surface": 75,
+      "url": "https://www.funda.nl/detail/koop/maassluis/huis-van-der-horststraat-20/44411241/"
+    },
+    {
+      "id": "44411266",
+      "address": "Worp 83",
+      "city": "Deventer",
+      "price": 1475000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/421/584.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 336,
+      "url": "https://www.funda.nl/detail/koop/deventer/huis-worp-83/44411266/"
+    },
+    {
+      "id": "44411766",
+      "address": "Handelskade 33",
+      "city": "Nieuwegein",
+      "price": 749000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/402/955.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 130,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-handelskade-33/44411766/"
+    },
+    {
+      "id": "80875278",
+      "address": "Spiegheldreef 43",
+      "city": "Leiderdorp",
+      "price": 565000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/401/903.jpg",
+      "bedrooms": 5,
       "energy_label": "C",
-      "surface": 109,
-      "url": "https://www.funda.nl/detail/koop/enschede/huis-schipperhorst-33/44419805/"
+      "surface": 152,
+      "url": "https://www.funda.nl/detail/koop/leiderdorp/huis-spiegheldreef-43/80875278/"
+    },
+    {
+      "id": "80875335",
+      "address": "Drebbelstraat 302",
+      "city": "Den Haag",
+      "price": 250000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/404/428.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 65,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-drebbelstraat-302/80875335/"
+    },
+    {
+      "id": "44411390",
+      "address": "Haya van Somerenlaan 17",
+      "city": "Zeist",
+      "price": 775000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/427/274.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 128,
+      "url": "https://www.funda.nl/detail/koop/zeist/huis-haya-van-somerenlaan-17/44411390/"
+    },
+    {
+      "id": "44410298",
+      "address": "Havenstraat 35",
+      "city": "Berkel en Rodenrijs",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/386/615.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 116,
+      "url": "https://www.funda.nl/detail/koop/berkel-en-rodenrijs/huis-havenstraat-35/44410298/"
+    },
+    {
+      "id": "44411775",
+      "address": "Rottenburgseweg 98",
+      "city": "Middelharnis",
+      "price": 430000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/403/322.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/middelharnis/huis-rottenburgseweg-98/44411775/"
+    },
+    {
+      "id": "44410096",
+      "address": "H.A. Lorentzweg 107",
+      "city": "Bussum",
+      "price": 739000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/378/241.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 117,
+      "url": "https://www.funda.nl/detail/koop/bussum/huis-ha-lorentzweg-107/44410096/"
     }
   ]
 }
