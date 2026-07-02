@@ -2,26 +2,114 @@
   "date": "2026-07-02",
   "houses": [
     {
-      "id": "44412134",
-      "address": "Brugakker 1071",
-      "city": "Zeist",
-      "price": 725000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/462/378.jpg",
+      "id": "44425529",
+      "address": "Thorbeckestraat 58",
+      "city": "Katwijk (ZH)",
+      "price": 399000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/552/736.jpg",
       "bedrooms": 3,
       "energy_label": "C",
-      "surface": 119,
-      "url": "https://www.funda.nl/detail/koop/zeist/huis-brugakker-1071/44412134/"
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/katwijk-zh/appartement-thorbeckestraat-58/44425529/"
     },
     {
-      "id": "44413600",
-      "address": "Rilland Bathstraat 118",
-      "city": "Rotterdam",
-      "price": 220000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/480/903.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 73,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-rilland-bathstraat-118/44413600/"
+      "id": "44414325",
+      "address": "Jasmijnstraat 96",
+      "city": "Den Haag",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/544/829.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 64,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-jasmijnstraat-96/44414325/"
+    },
+    {
+      "id": "44425564",
+      "address": "Appartement (Bouwnr. 4)",
+      "city": "Mijdrecht",
+      "price": 653000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/549/857.jpg",
+      "bedrooms": 1,
+      "energy_label": "A3",
+      "surface": 89,
+      "url": "https://www.funda.nl/detail/koop/mijdrecht/appartement-appartement-bouwnr-4/44425564/"
+    },
+    {
+      "id": "44425450",
+      "address": "Appartement (Bouwnr. 3)",
+      "city": "Mijdrecht",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/549/903.jpg",
+      "bedrooms": 1,
+      "energy_label": "A3",
+      "surface": 49,
+      "url": "https://www.funda.nl/detail/koop/mijdrecht/appartement-appartement-bouwnr-3/44425450/"
+    },
+    {
+      "id": "80889188",
+      "address": "Kilweg 15",
+      "city": "'s-Gravendeel",
+      "price": 519000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/553/596.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 117,
+      "url": "https://www.funda.nl/detail/koop/s-gravendeel/huis-kilweg-15/80889188/"
+    },
+    {
+      "id": "44425536",
+      "address": "Gibraltarstraat 83-2",
+      "city": "Amsterdam",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/553/130.jpg",
+      "bedrooms": 1,
+      "energy_label": "B",
+      "surface": 49,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-gibraltarstraat-83-2/44425536/"
+    },
+    {
+      "id": "80889189",
+      "address": "Raoul Wallenbergborg 12",
+      "city": "Schiedam",
+      "price": 625000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/553/506.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 127,
+      "url": "https://www.funda.nl/detail/koop/schiedam/huis-raoul-wallenbergborg-12/80889189/"
+    },
+    {
+      "id": "44425563",
+      "address": "Appartement (Bouwnr. 2)",
+      "city": "Mijdrecht",
+      "price": 374000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/549/947.jpg",
+      "bedrooms": 1,
+      "energy_label": "A3",
+      "surface": 50,
+      "url": "https://www.funda.nl/detail/koop/mijdrecht/appartement-appartement-bouwnr-2/44425563/"
+    },
+    {
+      "id": "44425533",
+      "address": "Morssingel 95",
+      "city": "Leiden",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/552/989.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 75,
+      "url": "https://www.funda.nl/detail/koop/leiden/appartement-morssingel-95/44425533/"
+    },
+    {
+      "id": "80877492",
+      "address": "Hoge Hilleweg 37",
+      "city": "Burgh-Haamstede",
+      "price": 998500,
+      "photo": "https://cloud.funda.nl/valentina_media/231/489/755.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 170,
+      "url": "https://www.funda.nl/detail/koop/burgh-haamstede/huis-hoge-hilleweg-37/80877492/"
     }
   ]
 }
