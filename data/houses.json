@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "houses": [
     {
-      "id": "44425529",
-      "address": "Thorbeckestraat 58",
-      "city": "Katwijk (ZH)",
-      "price": 399000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/552/736.jpg",
+      "id": "44413194",
+      "address": "Oude Vest 28-A",
+      "city": "Breda",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/499/698.jpg",
+      "bedrooms": 3,
+      "energy_label": "E",
+      "surface": 113,
+      "url": "https://www.funda.nl/detail/koop/breda/appartement-oude-vest-28-a/44413194/"
+    },
+    {
+      "id": "44414255",
+      "address": "Gerard Doustraat 11",
+      "city": "IJmuiden",
+      "price": 478000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/541/934.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/ijmuiden/huis-gerard-doustraat-11/44414255/"
+    },
+    {
+      "id": "44413909",
+      "address": "Orteliusstraat 217-2",
+      "city": "Amsterdam",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/491/821.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 49,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-orteliusstraat-217-2/44413909/"
+    },
+    {
+      "id": "44425521",
+      "address": "Freiahôf 17",
+      "city": "Feanwâlden",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/552/852.jpg",
+      "bedrooms": 3,
+      "energy_label": "A1",
+      "surface": 117,
+      "url": "https://www.funda.nl/detail/koop/feanwalden/huis-freiahof-17/44425521/"
+    },
+    {
+      "id": "44413981",
+      "address": "Oude Kraan 30-1",
+      "city": "Arnhem",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/491/147.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 89,
+      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-oude-kraan-30-1/44413981/"
+    },
+    {
+      "id": "44414534",
+      "address": "Scholekstersingel 14",
+      "city": "Den Haag",
+      "price": 750000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/516/456.jpg",
+      "bedrooms": 6,
+      "energy_label": "A1",
+      "surface": 189,
+      "url": "https://www.funda.nl/detail/koop/den-haag/huis-scholekstersingel-14/44414534/"
+    },
+    {
+      "id": "44414063",
+      "address": "Watersnip 11",
+      "city": "Nieuw-Lekkerland",
+      "price": 545000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/532/481.jpg",
+      "bedrooms": 6,
+      "energy_label": "A",
+      "surface": 138,
+      "url": "https://www.funda.nl/detail/koop/nieuw-lekkerland/huis-watersnip-11/44414063/"
+    },
+    {
+      "id": "80878810",
+      "address": "Waterman 125",
+      "city": "Hoorn (NH)",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/539/288.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 88,
+      "url": "https://www.funda.nl/detail/koop/hoorn-nh/huis-waterman-125/80878810/"
+    },
+    {
+      "id": "44414393",
+      "address": "Fazantstraat 59-B",
+      "city": "Rotterdam",
+      "price": 182750,
+      "photo": "https://cloud.funda.nl/valentina_media/231/543/977.jpg",
+      "bedrooms": 1,
+      "energy_label": "D",
+      "surface": 57,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-fazantstraat-59-b/44414393/"
+    },
+    {
+      "id": "44414151",
+      "address": "Eisenhowerlaan 12",
+      "city": "Delft",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/538/849.jpg",
       "bedrooms": 3,
       "energy_label": "C",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/katwijk-zh/appartement-thorbeckestraat-58/44425529/"
-    },
-    {
-      "id": "44414325",
-      "address": "Jasmijnstraat 96",
-      "city": "Den Haag",
-      "price": 300000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/544/829.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 64,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-jasmijnstraat-96/44414325/"
-    },
-    {
-      "id": "44425564",
-      "address": "Appartement (Bouwnr. 4)",
-      "city": "Mijdrecht",
-      "price": 653000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/549/857.jpg",
-      "bedrooms": 1,
-      "energy_label": "A3",
-      "surface": 89,
-      "url": "https://www.funda.nl/detail/koop/mijdrecht/appartement-appartement-bouwnr-4/44425564/"
-    },
-    {
-      "id": "44425450",
-      "address": "Appartement (Bouwnr. 3)",
-      "city": "Mijdrecht",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/549/903.jpg",
-      "bedrooms": 1,
-      "energy_label": "A3",
-      "surface": 49,
-      "url": "https://www.funda.nl/detail/koop/mijdrecht/appartement-appartement-bouwnr-3/44425450/"
-    },
-    {
-      "id": "80889188",
-      "address": "Kilweg 15",
-      "city": "'s-Gravendeel",
-      "price": 519000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/553/596.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 117,
-      "url": "https://www.funda.nl/detail/koop/s-gravendeel/huis-kilweg-15/80889188/"
-    },
-    {
-      "id": "44425536",
-      "address": "Gibraltarstraat 83-2",
-      "city": "Amsterdam",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/553/130.jpg",
-      "bedrooms": 1,
-      "energy_label": "B",
-      "surface": 49,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-gibraltarstraat-83-2/44425536/"
-    },
-    {
-      "id": "80889189",
-      "address": "Raoul Wallenbergborg 12",
-      "city": "Schiedam",
-      "price": 625000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/553/506.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 127,
-      "url": "https://www.funda.nl/detail/koop/schiedam/huis-raoul-wallenbergborg-12/80889189/"
-    },
-    {
-      "id": "44425563",
-      "address": "Appartement (Bouwnr. 2)",
-      "city": "Mijdrecht",
-      "price": 374000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/549/947.jpg",
-      "bedrooms": 1,
-      "energy_label": "A3",
-      "surface": 50,
-      "url": "https://www.funda.nl/detail/koop/mijdrecht/appartement-appartement-bouwnr-2/44425563/"
-    },
-    {
-      "id": "44425533",
-      "address": "Morssingel 95",
-      "city": "Leiden",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/552/989.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 75,
-      "url": "https://www.funda.nl/detail/koop/leiden/appartement-morssingel-95/44425533/"
-    },
-    {
-      "id": "80877492",
-      "address": "Hoge Hilleweg 37",
-      "city": "Burgh-Haamstede",
-      "price": 998500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/489/755.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 170,
-      "url": "https://www.funda.nl/detail/koop/burgh-haamstede/huis-hoge-hilleweg-37/80877492/"
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/delft/huis-eisenhowerlaan-12/44414151/"
     }
   ]
 }
