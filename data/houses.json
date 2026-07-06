@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "houses": [
     {
-      "id": "44425874",
-      "address": "Nedereindseweg 29-10",
-      "city": "Nieuwegein",
-      "price": 250000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/561/435.jpg",
+      "id": "80889774",
+      "address": "Koetsierbaan 193",
+      "city": "Almere",
+      "price": 387500,
+      "photo": "https://cloud.funda.nl/valentina_media/231/575/642.jpg",
       "bedrooms": 1,
-      "energy_label": "A2",
-      "surface": 40,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-nedereindseweg-29-10/44425874/"
+      "energy_label": "?",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/almere/appartement-koetsierbaan-193/80889774/"
     },
     {
-      "id": "80880484",
-      "address": "Drieboomlaan 36",
-      "city": "Hoorn (NH)",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/604/749.jpg",
-      "bedrooms": 3,
-      "energy_label": "G",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/hoorn-nh/huis-drieboomlaan-36/80880484/"
-    },
-    {
-      "id": "80881411",
-      "address": "Tulpstraat 47",
-      "city": "Utrecht",
-      "price": 499000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/643/243.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 81,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-tulpstraat-47/80881411/"
-    },
-    {
-      "id": "44425151",
-      "address": "Beryldrift 1",
-      "city": "Nieuwegein",
-      "price": 535000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/576/829.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 129,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-beryldrift-1/44425151/"
-    },
-    {
-      "id": "44426863",
-      "address": "Bergselaan 86-A",
-      "city": "Rotterdam",
-      "price": 685000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/601/239.jpg",
-      "bedrooms": 4,
-      "energy_label": "D",
-      "surface": 147,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-bergselaan-86-a/44426863/"
-    },
-    {
-      "id": "44427715",
-      "address": "Hezer Enghweg 47",
-      "city": "Den Dolder",
-      "price": 629000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/640/167.jpg",
-      "bedrooms": 3,
-      "energy_label": "D",
-      "surface": 85,
-      "url": "https://www.funda.nl/detail/koop/den-dolder/huis-hezer-enghweg-47/44427715/"
-    },
-    {
-      "id": "80880819",
-      "address": "Prinses Annalaan 228",
-      "city": "Leidschendam",
-      "price": 275000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/618/046.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 85,
-      "url": "https://www.funda.nl/detail/koop/leidschendam/appartement-prinses-annalaan-228/80880819/"
-    },
-    {
-      "id": "44426742",
-      "address": "Lijsterbesstraat 218",
-      "city": "Nieuwegein",
-      "price": 300000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/600/846.jpg",
+      "id": "44427819",
+      "address": "Stalpertstraat 118",
+      "city": "Den Haag",
+      "price": 510000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/645/304.jpg",
       "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-lijsterbesstraat-218/44426742/"
+      "energy_label": "E",
+      "surface": 112,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-stalpertstraat-118/44427819/"
     },
     {
-      "id": "80881370",
-      "address": "Koriander 15",
-      "city": "Heerhugowaard",
-      "price": 725000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/641/129.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 126,
-      "url": "https://www.funda.nl/detail/koop/heerhugowaard/huis-koriander-15/80881370/"
-    },
-    {
-      "id": "80881346",
-      "address": "Seggenstraße 21",
-      "city": "Meppen",
-      "price": 689000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/639/880.jpg",
+      "id": "44426053",
+      "address": "Werner Helmichstraat 60",
+      "city": "Utrecht",
+      "price": 610000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/612/275.jpg",
       "bedrooms": 4,
       "energy_label": "B",
-      "surface": 209,
-      "url": "https://www.funda.nl/detail/koop/meppen/huis-seggenstrae-21/80881346/"
+      "surface": 99,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-werner-helmichstraat-60/44426053/"
+    },
+    {
+      "id": "80881414",
+      "address": "Overakkerstraat 298",
+      "city": "Breda",
+      "price": 1250000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/643/378.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 195,
+      "url": "https://www.funda.nl/detail/koop/breda/huis-overakkerstraat-298/80881414/"
+    },
+    {
+      "id": "80881470",
+      "address": "Heistraat 45",
+      "city": "Valkenswaard",
+      "price": 1195000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/646/025.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 190,
+      "url": "https://www.funda.nl/detail/koop/valkenswaard/huis-heistraat-45/80881470/"
+    },
+    {
+      "id": "44425290",
+      "address": "Westdam 22",
+      "city": "Sas van Gent",
+      "price": 239500,
+      "photo": "https://cloud.funda.nl/valentina_media/231/578/663.jpg",
+      "bedrooms": 3,
+      "energy_label": "F",
+      "surface": 107,
+      "url": "https://www.funda.nl/detail/koop/sas-van-gent/huis-westdam-22/44425290/"
+    },
+    {
+      "id": "44426766",
+      "address": "Roeltjesweg 1-7",
+      "city": "Hilversum",
+      "price": 579500,
+      "photo": "https://cloud.funda.nl/valentina_media/231/597/771.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-roeltjesweg-1-7/44426766/"
+    },
+    {
+      "id": "80881458",
+      "address": "Lepelaar 38",
+      "city": "Zuid-Scharwoude",
+      "price": 1079000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/645/432.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 125,
+      "url": "https://www.funda.nl/detail/koop/zuid-scharwoude/huis-lepelaar-38/80881458/"
+    },
+    {
+      "id": "44427797",
+      "address": "Kamerlingh Onnesweg 254",
+      "city": "Hilversum",
+      "price": 775000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/639/136.jpg",
+      "bedrooms": 5,
+      "energy_label": "C",
+      "surface": 150,
+      "url": "https://www.funda.nl/detail/koop/hilversum/huis-kamerlingh-onnesweg-254/44427797/"
+    },
+    {
+      "id": "80881453",
+      "address": "De Carpentierstraat 59",
+      "city": "Den Haag",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/645/217.jpg",
+      "bedrooms": 2,
+      "energy_label": "G",
+      "surface": 75,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-de-carpentierstraat-59/80881453/"
     }
   ]
 }
