@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-09",
   "houses": [
     {
-      "id": "44429322",
-      "address": "Meijhorst 3134",
-      "city": "Nijmegen",
-      "price": 310000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/737/853.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 91,
-      "url": "https://www.funda.nl/detail/koop/nijmegen/appartement-meijhorst-3134/44429322/"
-    },
-    {
-      "id": "44429449",
-      "address": "Cornelis Dirkszstraat 151",
-      "city": "Utrecht",
-      "price": 515000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/705/540.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 91,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-cornelis-dirkszstraat-151/44429449/"
-    },
-    {
-      "id": "44420414",
-      "address": "Scottlaan 114",
-      "city": "Eindhoven",
-      "price": 675000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/741/005.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 189,
-      "url": "https://www.funda.nl/detail/koop/eindhoven/appartement-scottlaan-114/44420414/"
-    },
-    {
-      "id": "44420545",
-      "address": "Stepelerveld 45",
-      "city": "Nieuw-Vennep",
-      "price": 695000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/746/795.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 152,
-      "url": "https://www.funda.nl/detail/koop/nieuw-vennep/huis-stepelerveld-45/44420545/"
-    },
-    {
-      "id": "44429158",
-      "address": "Willibrorduslaan 169",
-      "city": "Hilversum",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/730/711.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 66,
-      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-willibrorduslaan-169/44429158/"
-    },
-    {
-      "id": "44429546",
-      "address": "Clausstraat 28",
-      "city": "Groningen",
-      "price": 349000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/709/668.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 73,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-clausstraat-28/44429546/"
-    },
-    {
-      "id": "44429072",
-      "address": "Muldersweg 61",
-      "city": "Nijmegen",
-      "price": 357500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/724/797.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 75,
-      "url": "https://www.funda.nl/detail/koop/nijmegen/appartement-muldersweg-61/44429072/"
-    },
-    {
-      "id": "44428879",
-      "address": "Schoolhof 8",
-      "city": "Benschop",
-      "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/680/789.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 122,
-      "url": "https://www.funda.nl/detail/koop/benschop/huis-schoolhof-8/44428879/"
-    },
-    {
-      "id": "44429695",
-      "address": "Buninkdijk 2-A",
+      "id": "44421783",
+      "address": "Heegtweg 1-A",
       "city": "Aalten",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/711/570.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 91,
-      "url": "https://www.funda.nl/detail/koop/aalten/huis-buninkdijk-2-a/44429695/"
+      "price": 595000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/786/914.jpg",
+      "bedrooms": 5,
+      "energy_label": "E",
+      "surface": 223,
+      "url": "https://www.funda.nl/detail/koop/aalten/huis-heegtweg-1-a/44421783/"
     },
     {
-      "id": "44429478",
-      "address": "Anne Franklaan 50",
-      "city": "Bussum",
-      "price": 785000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/702/593.jpg",
+      "id": "44420109",
+      "address": "Manschotplein 27",
+      "city": "Aalten",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/765/735.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 122,
+      "url": "https://www.funda.nl/detail/koop/aalten/huis-manschotplein-27/44420109/"
+    },
+    {
+      "id": "44421044",
+      "address": "Waterbies 8",
+      "city": "Lelystad",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/802/625.jpg",
+      "bedrooms": 4,
+      "energy_label": "A2",
+      "surface": 147,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-waterbies-8/44421044/"
+    },
+    {
+      "id": "44421491",
+      "address": "Koninginnelaan 57",
+      "city": "Sommelsdijk",
+      "price": 535000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/776/133.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 130,
+      "url": "https://www.funda.nl/detail/koop/sommelsdijk/huis-koninginnelaan-57/44421491/"
+    },
+    {
+      "id": "44421986",
+      "address": "Kantershof 107",
+      "city": "Amsterdam",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/795/777.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 92,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-kantershof-107/44421986/"
+    },
+    {
+      "id": "44420323",
+      "address": "Vaalserberg 121",
+      "city": "Capelle aan den IJssel",
+      "price": 350000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/773/091.jpg",
+      "bedrooms": 3,
+      "energy_label": "A1",
+      "surface": 90,
+      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-vaalserberg-121/44420323/"
+    },
+    {
+      "id": "44421635",
+      "address": "Gerst 5",
+      "city": "Ruurlo",
+      "price": 695000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/784/851.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 154,
+      "url": "https://www.funda.nl/detail/koop/ruurlo/huis-gerst-5/44421635/"
+    },
+    {
+      "id": "44421461",
+      "address": "Graafschapstraat 102",
+      "city": "Amsterdam",
+      "price": 1050000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/775/138.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 163,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-graafschapstraat-102/44421461/"
+    },
+    {
+      "id": "44420930",
+      "address": "Nieuwkamppad 9",
+      "city": "Zevenaar",
+      "price": 482500,
+      "photo": "https://cloud.funda.nl/valentina_media/231/761/081.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 119,
+      "url": "https://www.funda.nl/detail/koop/zevenaar/huis-nieuwkamppad-9/44420930/"
+    },
+    {
+      "id": "80885064",
+      "address": "Boele van Hensbroekstraat 38",
+      "city": "Den Haag",
+      "price": 365000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/777/094.jpg",
       "bedrooms": 5,
       "energy_label": "D",
-      "surface": 139,
-      "url": "https://www.funda.nl/detail/koop/bussum/huis-anne-franklaan-50/44429478/"
+      "surface": 123,
+      "url": "https://www.funda.nl/detail/koop/den-haag/huis-boele-van-hensbroekstraat-38/80885064/"
     }
   ]
 }
