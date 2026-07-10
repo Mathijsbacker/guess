@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "houses": [
     {
-      "id": "44421783",
-      "address": "Heegtweg 1-A",
-      "city": "Aalten",
-      "price": 595000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/786/914.jpg",
-      "bedrooms": 5,
-      "energy_label": "E",
-      "surface": 223,
-      "url": "https://www.funda.nl/detail/koop/aalten/huis-heegtweg-1-a/44421783/"
-    },
-    {
-      "id": "44420109",
-      "address": "Manschotplein 27",
-      "city": "Aalten",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/765/735.jpg",
-      "bedrooms": 3,
+      "id": "44422034",
+      "address": "Lodewijk Pincoffsweg 45",
+      "city": "Rotterdam",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/837/725.jpg",
+      "bedrooms": 2,
       "energy_label": "C",
-      "surface": 122,
-      "url": "https://www.funda.nl/detail/koop/aalten/huis-manschotplein-27/44420109/"
-    },
-    {
-      "id": "44421044",
-      "address": "Waterbies 8",
-      "city": "Lelystad",
-      "price": 550000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/802/625.jpg",
-      "bedrooms": 4,
-      "energy_label": "A2",
-      "surface": 147,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-waterbies-8/44421044/"
-    },
-    {
-      "id": "44421491",
-      "address": "Koninginnelaan 57",
-      "city": "Sommelsdijk",
-      "price": 535000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/776/133.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 130,
-      "url": "https://www.funda.nl/detail/koop/sommelsdijk/huis-koninginnelaan-57/44421491/"
-    },
-    {
-      "id": "44421986",
-      "address": "Kantershof 107",
-      "city": "Amsterdam",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/795/777.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 92,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-kantershof-107/44421986/"
-    },
-    {
-      "id": "44420323",
-      "address": "Vaalserberg 121",
-      "city": "Capelle aan den IJssel",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/773/091.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
       "surface": 90,
-      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-vaalserberg-121/44420323/"
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-lodewijk-pincoffsweg-45/44422034/"
     },
     {
-      "id": "44421635",
-      "address": "Gerst 5",
-      "city": "Ruurlo",
-      "price": 695000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/784/851.jpg",
+      "id": "44421192",
+      "address": "Ketelven 28",
+      "city": "Veghel",
+      "price": 599000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/805/209.jpg",
       "bedrooms": 4,
       "energy_label": "A",
-      "surface": 154,
-      "url": "https://www.funda.nl/detail/koop/ruurlo/huis-gerst-5/44421635/"
+      "surface": 140,
+      "url": "https://www.funda.nl/detail/koop/veghel/huis-ketelven-28/44421192/"
     },
     {
-      "id": "44421461",
-      "address": "Graafschapstraat 102",
-      "city": "Amsterdam",
-      "price": 1050000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/775/138.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 163,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-graafschapstraat-102/44421461/"
-    },
-    {
-      "id": "44420930",
-      "address": "Nieuwkamppad 9",
-      "city": "Zevenaar",
-      "price": 482500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/761/081.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 119,
-      "url": "https://www.funda.nl/detail/koop/zevenaar/huis-nieuwkamppad-9/44420930/"
-    },
-    {
-      "id": "80885064",
-      "address": "Boele van Hensbroekstraat 38",
+      "id": "80886709",
+      "address": "Tonystraat 32",
       "city": "Den Haag",
-      "price": 365000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/777/094.jpg",
+      "price": 250000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/838/667.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 69,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-tonystraat-32/80886709/"
+    },
+    {
+      "id": "44423448",
+      "address": "Harmen van Swinderenstraat 15",
+      "city": "Steenwijk",
+      "price": 285000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/854/431.jpg",
+      "bedrooms": 3,
+      "energy_label": "E",
+      "surface": 85,
+      "url": "https://www.funda.nl/detail/koop/steenwijk/huis-harmen-van-swinderenstraat-15/44423448/"
+    },
+    {
+      "id": "44422024",
+      "address": "Prins Bernhardstraat 8",
+      "city": "Benthuizen",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/837/349.jpg",
       "bedrooms": 5,
-      "energy_label": "D",
-      "surface": 123,
-      "url": "https://www.funda.nl/detail/koop/den-haag/huis-boele-van-hensbroekstraat-38/80885064/"
+      "energy_label": "C",
+      "surface": 129,
+      "url": "https://www.funda.nl/detail/koop/benthuizen/huis-prins-bernhardstraat-8/44422024/"
+    },
+    {
+      "id": "44423444",
+      "address": "Vossemeerstraat 31",
+      "city": "Lelystad",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/854/289.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 135,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-vossemeerstraat-31/44423444/"
+    },
+    {
+      "id": "44422020",
+      "address": "Voorweg 162",
+      "city": "Zoetermeer",
+      "price": 595000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/837/386.jpg",
+      "bedrooms": 3,
+      "energy_label": "F",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-voorweg-162/44422020/"
+    },
+    {
+      "id": "80884052",
+      "address": "Kolibrievlinder 19",
+      "city": "Enschede",
+      "price": 369000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/741/110.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 97,
+      "url": "https://www.funda.nl/detail/koop/enschede/huis-kolibrievlinder-19/80884052/"
+    },
+    {
+      "id": "44421125",
+      "address": "Tongelresestraat 2-C",
+      "city": "Eindhoven",
+      "price": 329000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/805/872.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 58,
+      "url": "https://www.funda.nl/detail/koop/eindhoven/appartement-tongelresestraat-2-c/44421125/"
+    },
+    {
+      "id": "44422210",
+      "address": "Horstacker 1524",
+      "city": "Nijmegen",
+      "price": 269000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/844/723.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 67,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/appartement-horstacker-1524/44422210/"
     }
   ]
 }
