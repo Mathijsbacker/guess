@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "houses": [
     {
-      "id": "80899120",
-      "address": "Katoenweversgilde 42",
-      "city": "Hasselt",
-      "price": 535000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/929/378.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 140,
-      "url": "https://www.funda.nl/detail/koop/hasselt/huis-katoenweversgilde-42/80899120/"
-    },
-    {
-      "id": "44435564",
-      "address": "Burgemeester Zahnweg 27",
-      "city": "Goudswaard",
-      "price": 565000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/928/484.jpg",
-      "bedrooms": 4,
-      "energy_label": "E",
-      "surface": 123,
-      "url": "https://www.funda.nl/detail/koop/goudswaard/huis-burgemeester-zahnweg-27/44435564/"
-    },
-    {
-      "id": "44424205",
-      "address": "Fearhûshoeke 4",
-      "city": "Mantgum",
-      "price": 360000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/917/949.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 132,
-      "url": "https://www.funda.nl/detail/koop/mantgum/huis-fearhushoeke-4/44424205/"
-    },
-    {
-      "id": "44423320",
-      "address": "den Daal 22",
-      "city": "Eersel",
-      "price": 849000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/887/432.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 230,
-      "url": "https://www.funda.nl/detail/koop/eersel/huis-den-daal-22/44423320/"
-    },
-    {
-      "id": "80899037",
-      "address": "Brusselseweg 95",
-      "city": "Maastricht",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/925/606.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 131,
-      "url": "https://www.funda.nl/detail/koop/maastricht/huis-brusselseweg-95/80899037/"
-    },
-    {
-      "id": "80899124",
-      "address": "De Spinde 601",
-      "city": "Hardenberg",
-      "price": 239500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/929/754.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 67,
-      "url": "https://www.funda.nl/detail/koop/hardenberg/appartement-de-spinde-601/80899124/"
-    },
-    {
-      "id": "80899117",
-      "address": "Warande 81",
-      "city": "Rotterdam",
-      "price": 365000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/929/247.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 68,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-warande-81/80899117/"
-    },
-    {
-      "id": "44435582",
-      "address": "Kwikstaartlaan 13",
-      "city": "Den Haag",
-      "price": 1300000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/929/895.jpg",
-      "bedrooms": 5,
-      "energy_label": "D",
-      "surface": 184,
-      "url": "https://www.funda.nl/detail/koop/den-haag/huis-kwikstaartlaan-13/44435582/"
-    },
-    {
-      "id": "80899125",
-      "address": "Am Schulkamp 28",
-      "city": "Getelo",
-      "price": 579000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/929/826.jpg",
-      "bedrooms": 5,
-      "energy_label": "A2",
-      "surface": 185,
-      "url": "https://www.funda.nl/detail/koop/getelo/huis-am-schulkamp-28/80899125/"
-    },
-    {
-      "id": "44423234",
-      "address": "Korenstraat 32",
-      "city": "Apeldoorn",
-      "price": 269500,
-      "photo": "https://cloud.funda.nl/valentina_media/231/883/457.jpg",
+      "id": "44435591",
+      "address": "Delistraat 24-E",
+      "city": "Amsterdam",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/930/312.jpg",
       "bedrooms": 1,
+      "energy_label": "B",
+      "surface": 29,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-delistraat-24-e/44435591/"
+    },
+    {
+      "id": "44423031",
+      "address": "Fraeylemaborg 23",
+      "city": "Lelystad",
+      "price": 535000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/875/004.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 147,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-fraeylemaborg-23/44423031/"
+    },
+    {
+      "id": "80887478",
+      "address": "Winterkoninkje 40",
+      "city": "Hoorn (NH)",
+      "price": 335000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/867/295.jpg",
+      "bedrooms": 3,
       "energy_label": "C",
-      "surface": 60,
-      "url": "https://www.funda.nl/detail/koop/apeldoorn/appartement-korenstraat-32/44423234/"
+      "surface": 104,
+      "url": "https://www.funda.nl/detail/koop/hoorn-nh/huis-winterkoninkje-40/80887478/"
+    },
+    {
+      "id": "44424235",
+      "address": "Bijland 803",
+      "city": "Uden",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/919/210.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/uden/huis-bijland-803/44424235/"
+    },
+    {
+      "id": "80899169",
+      "address": "Burgemeester Elsenlaan 323-F105",
+      "city": "Rijswijk (ZH)",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/931/329.jpg",
+      "bedrooms": 2,
+      "energy_label": "A1",
+      "surface": 77,
+      "url": "https://www.funda.nl/detail/koop/rijswijk-zh/appartement-burgemeester-elsenlaan-323-f105/80899169/"
+    },
+    {
+      "id": "44424348",
+      "address": "Spitsbergenstraat 9",
+      "city": "Breda",
+      "price": 575000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/923/027.jpg",
+      "bedrooms": 3,
+      "energy_label": "A4",
+      "surface": 102,
+      "url": "https://www.funda.nl/detail/koop/breda/huis-spitsbergenstraat-9/44424348/"
+    },
+    {
+      "id": "80887300",
+      "address": "Aresstraat 45",
+      "city": "Almere",
+      "price": 799000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/859/900.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 194,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-aresstraat-45/80887300/"
+    },
+    {
+      "id": "80899162",
+      "address": "Volendamlaan 907",
+      "city": "Den Haag",
+      "price": 315000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/931/568.jpg",
+      "bedrooms": 2,
+      "energy_label": "?",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-volendamlaan-907/80899162/"
+    },
+    {
+      "id": "80899167",
+      "address": "Rozenboomlaan 43",
+      "city": "Voorburg",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/931/686.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 94,
+      "url": "https://www.funda.nl/detail/koop/voorburg/appartement-rozenboomlaan-43/80899167/"
+    },
+    {
+      "id": "44424777",
+      "address": "Wittevrouwenstraat 28-B",
+      "city": "Utrecht",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/901/575.jpg",
+      "bedrooms": 1,
+      "energy_label": "E",
+      "surface": 41,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-wittevrouwenstraat-28-b/44424777/"
     }
   ]
 }
