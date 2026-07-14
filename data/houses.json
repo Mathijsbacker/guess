@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "houses": [
     {
-      "id": "44436425",
-      "address": "Eikenstraat 52",
-      "city": "Almere",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/965/056.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 129,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-eikenstraat-52/44436425/"
-    },
-    {
-      "id": "44436468",
-      "address": "Griend 38 40",
-      "city": "Lelystad",
-      "price": 300000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/962/947.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 89,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-griend-38-40/44436468/"
-    },
-    {
-      "id": "44436540",
-      "address": "Hisveltplein 84",
-      "city": "Arnhem",
-      "price": 299000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/969/679.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 83,
-      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-hisveltplein-84/44436540/"
-    },
-    {
-      "id": "44435874",
-      "address": "Berkelselaan 177",
-      "city": "Rotterdam",
+      "id": "44437585",
+      "address": "Louis Armstronglaan 640",
+      "city": "Utrecht",
       "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/940/696.jpg",
+      "photo": "https://cloud.funda.nl/valentina_media/231/995/772.jpg",
       "bedrooms": 2,
-      "energy_label": "A1",
-      "surface": 93,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-berkelselaan-177/44435874/"
+      "energy_label": "A",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-louis-armstronglaan-640/44437585/"
     },
     {
-      "id": "44436642",
-      "address": "President Rooseveltlaan 159",
-      "city": "Maastricht",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/974/383.jpg",
+      "id": "80891789",
+      "address": "Dorpspad (Bouwnr. 1)",
+      "city": "Vogelwaarde",
+      "price": 389000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/019/304.jpg",
+      "bedrooms": 2,
+      "energy_label": "A4",
+      "surface": 77,
+      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-1/80891789/"
+    },
+    {
+      "id": "80891786",
+      "address": "Dorpspad (Bouwnr. 7)",
+      "city": "Vogelwaarde",
+      "price": 454250,
+      "photo": "https://cloud.funda.nl/valentina_media/232/019/363.jpg",
       "bedrooms": 3,
       "energy_label": "A3",
-      "surface": 154,
-      "url": "https://www.funda.nl/detail/koop/maastricht/huis-president-rooseveltlaan-159/44436642/"
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-7/80891786/"
     },
     {
-      "id": "44435675",
-      "address": "Kadeweg 23",
-      "city": "Middelharnis",
-      "price": 695000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/933/424.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/middelharnis/huis-kadeweg-23/44435675/"
-    },
-    {
-      "id": "44435884",
-      "address": "Mgr. Dr. Th. Goossensstraat 21",
-      "city": "Best",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/940/981.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 92,
-      "url": "https://www.funda.nl/detail/koop/best/huis-mgr-dr-th-goossensstraat-21/44435884/"
-    },
-    {
-      "id": "44436426",
-      "address": "Prins Hendrikstraat 33",
-      "city": "Sliedrecht",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/965/024.jpg",
+      "id": "80890255",
+      "address": "Zeeburgerdijk 750",
+      "city": "Amsterdam",
+      "price": 600000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/972/696.jpg",
       "bedrooms": 2,
-      "energy_label": "E",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/sliedrecht/huis-prins-hendrikstraat-33/44436426/"
-    },
-    {
-      "id": "44436586",
-      "address": "Populierenlaan 15",
-      "city": "Zwanenburg",
-      "price": 315000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/967/362.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 61,
-      "url": "https://www.funda.nl/detail/koop/zwanenburg/appartement-populierenlaan-15/44436586/"
-    },
-    {
-      "id": "44436572",
-      "address": "Naxos 34",
-      "city": "Hoofddorp",
-      "price": 1225000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/967/141.jpg",
-      "bedrooms": 4,
       "energy_label": "A",
-      "surface": 212,
-      "url": "https://www.funda.nl/detail/koop/hoofddorp/huis-naxos-34/44436572/"
+      "surface": 90,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-zeeburgerdijk-750/80890255/"
+    },
+    {
+      "id": "80891782",
+      "address": "Dorpspad (Bouwnr. 4)",
+      "city": "Vogelwaarde",
+      "price": 349000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/019/337.jpg",
+      "bedrooms": 2,
+      "energy_label": "A3",
+      "surface": 77,
+      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-4/80891782/"
+    },
+    {
+      "id": "44437752",
+      "address": "Boeslaan 49-II",
+      "city": "Wageningen",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/005/405.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/wageningen/appartement-boeslaan-49-ii/44437752/"
+    },
+    {
+      "id": "80891783",
+      "address": "Dorpspad (Bouwnr. 5)",
+      "city": "Vogelwaarde",
+      "price": 597000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/019/332.jpg",
+      "bedrooms": 4,
+      "energy_label": "A3",
+      "surface": 136,
+      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-5/80891783/"
+    },
+    {
+      "id": "44437823",
+      "address": "Plaggeweg 135",
+      "city": "Vierhouten",
+      "price": 6950000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/007/479.jpg",
+      "bedrooms": 6,
+      "energy_label": "E",
+      "surface": 423,
+      "url": "https://www.funda.nl/detail/koop/vierhouten/huis-plaggeweg-135/44437823/"
+    },
+    {
+      "id": "80891784",
+      "address": "Dorpspad (Bouwnr. 6)",
+      "city": "Vogelwaarde",
+      "price": 456000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/019/336.jpg",
+      "bedrooms": 3,
+      "energy_label": "A3",
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-6/80891784/"
+    },
+    {
+      "id": "80891781",
+      "address": "Dorpspad (Bouwnr. 2)",
+      "city": "Vogelwaarde",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/019/316.jpg",
+      "bedrooms": 3,
+      "energy_label": "A3",
+      "surface": 96,
+      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-2/80891781/"
     }
   ]
 }
