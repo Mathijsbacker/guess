@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-16",
   "houses": [
     {
-      "id": "44437585",
-      "address": "Louis Armstronglaan 640",
-      "city": "Utrecht",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/995/772.jpg",
+      "id": "80893018",
+      "address": "Aaltje Noordewierstraat 63",
+      "city": "Den Haag",
+      "price": 350000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/066/609.jpg",
       "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 72,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-louis-armstronglaan-640/44437585/"
+      "energy_label": "D",
+      "surface": 101,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-aaltje-noordewierstraat-63/80893018/"
     },
     {
-      "id": "80891789",
-      "address": "Dorpspad (Bouwnr. 1)",
-      "city": "Vogelwaarde",
-      "price": 389000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/019/304.jpg",
-      "bedrooms": 2,
-      "energy_label": "A4",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-1/80891789/"
+      "id": "44438941",
+      "address": "Leyweg 1259",
+      "city": "Den Haag",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/048/329.jpg",
+      "bedrooms": 1,
+      "energy_label": "A2",
+      "surface": 53,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-leyweg-1259/44438941/"
     },
     {
-      "id": "80891786",
-      "address": "Dorpspad (Bouwnr. 7)",
-      "city": "Vogelwaarde",
-      "price": 454250,
-      "photo": "https://cloud.funda.nl/valentina_media/232/019/363.jpg",
-      "bedrooms": 3,
-      "energy_label": "A3",
-      "surface": 124,
-      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-7/80891786/"
-    },
-    {
-      "id": "80890255",
-      "address": "Zeeburgerdijk 750",
-      "city": "Amsterdam",
-      "price": 600000,
-      "photo": "https://cloud.funda.nl/valentina_media/231/972/696.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 90,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-zeeburgerdijk-750/80890255/"
-    },
-    {
-      "id": "80891782",
-      "address": "Dorpspad (Bouwnr. 4)",
-      "city": "Vogelwaarde",
-      "price": 349000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/019/337.jpg",
-      "bedrooms": 2,
-      "energy_label": "A3",
-      "surface": 77,
-      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-4/80891782/"
-    },
-    {
-      "id": "44437752",
-      "address": "Boeslaan 49-II",
-      "city": "Wageningen",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/005/405.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 72,
-      "url": "https://www.funda.nl/detail/koop/wageningen/appartement-boeslaan-49-ii/44437752/"
-    },
-    {
-      "id": "80891783",
-      "address": "Dorpspad (Bouwnr. 5)",
-      "city": "Vogelwaarde",
-      "price": 597000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/019/332.jpg",
-      "bedrooms": 4,
-      "energy_label": "A3",
-      "surface": 136,
-      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-5/80891783/"
-    },
-    {
-      "id": "44437823",
-      "address": "Plaggeweg 135",
-      "city": "Vierhouten",
-      "price": 6950000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/007/479.jpg",
-      "bedrooms": 6,
-      "energy_label": "E",
-      "surface": 423,
-      "url": "https://www.funda.nl/detail/koop/vierhouten/huis-plaggeweg-135/44437823/"
-    },
-    {
-      "id": "80891784",
-      "address": "Dorpspad (Bouwnr. 6)",
-      "city": "Vogelwaarde",
-      "price": 456000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/019/336.jpg",
-      "bedrooms": 3,
-      "energy_label": "A3",
-      "surface": 124,
-      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-6/80891784/"
-    },
-    {
-      "id": "80891781",
-      "address": "Dorpspad (Bouwnr. 2)",
-      "city": "Vogelwaarde",
+      "id": "44438806",
+      "address": "Oranje-Bastion 6",
+      "city": "Grave",
       "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/019/316.jpg",
+      "photo": "https://cloud.funda.nl/valentina_media/232/043/210.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 123,
+      "url": "https://www.funda.nl/detail/koop/grave/huis-oranje-bastion-6/44438806/"
+    },
+    {
+      "id": "44438962",
+      "address": "Molenaarserf 79",
+      "city": "Houten",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/045/821.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 73,
+      "url": "https://www.funda.nl/detail/koop/houten/appartement-molenaarserf-79/44438962/"
+    },
+    {
+      "id": "44437393",
+      "address": "de Ruyterstraat 135",
+      "city": "Nijmegen",
+      "price": 925000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/024/236.jpg",
       "bedrooms": 3,
       "energy_label": "A3",
-      "surface": 96,
-      "url": "https://www.funda.nl/detail/koop/vogelwaarde/huis-dorpspad-bouwnr-2/80891781/"
+      "surface": 169,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-de-ruyterstraat-135/44437393/"
+    },
+    {
+      "id": "80893000",
+      "address": "Gaffelaarspad 10",
+      "city": "Amsterdam",
+      "price": 675000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/065/431.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 82,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-gaffelaarspad-10/80893000/"
+    },
+    {
+      "id": "44438495",
+      "address": "Jan Warmoltslaan 11",
+      "city": "Eelderwolde",
+      "price": 795000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/028/508.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 154,
+      "url": "https://www.funda.nl/detail/koop/eelderwolde/huis-jan-warmoltslaan-11/44438495/"
+    },
+    {
+      "id": "44438225",
+      "address": "Havikskruid 133",
+      "city": "Diemen",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/060/363.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 61,
+      "url": "https://www.funda.nl/detail/koop/diemen/appartement-havikskruid-133/44438225/"
+    },
+    {
+      "id": "44438448",
+      "address": "Apeldoornseweg 202-1",
+      "city": "Arnhem",
+      "price": 195000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/030/943.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 34,
+      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-apeldoornseweg-202-1/44438448/"
+    },
+    {
+      "id": "44438019",
+      "address": "Bentelosestraat 35",
+      "city": "Bentelo",
+      "price": 769000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/051/239.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 192,
+      "url": "https://www.funda.nl/detail/koop/bentelo/huis-bentelosestraat-35/44438019/"
     }
   ]
 }
