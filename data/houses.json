@@ -1,115 +1,82 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "houses": [
     {
-      "id": "44432500",
-      "address": "Tjalk 38 8",
-      "city": "Lelystad",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/177/161.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-tjalk-38-8/44432500/"
-    },
-    {
-      "id": "44418919",
-      "address": "Tormentilstraat 40",
-      "city": "Groningen",
-      "price": 435000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/137/232.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 103,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-tormentilstraat-40/44418919/"
-    },
-    {
-      "id": "44431890",
-      "address": "Battenoordsedijk 17",
-      "city": "Nieuwe-Tonge",
-      "price": 1500000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/149/839.jpg",
-      "bedrooms": 4,
-      "energy_label": "A4",
-      "surface": 372,
-      "url": "https://www.funda.nl/detail/koop/nieuwe-tonge/huis-battenoordsedijk-17/44431890/"
-    },
-    {
-      "id": "80896151",
-      "address": "Grote Breeken 65",
-      "city": "Driel",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/177/230.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/driel/appartement-grote-breeken-65/80896151/"
-    },
-    {
-      "id": "44431311",
-      "address": "Eendrachtsweg 30",
-      "city": "Stellendam",
-      "price": 800000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/169/903.jpg",
-      "bedrooms": 4,
+      "id": "44432636",
+      "address": "Berkenlaan 6",
+      "city": "Sassenheim",
+      "price": 539000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/182/839.jpg",
+      "bedrooms": 3,
       "energy_label": "C",
-      "surface": 169,
-      "url": "https://www.funda.nl/detail/koop/stellendam/huis-eendrachtsweg-30/44431311/"
+      "surface": 98,
+      "url": "https://www.funda.nl/detail/koop/sassenheim/huis-berkenlaan-6/44432636/"
     },
     {
-      "id": "44430337",
-      "address": "Kapittelweg 59",
-      "city": "Hilversum",
-      "price": 309000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/131/771.jpg",
+      "id": "80896280",
+      "address": "van Nahuysweg 85",
+      "city": "Hasselt",
+      "price": 419000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/183/161.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 79,
+      "url": "https://www.funda.nl/detail/koop/hasselt/huis-van-nahuysweg-85/80896280/"
+    },
+    {
+      "id": "80895488",
+      "address": "Lageweg 9",
+      "city": "Blokker",
+      "price": 875000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/152/366.jpg",
+      "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 206,
+      "url": "https://www.funda.nl/detail/koop/blokker/huis-lageweg-9/80895488/"
+    },
+    {
+      "id": "80896276",
+      "address": "Laan van Nieuw-Oost-Indië 274",
+      "city": "Den Haag",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/182/987.jpg",
       "bedrooms": 1,
       "energy_label": "C",
-      "surface": 56,
-      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-kapittelweg-59/44430337/"
+      "surface": 60,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-laan-van-nieuw-oost-indie-274/80896276/"
     },
     {
-      "id": "80896189",
-      "address": "Kazernestraat 6",
-      "city": "Uden",
-      "price": 599500,
-      "photo": "https://cloud.funda.nl/valentina_media/232/178/205.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 162,
-      "url": "https://www.funda.nl/detail/koop/uden/huis-kazernestraat-6/80896189/"
+      "id": "44432552",
+      "address": "Lumeyweg 35",
+      "city": "Brielle",
+      "price": 349900,
+      "photo": "https://cloud.funda.nl/valentina_media/232/179/332.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 69,
+      "url": "https://www.funda.nl/detail/koop/brielle/appartement-lumeyweg-35/44432552/"
     },
     {
-      "id": "44431590",
-      "address": "Prins Hendrikstraat 42",
-      "city": "Ooltgensplaat",
-      "price": 265000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/137/506.jpg",
+      "id": "80894845",
+      "address": "Zandsteen 41",
+      "city": "Hoorn (NH)",
+      "price": 369000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/128/908.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 70,
+      "url": "https://www.funda.nl/detail/koop/hoorn-nh/appartement-zandsteen-41/80894845/"
+    },
+    {
+      "id": "44432645",
+      "address": "M.A. de Ruijterstraat 8",
+      "city": "Sint-Maartensdijk",
+      "price": 489000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/183/212.jpg",
       "bedrooms": 4,
-      "energy_label": "E",
-      "surface": 99,
-      "url": "https://www.funda.nl/detail/koop/ooltgensplaat/huis-prins-hendrikstraat-42/44431590/"
-    },
-    {
-      "id": "44431199",
-      "address": "Horst 26 54",
-      "city": "Lelystad",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/160/868.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 172,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-horst-26-54/44431199/"
-    },
-    {
-      "id": "44431821",
-      "address": "Biesterveld 19",
-      "city": "Vorden",
-      "price": 745000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/151/380.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 137,
-      "url": "https://www.funda.nl/detail/koop/vorden/huis-biesterveld-19/44431821/"
+      "energy_label": "A3",
+      "surface": 134,
+      "url": "https://www.funda.nl/detail/koop/sint-maartensdijk/huis-ma-de-ruijterstraat-8/44432645/"
     }
   ]
 }
