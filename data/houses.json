@@ -1,82 +1,115 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-20",
   "houses": [
     {
-      "id": "44432636",
-      "address": "Berkenlaan 6",
-      "city": "Sassenheim",
-      "price": 539000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/182/839.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 98,
-      "url": "https://www.funda.nl/detail/koop/sassenheim/huis-berkenlaan-6/44432636/"
-    },
-    {
-      "id": "80896280",
-      "address": "van Nahuysweg 85",
-      "city": "Hasselt",
-      "price": 419000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/183/161.jpg",
+      "id": "44432765",
+      "address": "Strevelsweg 707",
+      "city": "Rotterdam",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/184/320.jpg",
       "bedrooms": 2,
       "energy_label": "A",
-      "surface": 79,
-      "url": "https://www.funda.nl/detail/koop/hasselt/huis-van-nahuysweg-85/80896280/"
+      "surface": 92,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-strevelsweg-707/44432765/"
     },
     {
-      "id": "80895488",
-      "address": "Lageweg 9",
-      "city": "Blokker",
-      "price": 875000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/152/366.jpg",
+      "id": "80896150",
+      "address": "Kerkstraat 5",
+      "city": "Zetten",
+      "price": 539000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/177/248.jpg",
       "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 206,
-      "url": "https://www.funda.nl/detail/koop/blokker/huis-lageweg-9/80895488/"
+      "energy_label": "D",
+      "surface": 125,
+      "url": "https://www.funda.nl/detail/koop/zetten/huis-kerkstraat-5/80896150/"
     },
     {
-      "id": "80896276",
-      "address": "Laan van Nieuw-Oost-Indië 274",
-      "city": "Den Haag",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/182/987.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 60,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-laan-van-nieuw-oost-indie-274/80896276/"
+      "id": "80894995",
+      "address": "Giottoplantsoen 13",
+      "city": "Almere",
+      "price": 415000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/132/615.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 85,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-giottoplantsoen-13/80894995/"
     },
     {
-      "id": "44432552",
-      "address": "Lumeyweg 35",
-      "city": "Brielle",
-      "price": 349900,
-      "photo": "https://cloud.funda.nl/valentina_media/232/179/332.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/brielle/appartement-lumeyweg-35/44432552/"
-    },
-    {
-      "id": "80894845",
-      "address": "Zandsteen 41",
-      "city": "Hoorn (NH)",
-      "price": 369000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/128/908.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 70,
-      "url": "https://www.funda.nl/detail/koop/hoorn-nh/appartement-zandsteen-41/80894845/"
-    },
-    {
-      "id": "44432645",
-      "address": "M.A. de Ruijterstraat 8",
-      "city": "Sint-Maartensdijk",
-      "price": 489000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/183/212.jpg",
+      "id": "44432653",
+      "address": "Turfakker 54",
+      "city": "Nootdorp",
+      "price": 590000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/183/766.jpg",
       "bedrooms": 4,
+      "energy_label": "A2",
+      "surface": 130,
+      "url": "https://www.funda.nl/detail/koop/nootdorp/huis-turfakker-54/44432653/"
+    },
+    {
+      "id": "80894992",
+      "address": "Amerhof 27",
+      "city": "Almere",
+      "price": 415000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/132/664.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-amerhof-27/80894992/"
+    },
+    {
+      "id": "44431982",
+      "address": "Kees van Lintstraat 9",
+      "city": "Culemborg",
+      "price": 600000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/153/974.jpg",
+      "bedrooms": 3,
       "energy_label": "A3",
-      "surface": 134,
-      "url": "https://www.funda.nl/detail/koop/sint-maartensdijk/huis-ma-de-ruijterstraat-8/44432645/"
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/culemborg/appartement-kees-van-lintstraat-9/44431982/"
+    },
+    {
+      "id": "80896026",
+      "address": "Annie M.G. Schmidtstraat 74",
+      "city": "Alkmaar",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/172/747.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 75,
+      "url": "https://www.funda.nl/detail/koop/alkmaar/appartement-annie-mg-schmidtstraat-74/80896026/"
+    },
+    {
+      "id": "44436692",
+      "address": "Pennyhof 12-A",
+      "city": "Amsterdam",
+      "price": 335000,
+      "photo": "https://cloud.funda.nl/valentina_media/231/971/690.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 53,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-pennyhof-12-a/44436692/"
+    },
+    {
+      "id": "80896295",
+      "address": "Tolhekstraat 76",
+      "city": "Zwolle",
+      "price": 490000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/184/060.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 125,
+      "url": "https://www.funda.nl/detail/koop/zwolle/huis-tolhekstraat-76/80896295/"
+    },
+    {
+      "id": "44432654",
+      "address": "Hollanderstraat 36",
+      "city": "Den Haag",
+      "price": 715000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/183/808.jpg",
+      "bedrooms": 4,
+      "energy_label": "D",
+      "surface": 122,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-hollanderstraat-36/44432654/"
     }
   ]
 }
