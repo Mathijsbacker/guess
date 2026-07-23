@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-23",
   "houses": [
     {
-      "id": "44432907",
-      "address": "Smaragdplein 40",
-      "city": "Utrecht",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/194/736.jpg",
-      "bedrooms": 4,
-      "energy_label": "F",
-      "surface": 66,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-smaragdplein-40/44432907/"
-    },
-    {
-      "id": "44433090",
-      "address": "Burgemeester Bouwmanstraat 8",
-      "city": "Grijpskerke",
-      "price": 369000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/230/469.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 112,
-      "url": "https://www.funda.nl/detail/koop/grijpskerke/huis-burgemeester-bouwmanstraat-8/44433090/"
-    },
-    {
-      "id": "44434801",
-      "address": "Waterloostraat 123-A",
-      "city": "Rotterdam",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/257/871.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 51,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-waterloostraat-123-a/44434801/"
-    },
-    {
-      "id": "44434655",
-      "address": "Klarendalseweg 61",
-      "city": "Arnhem",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/254/049.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 72,
-      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-klarendalseweg-61/44434655/"
-    },
-    {
-      "id": "80898520",
-      "address": "Utrechtsedwarsstraat 81-E",
-      "city": "Amsterdam",
-      "price": 575000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/260/711.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 67,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-utrechtsedwarsstraat-81-e/80898520/"
-    },
-    {
-      "id": "44433836",
-      "address": "Rietschoot 90",
-      "city": "Oostzaan",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/224/682.jpg",
-      "bedrooms": 5,
-      "energy_label": "D",
-      "surface": 140,
-      "url": "https://www.funda.nl/detail/koop/oostzaan/huis-rietschoot-90/44433836/"
-    },
-    {
-      "id": "44433167",
-      "address": "Strekelveld 2",
-      "city": "Houten",
-      "price": 535000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/233/012.jpg",
+      "id": "44433324",
+      "address": "Groenling 27",
+      "city": "Nieuwegein",
+      "price": 460000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/241/530.jpg",
       "bedrooms": 3,
       "energy_label": "B",
       "surface": 111,
-      "url": "https://www.funda.nl/detail/koop/houten/huis-strekelveld-2/44433167/"
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-groenling-27/44433324/"
     },
     {
-      "id": "80896312",
-      "address": "Bontepolderstraat 13",
-      "city": "Sluiskil",
-      "price": 225000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/184/940.jpg",
-      "bedrooms": 3,
-      "energy_label": "D",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/sluiskil/huis-bontepolderstraat-13/80896312/"
+      "id": "44434354",
+      "address": "Luchtenburg 108",
+      "city": "Dordrecht",
+      "price": 540000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/273/341.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 181,
+      "url": "https://www.funda.nl/detail/koop/dordrecht/huis-luchtenburg-108/44434354/"
     },
     {
-      "id": "44433061",
-      "address": "Lawickse Allee 174",
-      "city": "Wageningen",
-      "price": 385000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/229/242.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 98,
-      "url": "https://www.funda.nl/detail/koop/wageningen/huis-lawickse-allee-174/44433061/"
-    },
-    {
-      "id": "44433283",
-      "address": "Lissabonstraat 1-D",
-      "city": "Groningen",
-      "price": 600000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/236/563.jpg",
+      "id": "44445085",
+      "address": "Aalburgplein 31",
+      "city": "Hoofddorp",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/294/649.jpg",
       "bedrooms": 2,
+      "energy_label": "A1",
+      "surface": 79,
+      "url": "https://www.funda.nl/detail/koop/hoofddorp/appartement-aalburgplein-31/44445085/"
+    },
+    {
+      "id": "44445127",
+      "address": "Dahlia, villa 1 (Bouwnr. 1)",
+      "city": "Berkel en Rodenrijs",
+      "price": 1385000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/299/628.jpg",
+      "bedrooms": 5,
+      "energy_label": "?",
+      "surface": 204,
+      "url": "https://www.funda.nl/detail/koop/berkel-en-rodenrijs/huis-dahlia-villa-1-bouwnr-1/44445127/"
+    },
+    {
+      "id": "80809412",
+      "address": "Spaanse Brabanderstraat 2",
+      "city": "Amsterdam",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/287/410.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 67,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-spaanse-brabanderstraat-2/80809412/"
+    },
+    {
+      "id": "44445110",
+      "address": "Lage Nieuwstraat 390",
+      "city": "Den Haag",
+      "price": 249500,
+      "photo": "https://cloud.funda.nl/valentina_media/232/299/402.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 36,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-lage-nieuwstraat-390/44445110/"
+    },
+    {
+      "id": "44445979",
+      "address": "Leostraat 47",
+      "city": "Eindhoven",
+      "price": 595000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/290/518.jpg",
+      "bedrooms": 5,
       "energy_label": "A",
-      "surface": 117,
-      "url": "https://www.funda.nl/detail/koop/groningen/appartement-lissabonstraat-1-d/44433283/"
+      "surface": 129,
+      "url": "https://www.funda.nl/detail/koop/eindhoven/huis-leostraat-47/44445979/"
+    },
+    {
+      "id": "44445128",
+      "address": "Calla, villa 2 (Bouwnr. 2)",
+      "city": "Berkel en Rodenrijs",
+      "price": 1325000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/299/615.jpg",
+      "bedrooms": 2,
+      "energy_label": "?",
+      "surface": 192,
+      "url": "https://www.funda.nl/detail/koop/berkel-en-rodenrijs/huis-calla-villa-2-bouwnr-2/44445128/"
+    },
+    {
+      "id": "80809743",
+      "address": "Oppenheimstraat 66-A",
+      "city": "Groningen",
+      "price": 495000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/298/833.jpg",
+      "bedrooms": 3,
+      "energy_label": "A1",
+      "surface": 88,
+      "url": "https://www.funda.nl/detail/koop/groningen/huis-oppenheimstraat-66-a/80809743/"
+    },
+    {
+      "id": "44445029",
+      "address": "Buizerdstraat 74",
+      "city": "Maassluis",
+      "price": 389000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/296/122.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 98,
+      "url": "https://www.funda.nl/detail/koop/maassluis/appartement-buizerdstraat-74/44445029/"
     }
   ]
 }
