@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "houses": [
     {
-      "id": "44446199",
-      "address": "Hofstede 1",
-      "city": "Lelystad",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/333/112.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 160,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-hofstede-1/44446199/"
-    },
-    {
-      "id": "44446466",
-      "address": "Laarstraat 100",
-      "city": "Zutphen",
-      "price": 950000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/307/687.jpg",
-      "bedrooms": 4,
-      "energy_label": "A2",
-      "surface": 242,
-      "url": "https://www.funda.nl/detail/koop/zutphen/huis-laarstraat-100/44446466/"
-    },
-    {
-      "id": "44446269",
-      "address": "Van Lawick van Pabststraat 13",
-      "city": "Arnhem",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/335/999.jpg",
+      "id": "44447301",
+      "address": "Christinastraat 16",
+      "city": "Erp",
+      "price": 370000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/380/434.jpg",
       "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 123,
-      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-van-lawick-van-pabststraat-13/44446269/"
+      "energy_label": "A1",
+      "surface": 79,
+      "url": "https://www.funda.nl/detail/koop/erp/huis-christinastraat-16/44447301/"
     },
     {
-      "id": "44446902",
-      "address": "Meerstraat 12-B",
-      "city": "Beverwijk",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/325/316.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 147,
-      "url": "https://www.funda.nl/detail/koop/beverwijk/appartement-meerstraat-12-b/44446902/"
-    },
-    {
-      "id": "44446324",
-      "address": "Beatrixlaan 38",
-      "city": "Soest",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/341/642.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 148,
-      "url": "https://www.funda.nl/detail/koop/soest/huis-beatrixlaan-38/44446324/"
-    },
-    {
-      "id": "44445844",
-      "address": "Leenderbos 28",
-      "city": "Purmerend",
-      "price": 595000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/289/382.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 90,
-      "url": "https://www.funda.nl/detail/koop/purmerend/huis-leenderbos-28/44445844/"
-    },
-    {
-      "id": "80898245",
-      "address": "Suze Groeneweglanden 26",
-      "city": "Enschede",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/252/413.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 98,
-      "url": "https://www.funda.nl/detail/koop/enschede/huis-suze-groeneweglanden-26/80898245/"
-    },
-    {
-      "id": "44446321",
-      "address": "Hudsonstraat 44-1",
+      "id": "44446351",
+      "address": "Meteorenweg 200",
       "city": "Amsterdam",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/341/954.jpg",
-      "bedrooms": 1,
-      "energy_label": "D",
-      "surface": 42,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-hudsonstraat-44-1/44446321/"
-    },
-    {
-      "id": "44446333",
-      "address": "Dorperheideweg 34-2112",
-      "city": "Arcen",
-      "price": 295000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/342/022.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 68,
-      "url": "https://www.funda.nl/detail/koop/arcen/huis-dorperheideweg-34-2112/44446333/"
-    },
-    {
-      "id": "80800241",
-      "address": "Herstraat 35",
-      "city": "Horst",
-      "price": 269000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/315/664.jpg",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/343/169.jpg",
       "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 160,
-      "url": "https://www.funda.nl/detail/koop/horst/huis-herstraat-35/80800241/"
+      "energy_label": "B",
+      "surface": 58,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-meteorenweg-200/44446351/"
+    },
+    {
+      "id": "80801030",
+      "address": "Heerbaan 76",
+      "city": "Millingen aan de Rijn",
+      "price": 649000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/344/767.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 182,
+      "url": "https://www.funda.nl/detail/koop/millingen-aan-de-rijn/huis-heerbaan-76/80801030/"
+    },
+    {
+      "id": "80800973",
+      "address": "Roombeekstraat 55",
+      "city": "Enschede",
+      "price": 335000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/342/152.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 88,
+      "url": "https://www.funda.nl/detail/koop/enschede/huis-roombeekstraat-55/80800973/"
+    },
+    {
+      "id": "44445838",
+      "address": "Markt 65",
+      "city": "Zoetermeer",
+      "price": 1295000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/289/081.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 247,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/appartement-markt-65/44445838/"
+    },
+    {
+      "id": "80802163",
+      "address": "Denemarkensingel 84",
+      "city": "Alphen aan den Rijn",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/389/801.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/alphen-aan-den-rijn/appartement-denemarkensingel-84/80802163/"
+    },
+    {
+      "id": "44447569",
+      "address": "Noorderkroon 32",
+      "city": "Amstelveen",
+      "price": 545000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/347/902.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/amstelveen/huis-noorderkroon-32/44447569/"
+    },
+    {
+      "id": "44447468",
+      "address": "Chopinrode 23",
+      "city": "Zoetermeer",
+      "price": 669000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/343/463.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 141,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-chopinrode-23/44447468/"
+    },
+    {
+      "id": "44447206",
+      "address": "Holleweg 8",
+      "city": "Venlo",
+      "price": 275000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/376/836.jpg",
+      "bedrooms": 1,
+      "energy_label": "F",
+      "surface": 99,
+      "url": "https://www.funda.nl/detail/koop/venlo/huis-holleweg-8/44447206/"
+    },
+    {
+      "id": "80802138",
+      "address": "Madurastraat 54-2",
+      "city": "Amsterdam",
+      "price": 420000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/388/594.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 49,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-madurastraat-54-2/80802138/"
     }
   ]
 }
