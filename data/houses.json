@@ -1,115 +1,115 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "houses": [
     {
-      "id": "44448698",
-      "address": "Walstraat 4-5",
-      "city": "Arnhem",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/393/541.jpg",
-      "bedrooms": 2,
-      "energy_label": "A1",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-walstraat-4-5/44448698/"
-    },
-    {
-      "id": "80801240",
-      "address": "Engelandstraat 37",
-      "city": "Almere",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/352/612.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/almere/appartement-engelandstraat-37/80801240/"
-    },
-    {
-      "id": "80802258",
-      "address": "Heerlenersteenweg 56",
-      "city": "Kerkrade",
-      "price": 380000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/394/905.jpg",
-      "bedrooms": 7,
-      "energy_label": "B",
-      "surface": 192,
-      "url": "https://www.funda.nl/detail/koop/kerkrade/huis-heerlenersteenweg-56/80802258/"
-    },
-    {
-      "id": "80802246",
-      "address": "Boulevard 12",
-      "city": "Egmond aan Zee",
-      "price": 1675000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/394/441.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 165,
-      "url": "https://www.funda.nl/detail/koop/egmond-aan-zee/appartement-boulevard-12/80802246/"
-    },
-    {
-      "id": "44448607",
-      "address": "Bruinissestraat 24",
-      "city": "Arnhem",
-      "price": 374500,
-      "photo": "https://cloud.funda.nl/valentina_media/232/394/166.jpg",
-      "bedrooms": 4,
-      "energy_label": "?",
-      "surface": 105,
-      "url": "https://www.funda.nl/detail/koop/arnhem/huis-bruinissestraat-24/44448607/"
-    },
-    {
-      "id": "44446682",
-      "address": "Patmosdreef 146",
-      "city": "Utrecht",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/315/102.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 90,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-patmosdreef-146/44446682/"
-    },
-    {
-      "id": "44448601",
-      "address": "Hellingweg 38-A",
-      "city": "Den Haag",
-      "price": 550000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/394/487.jpg",
+      "id": "80803048",
+      "address": "Gustav Mahlerlaan 23-N",
+      "city": "Amsterdam",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/427/958.jpg",
       "bedrooms": 1,
-      "energy_label": "A1",
-      "surface": 81,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-hellingweg-38-a/44448601/"
+      "energy_label": "A",
+      "surface": 33,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-gustav-mahlerlaan-23-n/80803048/"
     },
     {
-      "id": "80801503",
-      "address": "Veluweweg 55",
-      "city": "Waarland",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/364/145.jpg",
-      "bedrooms": 4,
+      "id": "44448270",
+      "address": "Wingerdpark 68",
+      "city": "Zoetermeer",
+      "price": 300000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/419/097.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 88,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/appartement-wingerdpark-68/44448270/"
+    },
+    {
+      "id": "44448093",
+      "address": "Van der Hoevenplein 108",
+      "city": "Rotterdam",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/410/998.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-van-der-hoevenplein-108/44448093/"
+    },
+    {
+      "id": "44449563",
+      "address": "van Gaesbekestraat 67",
+      "city": "Voorburg",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/430/477.jpg",
+      "bedrooms": 2,
       "energy_label": "F",
-      "surface": 94,
-      "url": "https://www.funda.nl/detail/koop/waarland/huis-veluweweg-55/80801503/"
+      "surface": 83,
+      "url": "https://www.funda.nl/detail/koop/voorburg/appartement-van-gaesbekestraat-67/44449563/"
     },
     {
-      "id": "44447095",
-      "address": "Oudenoord 571",
-      "city": "Utrecht",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/368/629.jpg",
+      "id": "44449453",
+      "address": "Keizerstraat 4",
+      "city": "Haarlem",
+      "price": 440000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/429/841.jpg",
       "bedrooms": 1,
-      "energy_label": "D",
-      "surface": 59,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-oudenoord-571/44447095/"
+      "energy_label": "E",
+      "surface": 69,
+      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-keizerstraat-4/44449453/"
     },
     {
-      "id": "80801232",
-      "address": "Harderwijkoever 14",
-      "city": "Almere",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/352/126.jpg",
+      "id": "44448056",
+      "address": "Van der Hoevenplein 188",
+      "city": "Rotterdam",
+      "price": 695000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/413/641.jpg",
       "bedrooms": 2,
       "energy_label": "A",
-      "surface": 98,
-      "url": "https://www.funda.nl/detail/koop/almere/appartement-harderwijkoever-14/80801232/"
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-van-der-hoevenplein-188/44448056/"
+    },
+    {
+      "id": "44449449",
+      "address": "Veenendaalkade 330",
+      "city": "Den Haag",
+      "price": 275000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/429/638.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 58,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-veenendaalkade-330/44449449/"
+    },
+    {
+      "id": "44448023",
+      "address": "Van der Hoevenplein 185",
+      "city": "Rotterdam",
+      "price": 585000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/412/484.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-van-der-hoevenplein-185/44448023/"
+    },
+    {
+      "id": "44448896",
+      "address": "Cypresstraat 35",
+      "city": "Beverwijk",
+      "price": 449000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/402/105.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/beverwijk/appartement-cypresstraat-35/44448896/"
+    },
+    {
+      "id": "44448153",
+      "address": "Kroonstraat 10-D",
+      "city": "Wessem",
+      "price": 175000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/418/137.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 69,
+      "url": "https://www.funda.nl/detail/koop/wessem/appartement-kroonstraat-10-d/44448153/"
     }
   ]
 }
