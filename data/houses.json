@@ -2,114 +2,114 @@
   "date": "2026-08-01",
   "houses": [
     {
-      "id": "44442110",
-      "address": "Haaksbergerstraat 82-112",
+      "id": "44441969",
+      "address": "Koolmeesstraat 13",
       "city": "Enschede",
-      "price": 225000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/560/676.jpg",
+      "price": 569000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/518/349.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 205,
+      "url": "https://www.funda.nl/detail/koop/enschede/huis-koolmeesstraat-13/44441969/"
+    },
+    {
+      "id": "80807493",
+      "address": "Lekstraat 13",
+      "city": "Winschoten",
+      "price": 219000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/584/398.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 101,
+      "url": "https://www.funda.nl/detail/koop/winschoten/huis-lekstraat-13/80807493/"
+    },
+    {
+      "id": "80807488",
+      "address": "Stougjesdijk 77",
+      "city": "Westmaas",
+      "price": 385000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/584/056.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/westmaas/huis-stougjesdijk-77/80807488/"
+    },
+    {
+      "id": "44447506",
+      "address": "Woudseweg 8",
+      "city": "Den Hoorn (ZH)",
+      "price": 795000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/349/463.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 158,
+      "url": "https://www.funda.nl/detail/koop/den-hoorn-zh/huis-woudseweg-8/44447506/"
+    },
+    {
+      "id": "44443858",
+      "address": "Waterbeemd 61",
+      "city": "Oosterhout (NB)",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/584/482.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 80,
+      "url": "https://www.funda.nl/detail/koop/oosterhout-nb/huis-waterbeemd-61/44443858/"
+    },
+    {
+      "id": "80806315",
+      "address": "Oostzeedijk Beneden 13-C",
+      "city": "Rotterdam",
+      "price": 1199000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/546/276.jpg",
+      "bedrooms": 1,
+      "energy_label": "A3",
+      "surface": 219,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-oostzeedijk-beneden-13-c/80806315/"
+    },
+    {
+      "id": "80807492",
+      "address": "Zuiddijk 346",
+      "city": "Zaandam",
+      "price": 335000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/584/324.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 65,
+      "url": "https://www.funda.nl/detail/koop/zaandam/huis-zuiddijk-346/80807492/"
+    },
+    {
+      "id": "80807115",
+      "address": "Lage Hoek 19-C",
+      "city": "Zwaag",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/570/523.jpg",
       "bedrooms": 1,
       "energy_label": "A",
-      "surface": 55,
-      "url": "https://www.funda.nl/detail/koop/enschede/appartement-haaksbergerstraat-82-112/44442110/"
+      "surface": 58,
+      "url": "https://www.funda.nl/detail/koop/zwaag/appartement-lage-hoek-19-c/80807115/"
     },
     {
-      "id": "44442142",
-      "address": "Groene Weide 69",
-      "city": "Arnhem",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/562/128.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 75,
-      "url": "https://www.funda.nl/detail/koop/arnhem/appartement-groene-weide-69/44442142/"
+      "id": "44443852",
+      "address": "Bergsheisteeg 1",
+      "city": "Weert",
+      "price": 1375000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/584/687.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 375,
+      "url": "https://www.funda.nl/detail/koop/weert/huis-bergsheisteeg-1/44443852/"
     },
     {
-      "id": "44442236",
-      "address": "Bongerd 144",
-      "city": "Lelystad",
-      "price": 399000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/563/950.jpg",
+      "id": "44443661",
+      "address": "Dr. Poelsstraat 23",
+      "city": "Standdaarbuiten",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/574/507.jpg",
       "bedrooms": 4,
       "energy_label": "C",
-      "surface": 128,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-bongerd-144/44442236/"
-    },
-    {
-      "id": "44442112",
-      "address": "Haaksbergerstraat 82-211",
-      "city": "Enschede",
-      "price": 225000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/560/693.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 55,
-      "url": "https://www.funda.nl/detail/koop/enschede/appartement-haaksbergerstraat-82-211/44442112/"
-    },
-    {
-      "id": "44442511",
-      "address": "Huygenslaan 41",
-      "city": "Zevenaar",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/540/102.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 109,
-      "url": "https://www.funda.nl/detail/koop/zevenaar/huis-huygenslaan-41/44442511/"
-    },
-    {
-      "id": "44442789",
-      "address": "Rochussenstraat 409",
-      "city": "Rotterdam",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/546/638.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-rochussenstraat-409/44442789/"
-    },
-    {
-      "id": "44442917",
-      "address": "Schiehavenkade 424",
-      "city": "Rotterdam",
-      "price": 599000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/552/768.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 114,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-schiehavenkade-424/44442917/"
-    },
-    {
-      "id": "44442683",
-      "address": "Nansenstraat 120",
-      "city": "Gouda",
-      "price": 529000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/542/458.jpg",
-      "bedrooms": 6,
-      "energy_label": "E",
-      "surface": 125,
-      "url": "https://www.funda.nl/detail/koop/gouda/huis-nansenstraat-120/44442683/"
-    },
-    {
-      "id": "44442243",
-      "address": "Golfpark 21",
-      "city": "Lelystad",
-      "price": 825000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/564/104.jpg",
-      "bedrooms": 5,
-      "energy_label": "A3",
-      "surface": 178,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-golfpark-21/44442243/"
-    },
-    {
-      "id": "44442240",
-      "address": "Generaal Foulkesweg 187",
-      "city": "Wageningen",
-      "price": 235000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/564/498.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 66,
-      "url": "https://www.funda.nl/detail/koop/wageningen/appartement-generaal-foulkesweg-187/44442240/"
+      "surface": 138,
+      "url": "https://www.funda.nl/detail/koop/standdaarbuiten/huis-dr-poelsstraat-23/44443661/"
     }
   ]
 }
