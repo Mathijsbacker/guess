@@ -1,115 +1,104 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-03",
   "houses": [
     {
-      "id": "44441969",
-      "address": "Koolmeesstraat 13",
-      "city": "Enschede",
-      "price": 569000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/518/349.jpg",
+      "id": "80806085",
+      "address": "Schepen de Wicstraat 48",
+      "city": "Maastricht",
+      "price": 329000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/538/518.jpg",
       "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 205,
-      "url": "https://www.funda.nl/detail/koop/enschede/huis-koolmeesstraat-13/44441969/"
-    },
-    {
-      "id": "80807493",
-      "address": "Lekstraat 13",
-      "city": "Winschoten",
-      "price": 219000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/584/398.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 101,
-      "url": "https://www.funda.nl/detail/koop/winschoten/huis-lekstraat-13/80807493/"
-    },
-    {
-      "id": "80807488",
-      "address": "Stougjesdijk 77",
-      "city": "Westmaas",
-      "price": 385000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/584/056.jpg",
-      "bedrooms": 2,
       "energy_label": "C",
-      "surface": 86,
-      "url": "https://www.funda.nl/detail/koop/westmaas/huis-stougjesdijk-77/80807488/"
+      "surface": 115,
+      "url": "https://www.funda.nl/detail/koop/maastricht/huis-schepen-de-wicstraat-48/80806085/"
     },
     {
-      "id": "44447506",
-      "address": "Woudseweg 8",
-      "city": "Den Hoorn (ZH)",
-      "price": 795000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/349/463.jpg",
+      "id": "44443715",
+      "address": "Droogbak 13-3",
+      "city": "Amsterdam",
+      "price": 515000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/577/920.jpg",
+      "bedrooms": 2,
+      "energy_label": "E",
+      "surface": 62,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-droogbak-13-3/44443715/"
+    },
+    {
+      "id": "44442617",
+      "address": "Reinier Claeszenstraat 80-1",
+      "city": "Amsterdam",
+      "price": 440000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/543/680.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 53,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-reinier-claeszenstraat-80-1/44442617/"
+    },
+    {
+      "id": "44442395",
+      "address": "Breegraven 116",
+      "city": "Warnsveld",
+      "price": 399000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/566/057.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 82,
+      "url": "https://www.funda.nl/detail/koop/warnsveld/huis-breegraven-116/44442395/"
+    },
+    {
+      "id": "80806025",
+      "address": "Dijkhof 18",
+      "city": "Stad aan 't Haringvliet",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/536/323.jpg",
       "bedrooms": 3,
       "energy_label": "C",
-      "surface": 158,
-      "url": "https://www.funda.nl/detail/koop/den-hoorn-zh/huis-woudseweg-8/44447506/"
+      "surface": 101,
+      "url": "https://www.funda.nl/detail/koop/stad-aan-t-haringvliet/huis-dijkhof-18/80806025/"
     },
     {
-      "id": "44443858",
-      "address": "Waterbeemd 61",
-      "city": "Oosterhout (NB)",
+      "id": "44443564",
+      "address": "Abtshof 44",
+      "city": "Bergeijk",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/570/239.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 82,
+      "url": "https://www.funda.nl/detail/koop/bergeijk/huis-abtshof-44/44443564/"
+    },
+    {
+      "id": "44442122",
+      "address": "De Krommert 92",
+      "city": "Oosthuizen",
+      "price": 465000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/561/102.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 134,
+      "url": "https://www.funda.nl/detail/koop/oosthuizen/huis-de-krommert-92/44442122/"
+    },
+    {
+      "id": "80806473",
+      "address": "Han G. Hoekstrahof 5",
+      "city": "Almere",
+      "price": 925000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/551/636.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 169,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-han-g-hoekstrahof-5/80806473/"
+    },
+    {
+      "id": "44442959",
+      "address": "Loggerhof 33",
+      "city": "Amsterdam",
       "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/584/482.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 80,
-      "url": "https://www.funda.nl/detail/koop/oosterhout-nb/huis-waterbeemd-61/44443858/"
-    },
-    {
-      "id": "80806315",
-      "address": "Oostzeedijk Beneden 13-C",
-      "city": "Rotterdam",
-      "price": 1199000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/546/276.jpg",
-      "bedrooms": 1,
-      "energy_label": "A3",
-      "surface": 219,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-oostzeedijk-beneden-13-c/80806315/"
-    },
-    {
-      "id": "80807492",
-      "address": "Zuiddijk 346",
-      "city": "Zaandam",
-      "price": 335000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/584/324.jpg",
+      "photo": "https://cloud.funda.nl/valentina_media/232/554/580.jpg",
       "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 65,
-      "url": "https://www.funda.nl/detail/koop/zaandam/huis-zuiddijk-346/80807492/"
-    },
-    {
-      "id": "80807115",
-      "address": "Lage Hoek 19-C",
-      "city": "Zwaag",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/570/523.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 58,
-      "url": "https://www.funda.nl/detail/koop/zwaag/appartement-lage-hoek-19-c/80807115/"
-    },
-    {
-      "id": "44443852",
-      "address": "Bergsheisteeg 1",
-      "city": "Weert",
-      "price": 1375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/584/687.jpg",
-      "bedrooms": 4,
       "energy_label": "B",
-      "surface": 375,
-      "url": "https://www.funda.nl/detail/koop/weert/huis-bergsheisteeg-1/44443852/"
-    },
-    {
-      "id": "44443661",
-      "address": "Dr. Poelsstraat 23",
-      "city": "Standdaarbuiten",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/574/507.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 138,
-      "url": "https://www.funda.nl/detail/koop/standdaarbuiten/huis-dr-poelsstraat-23/44443661/"
+      "surface": 74,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-loggerhof-33/44442959/"
     }
   ]
 }
