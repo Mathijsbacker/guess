@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "houses": [
     {
-      "id": "44443083",
-      "address": "Thomas van Heereveldstraat 26",
-      "city": "Weurt",
-      "price": 389000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/589/437.jpg",
+      "id": "08080572",
+      "address": "Sint-Jorisveld 51",
+      "city": "Haarlem",
+      "price": 985000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/629/283.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 163,
+      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-sint-jorisveld-51/44444118/"
+    },
+    {
+      "id": "08080367",
+      "address": "Merwedekade 230-BSA",
+      "city": "Utrecht",
+      "price": 489000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/620/424.jpg",
       "bedrooms": 3,
       "energy_label": "C",
-      "surface": 94,
-      "url": "https://www.funda.nl/detail/koop/weurt/huis-thomas-van-heereveldstraat-26/44443083/"
-    },
-    {
-      "id": "08080947",
-      "address": "Mejontsmastraat 10",
-      "city": "Buitenpost",
-      "price": 470000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/604/537.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 158,
-      "url": "https://www.funda.nl/detail/koop/buitenpost/huis-mejontsmastraat-10/80808129/"
-    },
-    {
-      "id": "08080842",
-      "address": "Winkelwaard 104",
-      "city": "Alkmaar",
-      "price": 299000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/601/224.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/alkmaar/appartement-winkelwaard-104/44444488/"
-    },
-    {
-      "id": "08080378",
-      "address": "Graan voor Visch 16135",
-      "city": "Hoofddorp",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/620/950.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 72,
-      "url": "https://www.funda.nl/detail/koop/hoofddorp/appartement-graan-voor-visch-16135/44444914/"
-    },
-    {
-      "id": "08080832",
-      "address": "Sigmundplantsoen 58",
-      "city": "Almere",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/600/817.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
       "surface": 83,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-sigmundplantsoen-58/44444478/"
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-merwedekade-230-bsa/44444903/"
     },
     {
-      "id": "08080861",
-      "address": "Bataviastraat 63-D",
-      "city": "Amsterdam",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/601/948.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 91,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-bataviastraat-63-d/44444407/"
-    },
-    {
-      "id": "08080837",
-      "address": "Adriaan van Ostadestraat 10",
-      "city": "Maarssen",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/600/509.jpg",
+      "id": "08191965",
+      "address": "Oranjelaan 10",
+      "city": "Zuidlaren",
+      "price": 295000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/644/116.jpg",
       "bedrooms": 3,
       "energy_label": "C",
-      "surface": 73,
-      "url": "https://www.funda.nl/detail/koop/maarssen/appartement-adriaan-van-ostadestraat-10/44444473/"
+      "surface": 100,
+      "url": "https://www.funda.nl/detail/koop/zuidlaren/huis-oranjelaan-10/44555501/"
     },
     {
-      "id": "08080088",
-      "address": "Nabucco 8",
-      "city": "Eindhoven",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/609/558.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 95,
-      "url": "https://www.funda.nl/detail/koop/eindhoven/huis-nabucco-8/44444624/"
-    },
-    {
-      "id": "08080292",
-      "address": "Bussumerstraat 181",
-      "city": "Hilversum",
+      "id": "08080470",
+      "address": "Denekampstraat 17",
+      "city": "Tilburg",
       "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/617/678.jpg",
-      "bedrooms": 1,
+      "photo": "https://cloud.funda.nl/valentina_media/232/625/406.jpg",
+      "bedrooms": 4,
       "energy_label": "A",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-bussumerstraat-181/44444838/"
+      "surface": 110,
+      "url": "https://www.funda.nl/detail/koop/tilburg/huis-denekampstraat-17/44444016/"
     },
     {
-      "id": "08080176",
-      "address": "Laan der Nederlanden 174",
-      "city": "Beverwijk",
-      "price": 499000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/612/708.jpg",
-      "bedrooms": 4,
+      "id": "17282029",
+      "address": "J.J. Cremerstraat 10-1",
+      "city": "Amsterdam",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/653/162.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 49,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-jj-cremerstraat-10-1/80919392/"
+    },
+    {
+      "id": "17282134",
+      "address": "Seringenhof 33",
+      "city": "Schagen",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/653/717.jpg",
+      "bedrooms": 5,
       "energy_label": "B",
+      "surface": 125,
+      "url": "https://www.funda.nl/detail/koop/schagen/huis-seringenhof-33/80919407/"
+    },
+    {
+      "id": "08080486",
+      "address": "Zwetstraat 35",
+      "city": "Den Haag",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/626/229.jpg",
+      "bedrooms": 6,
+      "energy_label": "B",
+      "surface": 168,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-zwetstraat-35/44444022/"
+    },
+    {
+      "id": "08080087",
+      "address": "Citroenkruid 13",
+      "city": "De Meern",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/609/477.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
       "surface": 127,
-      "url": "https://www.funda.nl/detail/koop/beverwijk/huis-laan-der-nederlanden-174/44444712/"
+      "url": "https://www.funda.nl/detail/koop/de-meern/huis-citroenkruid-13/44444623/"
+    },
+    {
+      "id": "17282983",
+      "address": "Raadhuisplein 29",
+      "city": "Alblasserdam",
+      "price": 539000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/647/839.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 116,
+      "url": "https://www.funda.nl/detail/koop/alblasserdam/appartement-raadhuisplein-29/44555610/"
+    },
+    {
+      "id": "44443925",
+      "address": "Ampèrestraat 3",
+      "city": "Utrecht",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/586/853.jpg",
+      "bedrooms": 1,
+      "energy_label": "F",
+      "surface": 59,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-amperestraat-3/44443925/"
     }
   ]
 }
