@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "houses": [
     {
-      "id": "17283682",
-      "address": "van Herwijnenplantsoen 253",
-      "city": "Nieuwegein",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/710/069.jpg",
+      "id": "17285135",
+      "address": "Fascinatio Boulevard 946-K",
+      "city": "Capelle aan den IJssel",
+      "price": 275000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/758/988.jpg",
+      "bedrooms": 1,
+      "energy_label": "A",
+      "surface": 48,
+      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-fascinatio-boulevard-946-k/44558862/"
+    },
+    {
+      "id": "17284559",
+      "address": "Claude Debussystraat 56",
+      "city": "Zaandijk",
+      "price": 479000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/738/691.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 117,
+      "url": "https://www.funda.nl/detail/koop/zaandijk/huis-claude-debussystraat-56/44557286/"
+    },
+    {
+      "id": "17284554",
+      "address": "Schaperstraat 17",
+      "city": "Utrecht",
+      "price": 350000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/738/775.jpg",
+      "bedrooms": 1,
+      "energy_label": "A",
+      "surface": 62,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-schaperstraat-17/44557281/"
+    },
+    {
+      "id": "17285028",
+      "address": "Fascinatio Boulevard 894-F",
+      "city": "Capelle aan den IJssel",
+      "price": 225000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/758/336.jpg",
+      "bedrooms": null,
+      "energy_label": "A",
+      "surface": 38,
+      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-fascinatio-boulevard-894-f/44558755/"
+    },
+    {
+      "id": "17285285",
+      "address": "Achterstraat 24-K",
+      "city": "Woerden",
+      "price": 259000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/764/801.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 35,
+      "url": "https://www.funda.nl/detail/koop/woerden/appartement-achterstraat-24-k/44558912/"
+    },
+    {
+      "id": "17286796",
+      "address": "Voortstraat 15",
+      "city": "Maasbracht",
+      "price": 709000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/786/823.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 252,
+      "url": "https://www.funda.nl/detail/koop/maasbracht/huis-voortstraat-15/80913069/"
+    },
+    {
+      "id": "17286785",
+      "address": "Burgemeester Pruissingel 8",
+      "city": "Vlaardingen",
+      "price": 239500,
+      "photo": "https://cloud.funda.nl/valentina_media/232/786/813.jpg",
       "bedrooms": 2,
       "energy_label": "D",
-      "surface": 73,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-van-herwijnenplantsoen-253/80910955/"
-    },
-    {
-      "id": "17286751",
-      "address": "Charlotte de Bourbonstraat 37-3",
-      "city": "Amsterdam",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/785/154.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 51,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-charlotte-de-bourbonstraat-37-3/80913024/"
-    },
-    {
-      "id": "17284287",
-      "address": "Florijn 17",
-      "city": "Benschop",
-      "price": 560000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/729/492.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 125,
-      "url": "https://www.funda.nl/detail/koop/benschop/appartement-florijn-17/44557914/"
-    },
-    {
-      "id": "17285726",
-      "address": "Raamplein 16",
-      "city": "Amsterdam",
-      "price": 699000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/750/218.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
       "surface": 78,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-raamplein-16/44558453/"
+      "url": "https://www.funda.nl/detail/koop/vlaardingen/appartement-burgemeester-pruissingel-8/80913058/"
     },
     {
-      "id": "17285275",
-      "address": "Versterstraat 40",
-      "city": "Vught",
-      "price": 725000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/764/386.jpg",
+      "id": "17285759",
+      "address": "Randveen 574",
+      "city": "Den Haag",
+      "price": 500000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/747/473.jpg",
+      "bedrooms": 2,
+      "energy_label": "A3",
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-randveen-574/80912022/"
+    },
+    {
+      "id": "17284305",
+      "address": "Glenn Millerpad 32",
+      "city": "Utrecht",
+      "price": 550000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/732/635.jpg",
       "bedrooms": 3,
       "energy_label": "A",
       "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/vught/huis-versterstraat-40/44558902/"
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-glenn-millerpad-32/44557032/"
     },
     {
-      "id": "17285627",
-      "address": "Pieter Florisstraat 15",
-      "city": "Hoorn (NH)",
-      "price": 369500,
-      "photo": "https://cloud.funda.nl/valentina_media/232/783/279.jpg",
+      "id": "17286792",
+      "address": "Croeselaan 106",
+      "city": "Utrecht",
+      "price": 480000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/787/344.jpg",
       "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 73,
-      "url": "https://www.funda.nl/detail/koop/hoorn-nh/huis-pieter-florisstraat-15/44558354/"
-    },
-    {
-      "id": "17286745",
-      "address": "Abraham Crijnssenstraat 8",
-      "city": "Tholen",
-      "price": 359500,
-      "photo": "https://cloud.funda.nl/valentina_media/232/784/800.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 114,
-      "url": "https://www.funda.nl/detail/koop/tholen/huis-abraham-crijnssenstraat-8/80913018/"
-    },
-    {
-      "id": "17286744",
-      "address": "Rode Klaverweide 41",
-      "city": "Heerhugowaard",
-      "price": 695000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/784/734.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 144,
-      "url": "https://www.funda.nl/detail/koop/heerhugowaard/huis-rode-klaverweide-41/80913017/"
-    },
-    {
-      "id": "17283314",
-      "address": "Joke Smitlaan 10",
-      "city": "Zutphen",
-      "price": 489000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/700/676.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 138,
-      "url": "https://www.funda.nl/detail/koop/zutphen/huis-joke-smitlaan-10/44556041/"
-    },
-    {
-      "id": "17286754",
-      "address": "Bloemhofstraat 5-ZW",
-      "city": "Haarlem",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/785/256.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 71,
-      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-bloemhofstraat-5-zw/44559481/"
+      "energy_label": "?",
+      "surface": 74,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-croeselaan-106/80913065/"
     }
   ]
 }
