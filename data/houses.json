@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "houses": [
     {
-      "id": "17287787",
-      "address": "Jean Monnetstraat 216",
-      "city": "Heemskerk",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/827/731.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 116,
-      "url": "https://www.funda.nl/detail/koop/heemskerk/huis-jean-monnetstraat-216/80914050/"
-    },
-    {
-      "id": "17287754",
-      "address": "Frans van Mierisstraat 2 (Bouwnr. 2)",
-      "city": "Apeldoorn",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/827/073.jpg",
-      "bedrooms": 4,
-      "energy_label": "A3",
-      "surface": 182,
-      "url": "https://www.funda.nl/detail/koop/apeldoorn/huis-frans-van-mierisstraat-2-bouwnr-2/44550481/"
-    },
-    {
-      "id": "17286520",
-      "address": "Lageweg 24",
-      "city": "Sirjansland",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/820/754.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 125,
-      "url": "https://www.funda.nl/detail/koop/sirjansland/huis-lageweg-24/80913893/"
-    },
-    {
-      "id": "17287785",
-      "address": "Gedempte Burgwal 10-B",
-      "city": "Den Haag",
-      "price": 295000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/828/133.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 58,
-      "url": "https://www.funda.nl/detail/koop/den-haag/appartement-gedempte-burgwal-10-b/44550412/"
-    },
-    {
-      "id": "17287780",
-      "address": "Beneluxlaan 413",
-      "city": "Heemskerk",
-      "price": 265000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/827/876.jpg",
-      "bedrooms": 1,
-      "energy_label": "A",
-      "surface": 57,
-      "url": "https://www.funda.nl/detail/koop/heemskerk/appartement-beneluxlaan-413/80914053/"
-    },
-    {
-      "id": "17286062",
-      "address": "Ardennenlaan 187",
-      "city": "Amsterdam",
-      "price": 880000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/798/678.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 164,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-ardennenlaan-187/80913335/"
-    },
-    {
-      "id": "17286579",
-      "address": "Schaarbeekstraat 71",
-      "city": "Amsterdam",
-      "price": 675000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/818/591.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 122,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-schaarbeekstraat-71/80913842/"
-    },
-    {
-      "id": "17286251",
-      "address": "Nieuwe Blekerstraat 17",
-      "city": "Groningen",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/806/666.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 135,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-nieuwe-blekerstraat-17/44559988/"
-    },
-    {
-      "id": "17287746",
-      "address": "Pastoors acker 38",
-      "city": "Heemskerk",
+      "id": "17287581",
+      "address": "Voorsterbeeklaan 164",
+      "city": "Utrecht",
       "price": 575000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/826/396.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 127,
-      "url": "https://www.funda.nl/detail/koop/heemskerk/huis-pastoors-acker-38/80914019/"
+      "photo": "https://cloud.funda.nl/valentina_media/232/861/050.jpg",
+      "bedrooms": 2,
+      "energy_label": "A1",
+      "surface": 100,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-voorsterbeeklaan-164/44550218/"
     },
     {
-      "id": "17286650",
-      "address": "Keizersgracht 764-A3",
+      "id": "17286315",
+      "address": "Snipstraat 19-BS",
+      "city": "Utrecht",
+      "price": 539000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/813/046.jpg",
+      "bedrooms": 5,
+      "energy_label": "C",
+      "surface": 95,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-snipstraat-19-bs/44559042/"
+    },
+    {
+      "id": "17287477",
+      "address": "Vondelstraat 61-B",
       "city": "Amsterdam",
-      "price": 750000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/822/551.jpg",
+      "price": 895000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/856/186.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 84,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-vondelstraat-61-b/44550104/"
+    },
+    {
+      "id": "17287405",
+      "address": "Wilde Wingerdlaan 173",
+      "city": "Gouda",
+      "price": 247500,
+      "photo": "https://cloud.funda.nl/valentina_media/232/857/715.jpg",
+      "bedrooms": 1,
+      "energy_label": "D",
+      "surface": 44,
+      "url": "https://www.funda.nl/detail/koop/gouda/appartement-wilde-wingerdlaan-173/44550132/"
+    },
+    {
+      "id": "17287157",
+      "address": "Adderwortel 20",
+      "city": "De Meern",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/843/275.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 128,
+      "url": "https://www.funda.nl/detail/koop/de-meern/huis-adderwortel-20/44550884/"
+    },
+    {
+      "id": "17287026",
+      "address": "Bloesemstraat 18",
+      "city": "Utrecht",
+      "price": 319000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/842/040.jpg",
+      "bedrooms": 1,
+      "energy_label": "A",
+      "surface": 34,
+      "url": "https://www.funda.nl/detail/koop/utrecht/huis-bloesemstraat-18/44550753/"
+    },
+    {
+      "id": "17288731",
+      "address": "Granadoslaan 86",
+      "city": "Rotterdam",
+      "price": 239000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/866/814.jpg",
+      "bedrooms": 1,
+      "energy_label": "E",
+      "surface": 36,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-granadoslaan-86/44551468/"
+    },
+    {
+      "id": "17288870",
+      "address": "Gysbert Japiksstraat 34",
+      "city": "Buitenpost",
+      "price": 398000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/869/680.jpg",
+      "bedrooms": 4,
+      "energy_label": "E",
+      "surface": 130,
+      "url": "https://www.funda.nl/detail/koop/buitenpost/huis-gysbert-japiksstraat-34/80915143/"
+    },
+    {
+      "id": "17287693",
+      "address": "De Kleine Groes",
+      "city": "Gemert",
+      "price": 557500,
+      "photo": "https://cloud.funda.nl/valentina_media/232/865/418.jpg",
       "bedrooms": 2,
       "energy_label": "?",
-      "surface": 83,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-keizersgracht-764-a3/44559387/"
+      "surface": 112,
+      "url": "https://www.funda.nl/detail/koop/gemert/huis-de-kleine-groes/44550320/"
+    },
+    {
+      "id": "17287425",
+      "address": "Hurk 114",
+      "city": "Uden",
+      "price": 739000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/858/748.jpg",
+      "bedrooms": 6,
+      "energy_label": "C",
+      "surface": 162,
+      "url": "https://www.funda.nl/detail/koop/uden/huis-hurk-114/44550152/"
     }
   ]
 }
