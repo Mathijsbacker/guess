@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "houses": [
     {
-      "id": "17289745",
-      "address": "Cruquiuskade 229",
-      "city": "Amsterdam",
-      "price": 825000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/904/071.jpg",
-      "bedrooms": 2,
+      "id": "17280079",
+      "address": "Meerval 25",
+      "city": "Schagen",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/957/860.jpg",
+      "bedrooms": 5,
       "energy_label": "A",
-      "surface": 106,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-cruquiuskade-229/44552472/"
+      "surface": 136,
+      "url": "https://www.funda.nl/detail/koop/schagen/huis-meerval-25/80917342/"
     },
     {
-      "id": "17288475",
-      "address": "Wethouder D.M. Plompstraat 28",
-      "city": "Utrecht",
-      "price": 645000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/892/860.jpg",
+      "id": "17280014",
+      "address": "Vredenoord 16",
+      "city": "Heiloo",
+      "price": 795000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/959/258.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 132,
+      "url": "https://www.funda.nl/detail/koop/heiloo/huis-vredenoord-16/80917387/"
+    },
+    {
+      "id": "17289182",
+      "address": "Keizer Karelweg 341",
+      "city": "Amstelveen",
+      "price": 1400000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/921/684.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 173,
+      "url": "https://www.funda.nl/detail/koop/amstelveen/huis-keizer-karelweg-341/44552819/"
+    },
+    {
+      "id": "17280060",
+      "address": "Samenwerking 27",
+      "city": "Amsterdam",
+      "price": 549000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/957/329.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 85,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-samenwerking-27/80917333/"
+    },
+    {
+      "id": "17289320",
+      "address": "Azaleastraat 30",
+      "city": "Sint-Michielsgestel",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/931/822.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/sint-michielsgestel/huis-azaleastraat-30/80916693/"
+    },
+    {
+      "id": "17289676",
+      "address": "Binnenwijzend 19-A",
+      "city": "Westwoud",
+      "price": 350000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/941/588.jpg",
       "bedrooms": 3,
       "energy_label": "A1",
-      "surface": 99,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-wethouder-dm-plompstraat-28/44551102/"
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/westwoud/huis-binnenwijzend-19-a/80916949/"
     },
     {
-      "id": "17288108",
-      "address": "Prins Bernhardlaan 148",
-      "city": "Leidschendam",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/882/411.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 72,
-      "url": "https://www.funda.nl/detail/koop/leidschendam/appartement-prins-bernhardlaan-148/44551835/"
-    },
-    {
-      "id": "17289841",
-      "address": "Thailandsingel 6",
-      "city": "Alphen aan den Rijn",
-      "price": 415000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/907/678.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 89,
-      "url": "https://www.funda.nl/detail/koop/alphen-aan-den-rijn/appartement-thailandsingel-6/80916114/"
-    },
-    {
-      "id": "17288105",
-      "address": "Osirispad 111",
-      "city": "Almere",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/882/640.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 74,
-      "url": "https://www.funda.nl/detail/koop/almere/appartement-osirispad-111/44551832/"
-    },
-    {
-      "id": "17289867",
-      "address": "Griend 5",
-      "city": "Zwijndrecht",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/908/209.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 70,
-      "url": "https://www.funda.nl/detail/koop/zwijndrecht/huis-griend-5/80916130/"
-    },
-    {
-      "id": "17288568",
-      "address": "Hertog Adolfstraat 10",
-      "city": "Tiel",
-      "price": 345000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/896/435.jpg",
-      "bedrooms": 3,
-      "energy_label": "G",
-      "surface": 75,
-      "url": "https://www.funda.nl/detail/koop/tiel/huis-hertog-adolfstraat-10/44551295/"
-    },
-    {
-      "id": "17289775",
-      "address": "Maaskantlaan 6",
-      "city": "Groningen",
-      "price": 375000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/905/045.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/groningen/huis-maaskantlaan-6/44552402/"
-    },
-    {
-      "id": "17289737",
-      "address": "Van Aylvawâl 10",
-      "city": "Holwert",
-      "price": 245000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/903/484.jpg",
-      "bedrooms": 4,
-      "energy_label": "G",
-      "surface": 96,
-      "url": "https://www.funda.nl/detail/koop/holwert/huis-van-aylvawal-10/44552464/"
-    },
-    {
-      "id": "17288534",
-      "address": "Anna van Hensbeeksingel 64",
+      "id": "17289456",
+      "address": "Derde kade 50",
       "city": "Gouda",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/895/457.jpg",
-      "bedrooms": 2,
+      "price": 385000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/933/023.jpg",
+      "bedrooms": 3,
       "energy_label": "C",
-      "surface": 79,
-      "url": "https://www.funda.nl/detail/koop/gouda/appartement-anna-van-hensbeeksingel-64/44551261/"
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/gouda/huis-derde-kade-50/44552183/"
+    },
+    {
+      "id": "17289600",
+      "address": "Schalkhaarstraat 101",
+      "city": "Tilburg",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/943/031.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/tilburg/huis-schalkhaarstraat-101/80916973/"
+    },
+    {
+      "id": "17280854",
+      "address": "Bijlmerdreef 1116-B",
+      "city": "Amsterdam",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/949/287.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-bijlmerdreef-1116-b/44553581/"
+    },
+    {
+      "id": "17280085",
+      "address": "Hogaarde 20",
+      "city": "Someren",
+      "price": 359000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/958/534.jpg",
+      "bedrooms": 2,
+      "energy_label": "B",
+      "surface": 95,
+      "url": "https://www.funda.nl/detail/koop/someren/appartement-hogaarde-20/80917358/"
     }
   ]
 }
