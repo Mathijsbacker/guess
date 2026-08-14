@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "houses": [
     {
-      "id": "17280079",
-      "address": "Meerval 25",
-      "city": "Schagen",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/957/860.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 136,
-      "url": "https://www.funda.nl/detail/koop/schagen/huis-meerval-25/80917342/"
-    },
-    {
-      "id": "17280014",
-      "address": "Vredenoord 16",
-      "city": "Heiloo",
-      "price": 795000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/959/258.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 132,
-      "url": "https://www.funda.nl/detail/koop/heiloo/huis-vredenoord-16/80917387/"
-    },
-    {
-      "id": "17289182",
-      "address": "Keizer Karelweg 341",
-      "city": "Amstelveen",
-      "price": 1400000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/921/684.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 173,
-      "url": "https://www.funda.nl/detail/koop/amstelveen/huis-keizer-karelweg-341/44552819/"
-    },
-    {
-      "id": "17280060",
-      "address": "Samenwerking 27",
-      "city": "Amsterdam",
-      "price": 549000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/957/329.jpg",
-      "bedrooms": 3,
-      "energy_label": "B",
-      "surface": 85,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/huis-samenwerking-27/80917333/"
-    },
-    {
-      "id": "17289320",
-      "address": "Azaleastraat 30",
-      "city": "Sint-Michielsgestel",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/931/822.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/sint-michielsgestel/huis-azaleastraat-30/80916693/"
-    },
-    {
-      "id": "17289676",
-      "address": "Binnenwijzend 19-A",
-      "city": "Westwoud",
-      "price": 350000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/941/588.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/westwoud/huis-binnenwijzend-19-a/80916949/"
-    },
-    {
-      "id": "17289456",
-      "address": "Derde kade 50",
-      "city": "Gouda",
-      "price": 385000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/933/023.jpg",
-      "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/gouda/huis-derde-kade-50/44552183/"
-    },
-    {
-      "id": "17289600",
-      "address": "Schalkhaarstraat 101",
-      "city": "Tilburg",
+      "id": "17281649",
+      "address": "Vloedwal 16",
+      "city": "Huizen",
       "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/943/031.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 124,
-      "url": "https://www.funda.nl/detail/koop/tilburg/huis-schalkhaarstraat-101/80916973/"
+      "photo": "https://cloud.funda.nl/valentina_media/233/020/264.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 135,
+      "url": "https://www.funda.nl/detail/koop/huizen/huis-vloedwal-16/44554376/"
     },
     {
-      "id": "17280854",
-      "address": "Bijlmerdreef 1116-B",
+      "id": "17281629",
+      "address": "Brederodestraat 36-2",
       "city": "Amsterdam",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/949/287.jpg",
+      "price": 750000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/023/948.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 88,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-brederodestraat-36-2/44554356/"
+    },
+    {
+      "id": "17280268",
+      "address": "Rijnstraat 4",
+      "city": "Deventer",
+      "price": 285000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/965/989.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 76,
+      "url": "https://www.funda.nl/detail/koop/deventer/huis-rijnstraat-4/44553995/"
+    },
+    {
+      "id": "17281990",
+      "address": "Floris V Dreef 46",
+      "city": "Blaricum",
+      "price": 890000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/992/913.jpg",
+      "bedrooms": 4,
+      "energy_label": "A3",
+      "surface": 162,
+      "url": "https://www.funda.nl/detail/koop/blaricum/huis-floris-v-dreef-46/44554627/"
+    },
+    {
+      "id": "17281009",
+      "address": "Lindengracht 330",
+      "city": "Amsterdam",
+      "price": 750000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/997/825.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 81,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-lindengracht-330/44554736/"
+    },
+    {
+      "id": "17281459",
+      "address": "Trompstraat 54",
+      "city": "Veghel",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/011/934.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 113,
+      "url": "https://www.funda.nl/detail/koop/veghel/huis-trompstraat-54/44554186/"
+    },
+    {
+      "id": "17289081",
+      "address": "Hagestede 45",
+      "city": "Nieuwegein",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/917/968.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 79,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-hagestede-45/44552718/"
+    },
+    {
+      "id": "17281489",
+      "address": "Vasco da Gamastraat 40-H",
+      "city": "Amsterdam",
+      "price": 450000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/013/169.jpg",
+      "bedrooms": 1,
+      "energy_label": "F",
+      "surface": 48,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-vasco-da-gamastraat-40-h/44554116/"
+    },
+    {
+      "id": "17281158",
+      "address": "St. Laurentiuslaan 31",
+      "city": "Arnhem",
+      "price": 299500,
+      "photo": "https://cloud.funda.nl/valentina_media/232/999/847.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 69,
+      "url": "https://www.funda.nl/detail/koop/arnhem/huis-st-laurentiuslaan-31/44554885/"
+    },
+    {
+      "id": "17281538",
+      "address": "Botter 19 40",
+      "city": "Lelystad",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/015/190.jpg",
       "bedrooms": 3,
       "energy_label": "A",
-      "surface": 108,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-bijlmerdreef-1116-b/44553581/"
-    },
-    {
-      "id": "17280085",
-      "address": "Hogaarde 20",
-      "city": "Someren",
-      "price": 359000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/958/534.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 95,
-      "url": "https://www.funda.nl/detail/koop/someren/appartement-hogaarde-20/80917358/"
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/lelystad/huis-botter-19-40/44554265/"
     }
   ]
 }
