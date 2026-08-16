@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "houses": [
     {
-      "id": "17292745",
-      "address": "Staverdenhoek 9",
-      "city": "Enschede",
-      "price": 370000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/025/231.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 109,
-      "url": "https://www.funda.nl/detail/koop/enschede/huis-staverdenhoek-9/44565472/"
-    },
-    {
-      "id": "17281378",
-      "address": "Wouterij 34",
-      "city": "Koewacht",
-      "price": 330000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/009/961.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 86,
-      "url": "https://www.funda.nl/detail/koop/koewacht/huis-wouterij-34/44554005/"
-    },
-    {
-      "id": "17281532",
-      "address": "1e Nieuwstraat 70",
-      "city": "Hilversum",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/015/527.jpg",
-      "bedrooms": 2,
-      "energy_label": "D",
-      "surface": 81,
-      "url": "https://www.funda.nl/detail/koop/hilversum/huis-1e-nieuwstraat-70/44554269/"
-    },
-    {
-      "id": "17292989",
-      "address": "Spijkerboorweg 311",
-      "city": "Haarlem",
-      "price": 540000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/035/902.jpg",
-      "bedrooms": 2,
-      "energy_label": "A3",
-      "surface": 89,
-      "url": "https://www.funda.nl/detail/koop/haarlem/appartement-spijkerboorweg-311/44565616/"
-    },
-    {
-      "id": "17287230",
-      "address": "Niermansgang 43",
-      "city": "Enschede",
-      "price": 239000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/846/491.jpg",
-      "bedrooms": 1,
-      "energy_label": "C",
-      "surface": 62,
-      "url": "https://www.funda.nl/detail/koop/enschede/appartement-niermansgang-43/44550967/"
-    },
-    {
-      "id": "17281045",
-      "address": "Markt 109",
-      "city": "Nieuwegein",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/995/227.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 69,
-      "url": "https://www.funda.nl/detail/koop/nieuwegein/appartement-markt-109/44554772/"
-    },
-    {
-      "id": "17280350",
-      "address": "Frankrijkstraat 166",
-      "city": "IJsselstein",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/970/177.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 87,
-      "url": "https://www.funda.nl/detail/koop/ijsselstein/appartement-frankrijkstraat-166/44553087/"
-    },
-    {
-      "id": "17292827",
-      "address": "Het Noorderlicht 18",
-      "city": "Zuidhorn",
-      "price": 550000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/033/091.jpg",
-      "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 139,
-      "url": "https://www.funda.nl/detail/koop/zuidhorn/huis-het-noorderlicht-18/44565554/"
-    },
-    {
-      "id": "17280259",
-      "address": "Waalsingel 59",
-      "city": "IJsselstein",
-      "price": 465000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/965/597.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 106,
-      "url": "https://www.funda.nl/detail/koop/ijsselstein/huis-waalsingel-59/44553986/"
-    },
-    {
-      "id": "17289868",
-      "address": "Westfriesedijk 27",
-      "city": "Warmenhuizen",
-      "price": 1195000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/908/206.jpg",
+      "id": "17281833",
+      "address": "Westerveldstraat 19",
+      "city": "Zwolle",
+      "price": 365000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/986/858.jpg",
       "bedrooms": 5,
-      "energy_label": "?",
-      "surface": 193,
-      "url": "https://www.funda.nl/detail/koop/warmenhuizen/huis-westfriesedijk-27/80916131/"
+      "energy_label": "C",
+      "surface": 105,
+      "url": "https://www.funda.nl/detail/koop/zwolle/huis-westerveldstraat-19/44554560/"
+    },
+    {
+      "id": "17280487",
+      "address": "Bloemgracht 129-A5L",
+      "city": "Amsterdam",
+      "price": 975000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/976/228.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 126,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-bloemgracht-129-a5l/44553114/"
+    },
+    {
+      "id": "17280211",
+      "address": "Conradstraat 132-D",
+      "city": "Amsterdam",
+      "price": 569000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/968/206.jpg",
+      "bedrooms": 3,
+      "energy_label": "A1",
+      "surface": 92,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-conradstraat-132-d/44553948/"
+    },
+    {
+      "id": "17280389",
+      "address": "Collierstraat 33",
+      "city": "Almere",
+      "price": 635000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/971/485.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 161,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-collierstraat-33/80917652/"
+    },
+    {
+      "id": "17280309",
+      "address": "John Fordstraat 43",
+      "city": "Almere",
+      "price": 469000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/972/431.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 113,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-john-fordstraat-43/80917672/"
+    },
+    {
+      "id": "17292926",
+      "address": "Delf 57",
+      "city": "Veendam",
+      "price": 285000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/037/800.jpg",
+      "bedrooms": 4,
+      "energy_label": "A",
+      "surface": 110,
+      "url": "https://www.funda.nl/detail/koop/veendam/huis-delf-57/80929299/"
+    },
+    {
+      "id": "17281269",
+      "address": "De Kamp 28-A",
+      "city": "Nieuwolda",
+      "price": 299000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/004/930.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 84,
+      "url": "https://www.funda.nl/detail/koop/nieuwolda/huis-de-kamp-28-a/44554996/"
+    },
+    {
+      "id": "17280394",
+      "address": "Trompstraat 6",
+      "city": "Zwolle",
+      "price": 439000,
+      "photo": "https://cloud.funda.nl/valentina_media/232/972/287.jpg",
+      "bedrooms": 4,
+      "energy_label": "E",
+      "surface": 106,
+      "url": "https://www.funda.nl/detail/koop/zwolle/huis-trompstraat-6/44553021/"
+    },
+    {
+      "id": "17292875",
+      "address": "Zeeburgerkade 928",
+      "city": "Amsterdam",
+      "price": 1150000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/031/079.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 136,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-zeeburgerkade-928/44565502/"
+    },
+    {
+      "id": "17292919",
+      "address": "Gein-Noord 16",
+      "city": "Abcoude",
+      "price": 1249500,
+      "photo": "https://cloud.funda.nl/valentina_media/233/037/504.jpg",
+      "bedrooms": 6,
+      "energy_label": "C",
+      "surface": 212,
+      "url": "https://www.funda.nl/detail/koop/abcoude/huis-gein-noord-16/44565646/"
     }
   ]
 }
