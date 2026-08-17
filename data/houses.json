@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "houses": [
     {
-      "id": "17281833",
-      "address": "Westerveldstraat 19",
-      "city": "Zwolle",
-      "price": 365000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/986/858.jpg",
-      "bedrooms": 5,
+      "id": "17293892",
+      "address": "Detmoldstraat 92-2",
+      "city": "Utrecht",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/073/932.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 67,
+      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-detmoldstraat-92-2/44566529/"
+    },
+    {
+      "id": "17293073",
+      "address": "Cornelis Ketelstraat 11",
+      "city": "Gouda",
+      "price": 385000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/080/788.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 72,
+      "url": "https://www.funda.nl/detail/koop/gouda/huis-cornelis-ketelstraat-11/44566700/"
+    },
+    {
+      "id": "17293075",
+      "address": "Charloisse Lagedijk 518",
+      "city": "Rotterdam",
+      "price": 1050000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/081/006.jpg",
+      "bedrooms": 4,
+      "energy_label": "A4",
+      "surface": 150,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/huis-charloisse-lagedijk-518/44566702/"
+    },
+    {
+      "id": "17293435",
+      "address": "Praterlaan 10",
+      "city": "Amsterdam",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/097/990.jpg",
+      "bedrooms": 2,
+      "energy_label": "A",
+      "surface": 96,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-praterlaan-10/44566162/"
+    },
+    {
+      "id": "17293973",
+      "address": "Zuiderweg 151",
+      "city": "Zuidoostbeemster",
+      "price": 585000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/076/840.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 109,
+      "url": "https://www.funda.nl/detail/koop/zuidoostbeemster/huis-zuiderweg-151/44566600/"
+    },
+    {
+      "id": "17293446",
+      "address": "Langewâl 23",
+      "city": "Gorredijk",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/098/050.jpg",
+      "bedrooms": 4,
+      "energy_label": "F",
+      "surface": 208,
+      "url": "https://www.funda.nl/detail/koop/gorredijk/huis-langewal-23/44566173/"
+    },
+    {
+      "id": "17292272",
+      "address": "Hertog Jan van Beierenlaan 37",
+      "city": "Nieuwe-Tonge",
+      "price": 345000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/048/492.jpg",
+      "bedrooms": 4,
+      "energy_label": "?",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/nieuwe-tonge/huis-hertog-jan-van-beierenlaan-37/44565909/"
+    },
+    {
+      "id": "17293224",
+      "address": "Hermesstraat 19",
+      "city": "Almere",
+      "price": 600000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/092/964.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 146,
+      "url": "https://www.funda.nl/detail/koop/almere/huis-hermesstraat-19/80920597/"
+    },
+    {
+      "id": "17293964",
+      "address": "Schoolstraat 2",
+      "city": "Muiden",
+      "price": 675000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/076/649.jpg",
+      "bedrooms": 4,
       "energy_label": "C",
       "surface": 105,
-      "url": "https://www.funda.nl/detail/koop/zwolle/huis-westerveldstraat-19/44554560/"
+      "url": "https://www.funda.nl/detail/koop/muiden/huis-schoolstraat-2/44566691/"
     },
     {
-      "id": "17280487",
-      "address": "Bloemgracht 129-A5L",
-      "city": "Amsterdam",
-      "price": 975000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/976/228.jpg",
+      "id": "17293840",
+      "address": "Walstraat 50",
+      "city": "Doetinchem",
+      "price": 395000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/071/799.jpg",
       "bedrooms": 2,
       "energy_label": "C",
-      "surface": 126,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-bloemgracht-129-a5l/44553114/"
-    },
-    {
-      "id": "17280211",
-      "address": "Conradstraat 132-D",
-      "city": "Amsterdam",
-      "price": 569000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/968/206.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 92,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-conradstraat-132-d/44553948/"
-    },
-    {
-      "id": "17280389",
-      "address": "Collierstraat 33",
-      "city": "Almere",
-      "price": 635000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/971/485.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 161,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-collierstraat-33/80917652/"
-    },
-    {
-      "id": "17280309",
-      "address": "John Fordstraat 43",
-      "city": "Almere",
-      "price": 469000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/972/431.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 113,
-      "url": "https://www.funda.nl/detail/koop/almere/huis-john-fordstraat-43/80917672/"
-    },
-    {
-      "id": "17292926",
-      "address": "Delf 57",
-      "city": "Veendam",
-      "price": 285000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/037/800.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 110,
-      "url": "https://www.funda.nl/detail/koop/veendam/huis-delf-57/80929299/"
-    },
-    {
-      "id": "17281269",
-      "address": "De Kamp 28-A",
-      "city": "Nieuwolda",
-      "price": 299000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/004/930.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 84,
-      "url": "https://www.funda.nl/detail/koop/nieuwolda/huis-de-kamp-28-a/44554996/"
-    },
-    {
-      "id": "17280394",
-      "address": "Trompstraat 6",
-      "city": "Zwolle",
-      "price": 439000,
-      "photo": "https://cloud.funda.nl/valentina_media/232/972/287.jpg",
-      "bedrooms": 4,
-      "energy_label": "E",
-      "surface": 106,
-      "url": "https://www.funda.nl/detail/koop/zwolle/huis-trompstraat-6/44553021/"
-    },
-    {
-      "id": "17292875",
-      "address": "Zeeburgerkade 928",
-      "city": "Amsterdam",
-      "price": 1150000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/031/079.jpg",
-      "bedrooms": 3,
-      "energy_label": "A",
-      "surface": 136,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-zeeburgerkade-928/44565502/"
-    },
-    {
-      "id": "17292919",
-      "address": "Gein-Noord 16",
-      "city": "Abcoude",
-      "price": 1249500,
-      "photo": "https://cloud.funda.nl/valentina_media/233/037/504.jpg",
-      "bedrooms": 6,
-      "energy_label": "C",
-      "surface": 212,
-      "url": "https://www.funda.nl/detail/koop/abcoude/huis-gein-noord-16/44565646/"
+      "surface": 134,
+      "url": "https://www.funda.nl/detail/koop/doetinchem/appartement-walstraat-50/44566577/"
     }
   ]
 }
