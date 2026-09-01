@@ -1,115 +1,115 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "houses": [
     {
-      "id": "17207018",
-      "address": "Makassarstraat 11",
-      "city": "Utrecht",
-      "price": 450000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/687/663.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 66,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-makassarstraat-11/44570745/"
-    },
-    {
-      "id": "17209231",
-      "address": "Vestdijkstraat 3",
-      "city": "Hulst",
-      "price": 169000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/778/370.jpg",
-      "bedrooms": 1,
-      "energy_label": "E",
-      "surface": 43,
-      "url": "https://www.funda.nl/detail/koop/hulst/huis-vestdijkstraat-3/80936504/"
-    },
-    {
-      "id": "17206819",
-      "address": "Beneluxlaan 88",
-      "city": "Utrecht",
-      "price": 325000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/634/180.jpg",
-      "bedrooms": 2,
-      "energy_label": "B",
-      "surface": 74,
-      "url": "https://www.funda.nl/detail/koop/utrecht/appartement-beneluxlaan-88/44579546/"
-    },
-    {
-      "id": "17209182",
-      "address": "Savelsbosch 49",
-      "city": "Maastricht",
-      "price": 895000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/776/144.jpg",
-      "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 177,
-      "url": "https://www.funda.nl/detail/koop/maastricht/huis-savelsbosch-49/80936455/"
-    },
-    {
-      "id": "17209287",
-      "address": "Erfgooiersstraat 615",
-      "city": "Hilversum",
-      "price": 395000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/780/287.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 88,
-      "url": "https://www.funda.nl/detail/koop/hilversum/appartement-erfgooiersstraat-615/44572914/"
-    },
-    {
-      "id": "17208297",
-      "address": "Balderikstraat 63",
-      "city": "Utrecht",
-      "price": 475000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/737/186.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 84,
-      "url": "https://www.funda.nl/detail/koop/utrecht/huis-balderikstraat-63/44571924/"
-    },
-    {
-      "id": "17208592",
-      "address": "Jannetje Merbiskade 19",
+      "id": "17200146",
+      "address": "Walhallalaan 44",
       "city": "Rotterdam",
-      "price": 1550000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/749/499.jpg",
+      "price": 795000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/816/377.jpg",
       "bedrooms": 4,
-      "energy_label": "A1",
-      "surface": 209,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/huis-jannetje-merbiskade-19/44571229/"
-    },
-    {
-      "id": "17209026",
-      "address": "Fokke Simonszstraat 18-H",
-      "city": "Amsterdam",
-      "price": 650000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/773/231.jpg",
-      "bedrooms": 1,
       "energy_label": "A",
-      "surface": 51,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-fokke-simonszstraat-18-h/44572753/"
+      "surface": 141,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/huis-walhallalaan-44/44573873/"
     },
     {
-      "id": "17207423",
-      "address": "Kempenaar 07 11",
-      "city": "Lelystad",
-      "price": 365000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/705/013.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 98,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-kempenaar-07-11/44570150/"
-    },
-    {
-      "id": "17207755",
-      "address": "Alendorperweg 79",
-      "city": "Vleuten",
-      "price": 1495000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/671/893.jpg",
+      "id": "17200227",
+      "address": "Zuidereinde 149",
+      "city": "'s-Graveland",
+      "price": 995000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/821/160.jpg",
       "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 210,
-      "url": "https://www.funda.nl/detail/koop/vleuten/huis-alendorperweg-79/44570482/"
+      "energy_label": "A1",
+      "surface": 229,
+      "url": "https://www.funda.nl/detail/koop/s-graveland/huis-zuidereinde-149/44573954/"
+    },
+    {
+      "id": "17201972",
+      "address": "Jan Pieterszoon Coenstraat 81",
+      "city": "IJmuiden",
+      "price": 398000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/849/878.jpg",
+      "bedrooms": 5,
+      "energy_label": "G",
+      "surface": 116,
+      "url": "https://www.funda.nl/detail/koop/ijmuiden/huis-jan-pieterszoon-coenstraat-81/44574609/"
+    },
+    {
+      "id": "17200585",
+      "address": "Duffelweg 5",
+      "city": "Ouddorp",
+      "price": 595000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/833/007.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 125,
+      "url": "https://www.funda.nl/detail/koop/ouddorp/huis-duffelweg-5/44573212/"
+    },
+    {
+      "id": "17201807",
+      "address": "IJssellaan 48",
+      "city": "Gouda",
+      "price": 379500,
+      "photo": "https://cloud.funda.nl/valentina_media/233/846/471.jpg",
+      "bedrooms": 2,
+      "energy_label": "D",
+      "surface": 78,
+      "url": "https://www.funda.nl/detail/koop/gouda/huis-ijssellaan-48/44574534/"
+    },
+    {
+      "id": "17201854",
+      "address": "Diezerenk 42",
+      "city": "Zwolle",
+      "price": 375000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/844/674.jpg",
+      "bedrooms": 3,
+      "energy_label": "C",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/zwolle/huis-diezerenk-42/44574581/"
+    },
+    {
+      "id": "17201056",
+      "address": "Crooswijksesingel 25-B",
+      "city": "Rotterdam",
+      "price": 565000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/853/122.jpg",
+      "bedrooms": 3,
+      "energy_label": "D",
+      "surface": 179,
+      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-crooswijksesingel-25-b/44574783/"
+    },
+    {
+      "id": "17201076",
+      "address": "Parklaan 25",
+      "city": "Musselkanaal",
+      "price": 499000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/854/082.jpg",
+      "bedrooms": 7,
+      "energy_label": "B",
+      "surface": 165,
+      "url": "https://www.funda.nl/detail/koop/musselkanaal/huis-parklaan-25/44574703/"
+    },
+    {
+      "id": "17201043",
+      "address": "Djambistraat 40-3",
+      "city": "Amsterdam",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/852/964.jpg",
+      "bedrooms": 1,
+      "energy_label": "C",
+      "surface": 45,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-djambistraat-40-3/80938316/"
+    },
+    {
+      "id": "17200710",
+      "address": "Engels Gras 48",
+      "city": "Velserbroek",
+      "price": 595000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/802/669.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 113,
+      "url": "https://www.funda.nl/detail/koop/velserbroek/huis-engels-gras-48/44573447/"
     }
   ]
 }
