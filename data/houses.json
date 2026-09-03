@@ -1,115 +1,115 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "houses": [
     {
-      "id": "17212359",
-      "address": "Tituslaan 44",
-      "city": "Beuningen (GE)",
-      "price": 480000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/909/017.jpg",
+      "id": "17214844",
+      "address": "Kanaalweg 32",
+      "city": "Capelle aan den IJssel",
+      "price": 330000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/968/729.jpg",
+      "bedrooms": 3,
+      "energy_label": "E",
+      "surface": 78,
+      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/huis-kanaalweg-32/44587571/"
+    },
+    {
+      "id": "17214383",
+      "address": "Vlassersstraat 19",
+      "city": "Hendrik-Ido-Ambacht",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/988/154.jpg",
+      "bedrooms": 4,
+      "energy_label": "E",
+      "surface": 103,
+      "url": "https://www.funda.nl/detail/koop/hendrik-ido-ambacht/huis-vlassersstraat-19/80941656/"
+    },
+    {
+      "id": "17214731",
+      "address": "Waalstraat 118-3",
+      "city": "Amsterdam",
+      "price": 1500000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/964/107.jpg",
+      "bedrooms": 5,
+      "energy_label": "C",
+      "surface": 212,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-waalstraat-118-3/44587468/"
+    },
+    {
+      "id": "17214216",
+      "address": "Zuidendijk 355",
+      "city": "Dordrecht",
+      "price": 710000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/984/869.jpg",
+      "bedrooms": 5,
+      "energy_label": "B",
+      "surface": 175,
+      "url": "https://www.funda.nl/detail/koop/dordrecht/huis-zuidendijk-355/80941589/"
+    },
+    {
+      "id": "17213247",
+      "address": "Hatertseweg 805",
+      "city": "Nijmegen",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/942/649.jpg",
+      "bedrooms": 3,
+      "energy_label": "G",
+      "surface": 95,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-hatertseweg-805/44586974/"
+    },
+    {
+      "id": "17215828",
+      "address": "Tweede Oosterparkstraat 137-B",
+      "city": "Amsterdam",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/010/124.jpg",
+      "bedrooms": 2,
+      "energy_label": "C",
+      "surface": 59,
+      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-tweede-oosterparkstraat-137-b/80942191/"
+    },
+    {
+      "id": "17213676",
+      "address": "Nijenheim 1118",
+      "city": "Zeist",
+      "price": 585000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/961/198.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/zeist/huis-nijenheim-1118/44586303/"
+    },
+    {
+      "id": "17214472",
+      "address": "Ringoven 6",
+      "city": "Borne",
+      "price": 659000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/992/019.jpg",
+      "bedrooms": 5,
+      "energy_label": "C",
+      "surface": 236,
+      "url": "https://www.funda.nl/detail/koop/borne/huis-ringoven-6/44587109/"
+    },
+    {
+      "id": "17214069",
+      "address": "Sonate 19",
+      "city": "Zwijndrecht",
+      "price": 405000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/976/508.jpg",
       "bedrooms": 4,
       "energy_label": "B",
       "surface": 106,
-      "url": "https://www.funda.nl/detail/koop/beuningen-ge/huis-tituslaan-44/44585086/"
+      "url": "https://www.funda.nl/detail/koop/zwijndrecht/huis-sonate-19/80941332/"
     },
     {
-      "id": "17201334",
-      "address": "Essinklaan 19",
-      "city": "Grave",
-      "price": 409000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/865/815.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 146,
-      "url": "https://www.funda.nl/detail/koop/grave/huis-essinklaan-19/44574061/"
-    },
-    {
-      "id": "17201096",
-      "address": "Oeverpad 567",
-      "city": "Amsterdam",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/855/001.jpg",
-      "bedrooms": 2,
-      "energy_label": "A1",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-oeverpad-567/80938369/"
-    },
-    {
-      "id": "17212613",
-      "address": "Gaudikade 47",
-      "city": "Hoofddorp",
-      "price": 550000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/923/042.jpg",
-      "bedrooms": 2,
-      "energy_label": "A2",
-      "surface": 84,
-      "url": "https://www.funda.nl/detail/koop/hoofddorp/appartement-gaudikade-47/44585340/"
-    },
-    {
-      "id": "17212707",
-      "address": "Valeriusrondeel 258",
-      "city": "Capelle aan den IJssel",
-      "price": 365000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/885/893.jpg",
-      "bedrooms": 3,
-      "energy_label": "A1",
-      "surface": 102,
-      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/appartement-valeriusrondeel-258/44585434/"
-    },
-    {
-      "id": "17212067",
-      "address": "Kievitlaan 56",
-      "city": "Schagen",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/898/236.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 119,
-      "url": "https://www.funda.nl/detail/koop/schagen/huis-kievitlaan-56/80949330/"
-    },
-    {
-      "id": "17212700",
-      "address": "Rembrandtlaan 68",
-      "city": "Schagen",
-      "price": 415000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/885/977.jpg",
-      "bedrooms": 4,
-      "energy_label": "D",
-      "surface": 110,
-      "url": "https://www.funda.nl/detail/koop/schagen/huis-rembrandtlaan-68/80949073/"
-    },
-    {
-      "id": "17212443",
-      "address": "Groeseindstraat 86",
+      "id": "17213517",
+      "address": "Heusdenlaan 24",
       "city": "Tilburg",
-      "price": 359000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/912/085.jpg",
+      "price": 400000,
+      "photo": "https://cloud.funda.nl/valentina_media/233/958/823.jpg",
       "bedrooms": 3,
-      "energy_label": "C",
-      "surface": 115,
-      "url": "https://www.funda.nl/detail/koop/tilburg/huis-groeseindstraat-86/44585170/"
-    },
-    {
-      "id": "17212440",
-      "address": "Oeralweg 73",
-      "city": "Tilburg",
-      "price": 319000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/912/044.jpg",
-      "bedrooms": 2,
-      "energy_label": "E",
-      "surface": 75,
-      "url": "https://www.funda.nl/detail/koop/tilburg/huis-oeralweg-73/44585177/"
-    },
-    {
-      "id": "17212654",
-      "address": "Adoptieplein 19",
-      "city": "Herkingen",
-      "price": 340000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/921/117.jpg",
-      "bedrooms": 4,
-      "energy_label": "D",
-      "surface": 100,
-      "url": "https://www.funda.nl/detail/koop/herkingen/huis-adoptieplein-19/44585381/"
+      "energy_label": "A",
+      "surface": 120,
+      "url": "https://www.funda.nl/detail/koop/tilburg/huis-heusdenlaan-24/44586244/"
     }
   ]
 }
