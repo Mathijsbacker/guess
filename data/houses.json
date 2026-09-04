@@ -1,115 +1,115 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "houses": [
     {
-      "id": "17214844",
-      "address": "Kanaalweg 32",
-      "city": "Capelle aan den IJssel",
-      "price": 330000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/968/729.jpg",
-      "bedrooms": 3,
-      "energy_label": "E",
-      "surface": 78,
-      "url": "https://www.funda.nl/detail/koop/capelle-aan-den-ijssel/huis-kanaalweg-32/44587571/"
-    },
-    {
-      "id": "17214383",
-      "address": "Vlassersstraat 19",
-      "city": "Hendrik-Ido-Ambacht",
-      "price": 425000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/988/154.jpg",
-      "bedrooms": 4,
-      "energy_label": "E",
-      "surface": 103,
-      "url": "https://www.funda.nl/detail/koop/hendrik-ido-ambacht/huis-vlassersstraat-19/80941656/"
-    },
-    {
-      "id": "17214731",
-      "address": "Waalstraat 118-3",
-      "city": "Amsterdam",
-      "price": 1500000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/964/107.jpg",
+      "id": "17216914",
+      "address": "Vlierhoeve 86",
+      "city": "Nieuwegein",
+      "price": 675000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/054/084.jpg",
       "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 212,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-waalstraat-118-3/44587468/"
+      "energy_label": "A",
+      "surface": 142,
+      "url": "https://www.funda.nl/detail/koop/nieuwegein/huis-vlierhoeve-86/44589641/"
     },
     {
-      "id": "17214216",
-      "address": "Zuidendijk 355",
-      "city": "Dordrecht",
-      "price": 710000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/984/869.jpg",
-      "bedrooms": 5,
-      "energy_label": "B",
-      "surface": 175,
-      "url": "https://www.funda.nl/detail/koop/dordrecht/huis-zuidendijk-355/80941589/"
-    },
-    {
-      "id": "17213247",
-      "address": "Hatertseweg 805",
-      "city": "Nijmegen",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/942/649.jpg",
-      "bedrooms": 3,
-      "energy_label": "G",
-      "surface": 95,
-      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-hatertseweg-805/44586974/"
-    },
-    {
-      "id": "17215828",
-      "address": "Tweede Oosterparkstraat 137-B",
-      "city": "Amsterdam",
-      "price": 525000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/010/124.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 59,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-tweede-oosterparkstraat-137-b/80942191/"
-    },
-    {
-      "id": "17213676",
-      "address": "Nijenheim 1118",
-      "city": "Zeist",
-      "price": 585000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/961/198.jpg",
-      "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/zeist/huis-nijenheim-1118/44586303/"
-    },
-    {
-      "id": "17214472",
-      "address": "Ringoven 6",
-      "city": "Borne",
-      "price": 659000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/992/019.jpg",
-      "bedrooms": 5,
-      "energy_label": "C",
-      "surface": 236,
-      "url": "https://www.funda.nl/detail/koop/borne/huis-ringoven-6/44587109/"
-    },
-    {
-      "id": "17214069",
-      "address": "Sonate 19",
-      "city": "Zwijndrecht",
-      "price": 405000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/976/508.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 106,
-      "url": "https://www.funda.nl/detail/koop/zwijndrecht/huis-sonate-19/80941332/"
-    },
-    {
-      "id": "17213517",
-      "address": "Heusdenlaan 24",
-      "city": "Tilburg",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/958/823.jpg",
+      "id": "17215169",
+      "address": "Mahoniehout 8",
+      "city": "Zoetermeer",
+      "price": 650000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/019/954.jpg",
       "bedrooms": 3,
       "energy_label": "A",
-      "surface": 120,
-      "url": "https://www.funda.nl/detail/koop/tilburg/huis-heusdenlaan-24/44586244/"
+      "surface": 143,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-mahoniehout-8/44588896/"
+    },
+    {
+      "id": "17215065",
+      "address": "Dobbelmannweg 45",
+      "city": "Nijmegen",
+      "price": 675000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/016/891.jpg",
+      "bedrooms": 4,
+      "energy_label": "C",
+      "surface": 128,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-dobbelmannweg-45/44588792/"
+    },
+    {
+      "id": "17215197",
+      "address": "Hatertseweg 735",
+      "city": "Nijmegen",
+      "price": 425000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/021/266.jpg",
+      "bedrooms": 3,
+      "energy_label": "E",
+      "surface": 86,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/huis-hatertseweg-735/44588824/"
+    },
+    {
+      "id": "17215180",
+      "address": "Nimfkruidvaart 14",
+      "city": "Zoetermeer",
+      "price": 475000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/020/928.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 115,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-nimfkruidvaart-14/44588817/"
+    },
+    {
+      "id": "17215332",
+      "address": "Jonagoldhof 28",
+      "city": "Zoetermeer",
+      "price": 610000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/024/996.jpg",
+      "bedrooms": 4,
+      "energy_label": "A1",
+      "surface": 144,
+      "url": "https://www.funda.nl/detail/koop/zoetermeer/huis-jonagoldhof-28/44588069/"
+    },
+    {
+      "id": "17217231",
+      "address": "Herman Lansdaalhof 3",
+      "city": "Hoorn (NH)",
+      "price": 700000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/097/214.jpg",
+      "bedrooms": 5,
+      "energy_label": "A3",
+      "surface": 157,
+      "url": "https://www.funda.nl/detail/koop/hoorn-nh/huis-herman-lansdaalhof-3/80944504/"
+    },
+    {
+      "id": "17216308",
+      "address": "J.M.P.de Biestraat 22",
+      "city": "Alkmaar",
+      "price": 775000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/070/174.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 152,
+      "url": "https://www.funda.nl/detail/koop/alkmaar/huis-jmpde-biestraat-22/80943671/"
+    },
+    {
+      "id": "17215536",
+      "address": "Malvert 6359",
+      "city": "Nijmegen",
+      "price": 325000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/032/838.jpg",
+      "bedrooms": 3,
+      "energy_label": "A",
+      "surface": 96,
+      "url": "https://www.funda.nl/detail/koop/nijmegen/appartement-malvert-6359/44588263/"
+    },
+    {
+      "id": "17215446",
+      "address": "Marathon 124",
+      "city": "Krimpen aan den IJssel",
+      "price": 439000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/028/470.jpg",
+      "bedrooms": 4,
+      "energy_label": "B",
+      "surface": 124,
+      "url": "https://www.funda.nl/detail/koop/krimpen-aan-den-ijssel/huis-marathon-124/44588173/"
     }
   ]
 }
