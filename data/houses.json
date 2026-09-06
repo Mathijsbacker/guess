@@ -1,115 +1,115 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "houses": [
     {
-      "id": "17213046",
-      "address": "Lutjelant 13",
-      "city": "Zuid-Scharwoude",
-      "price": 850000,
-      "photo": "https://cloud.funda.nl/valentina_media/233/935/274.jpg",
-      "bedrooms": 6,
-      "energy_label": "A2",
-      "surface": 170,
-      "url": "https://www.funda.nl/detail/koop/zuid-scharwoude/huis-lutjelant-13/80940319/"
-    },
-    {
-      "id": "17217667",
-      "address": "Vossiuslaan 51",
-      "city": "Bussum",
-      "price": 798000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/114/634.jpg",
-      "bedrooms": 4,
-      "energy_label": "B",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/bussum/huis-vossiuslaan-51/44580394/"
-    },
-    {
-      "id": "17218227",
-      "address": "Van den Broekelaan 10-B",
-      "city": "Amstelveen",
-      "price": 865000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/142/474.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 123,
-      "url": "https://www.funda.nl/detail/koop/amstelveen/huis-van-den-broekelaan-10-b/44581954/"
-    },
-    {
-      "id": "17219934",
-      "address": "Gruttoweide 123",
-      "city": "Wageningen",
-      "price": 495000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/169/361.jpg",
-      "bedrooms": 4,
-      "energy_label": "A",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/wageningen/huis-gruttoweide-123/44582661/"
-    },
-    {
-      "id": "17219984",
-      "address": "Horst 25 16",
-      "city": "Lelystad",
-      "price": 400000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/171/484.jpg",
-      "bedrooms": 5,
-      "energy_label": "A",
-      "surface": 118,
-      "url": "https://www.funda.nl/detail/koop/lelystad/huis-horst-25-16/44582611/"
-    },
-    {
-      "id": "17219629",
-      "address": "Jufferkade 14",
-      "city": "Rotterdam",
-      "price": 385000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/203/765.jpg",
+      "id": "17218365",
+      "address": "Frans Halslaan 45",
+      "city": "Baarn",
+      "price": 335000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/145/040.jpg",
       "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 73,
-      "url": "https://www.funda.nl/detail/koop/rotterdam/appartement-jufferkade-14/44582356/"
+      "energy_label": "D",
+      "surface": 71,
+      "url": "https://www.funda.nl/detail/koop/baarn/appartement-frans-halslaan-45/80945638/"
     },
     {
-      "id": "17217435",
-      "address": "Gladiolenstraat 8",
-      "city": "Wageningen",
-      "price": 575000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/105/364.jpg",
+      "id": "17210819",
+      "address": "van Petersheimstraat 1",
+      "city": "Gilze",
+      "price": 389000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/212/620.jpg",
       "bedrooms": 4,
-      "energy_label": "C",
-      "surface": 131,
-      "url": "https://www.funda.nl/detail/koop/wageningen/huis-gladiolenstraat-8/44580162/"
+      "energy_label": "A",
+      "surface": 87,
+      "url": "https://www.funda.nl/detail/koop/gilze/huis-van-petersheimstraat-1/44583546/"
     },
     {
-      "id": "17219888",
-      "address": "Stationsweg 11",
-      "city": "Terborg",
-      "price": 649000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/166/779.jpg",
+      "id": "17218355",
+      "address": "Jonkerveld 711",
+      "city": "Uden",
+      "price": 579000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/214/406.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 132,
+      "url": "https://www.funda.nl/detail/koop/uden/huis-jonkerveld-711/44581082/"
+    },
+    {
+      "id": "17210973",
+      "address": "Laanderweg 19",
+      "city": "Heerhugowaard",
+      "price": 1295000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/215/577.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 296,
+      "url": "https://www.funda.nl/detail/koop/heerhugowaard/huis-laanderweg-19/80947246/"
+    },
+    {
+      "id": "17210808",
+      "address": "Bosanemoon 13",
+      "city": "Hoeven",
+      "price": 849000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/211/866.jpg",
+      "bedrooms": 5,
+      "energy_label": "A",
+      "surface": 208,
+      "url": "https://www.funda.nl/detail/koop/hoeven/huis-bosanemoon-13/44583535/"
+    },
+    {
+      "id": "17210970",
+      "address": "Loevestein 61",
+      "city": "Alphen aan den Rijn",
+      "price": 625000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/215/283.jpg",
+      "bedrooms": 5,
+      "energy_label": "B",
+      "surface": 174,
+      "url": "https://www.funda.nl/detail/koop/alphen-aan-den-rijn/huis-loevestein-61/44583607/"
+    },
+    {
+      "id": "17219880",
+      "address": "Bordeslaan 127",
+      "city": "Den Bosch",
+      "price": 749500,
+      "photo": "https://cloud.funda.nl/valentina_media/234/166/497.jpg",
+      "bedrooms": 3,
+      "energy_label": "A2",
+      "surface": 131,
+      "url": "https://www.funda.nl/detail/koop/den-bosch/appartement-bordeslaan-127/44582517/"
+    },
+    {
+      "id": "17210895",
+      "address": "Arie van de Heuvelstraat 39",
+      "city": "Bunnik",
+      "price": 525000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/211/665.jpg",
+      "bedrooms": 4,
+      "energy_label": "F",
+      "surface": 111,
+      "url": "https://www.funda.nl/detail/koop/bunnik/huis-arie-van-de-heuvelstraat-39/44583522/"
+    },
+    {
+      "id": "17219237",
+      "address": "Regulus 26",
+      "city": "Waddinxveen",
+      "price": 409500,
+      "photo": "https://cloud.funda.nl/valentina_media/234/182/652.jpg",
+      "bedrooms": 3,
+      "energy_label": "B",
+      "surface": 99,
+      "url": "https://www.funda.nl/detail/koop/waddinxveen/huis-regulus-26/44582964/"
+    },
+    {
+      "id": "17217482",
+      "address": "Kaasmakerlaan 24",
+      "city": "IJsselstein",
+      "price": 465000,
+      "photo": "https://cloud.funda.nl/valentina_media/234/106/985.jpg",
       "bedrooms": 3,
       "energy_label": "C",
-      "surface": 242,
-      "url": "https://www.funda.nl/detail/koop/terborg/huis-stationsweg-11/44582515/"
-    },
-    {
-      "id": "17219789",
-      "address": "Borneostraat 18-E",
-      "city": "Amsterdam",
-      "price": 500000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/162/513.jpg",
-      "bedrooms": 2,
-      "energy_label": "C",
-      "surface": 57,
-      "url": "https://www.funda.nl/detail/koop/amsterdam/appartement-borneostraat-18-e/44582416/"
-    },
-    {
-      "id": "17218148",
-      "address": "Kombuis 109",
-      "city": "Nijkerk",
-      "price": 785000,
-      "photo": "https://cloud.funda.nl/valentina_media/234/134/955.jpg",
-      "bedrooms": 2,
-      "energy_label": "A",
-      "surface": 155,
-      "url": "https://www.funda.nl/detail/koop/nijkerk/appartement-kombuis-109/44581875/"
+      "surface": 108,
+      "url": "https://www.funda.nl/detail/koop/ijsselstein/huis-kaasmakerlaan-24/80944755/"
     }
   ]
 }
